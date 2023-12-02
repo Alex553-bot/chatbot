@@ -1,0 +1,236 @@
+{
+    "intents": [
+        {
+            "tag": "Consultas_Asma",
+            "patterns": [""],
+            "responses": []
+        },
+        {
+            "tag": "Tratamientos_Asma",
+            "patterns": ["¿Cómo se debe tratar el asma?", "¿Que tratamiento recibire en el hospital?"],
+            "responses": ["Generalmente se realizan dos pruebas: La espirometría y el flujo espiratorio máximo", "Algunas pruebas que se llevan a cabo son: La prueba de provocación con metacolina, la prueba de alergía, el análisis de óxido nítrico", "Puede que te realicen las pruebas de: Eosinófilos en esputo y el análisis de provocación para el asma inducida por el frío y los ejercicios"]
+        },
+        {
+            "tag": "Efectos_Asma",
+            "patterns": ["¿Qué efectos produce el asma?", "¿Cómo es una persona asmática?"],
+            "responses": ["El asma provoca dificultad en la respiración.", "En personas asmáticas, los músculos de los bronquios se tensan y se engrosan.", "Las personas con asma tienen dificultad para respirar"]
+        },
+        {
+            "tag": "Medicamentos_Asma",
+            "patterns": ["¿Qué medicamentos se consumen para tratar el asma?", "¿Qué medicamentos debo consumir para tratar el asma?"],
+            "responses": []
+        },
+
+        {
+            "tag": "Consultas_Influenza",
+            "patterns": ["¿Qué es la influenza?, ¿Cómo es la influenza?", "¿Sabes cómo es la influenza?"],
+            "responses": ["La influenza es una enfermedad respiratoria que se propaga de persona a persona. Puede causar enfermedad moderada a grave. Las consecuencias graves de la influenza pueden llevar a la hospitalización o la muerte."]
+        },
+        {
+            "tag": "Sintomas_Influenza",
+            "patterns": ["¿Qué sintomas provoca la gripe?", "¿Cómo saber si estoy con gripe?", "¿Cómo saber si tengo influenza?", "¿Qué sintomas tiene una persona con influenza?"],
+            "responses": ["Los síntomas que puede provocar la influenza son: fiebre, tos, dolores corporales, dolor de garganta, fatiga", "La influenza puede causar: congestión nasal, fatiga, tos, fiebre, algunas veces vómitos y diarrea"]
+        },
+        {
+            "tag": "Complicaciones_Influenza",
+            "patterns": ["¿Qué complicaciones puedo presentar si tengo influenza?", "¿Cómo puede afectar la influenza a una persona?"],
+            "responses": ["Las complicaciones de la influenza incluyen: infección de los senos paranasales, infecciones de oído, infección pulmonar, inflamación del corazón, insuficencia orgánica, septicema"]
+        },
+        {
+            "tag": "AtencionMedica_Influenza",
+            "patterns": ["¿Cuándo debería buscar atención médica si estoy con influenza?", "¿Cuándo es necesario buscar atención médica si tengo influenza?"],
+            "responses": ["Debe buscar atención médica cuando existen síntomas como: labios o cara azulada, dificultad para respirar, deshidratación, opresión en las costillas", "Busque atención médica cuando se presenten los siguientes síntomas: fiebre de más de 104°F, dolor de pecho, opresión en las costillas, dificultad para respirar, mareos, convulsiones"]
+        },
+        {
+            "tag": "Tratamiento_Influenza",
+            "patterns": ["¿Que antibióticos debo consumir para tratar la influenza?, ¿Hay medicamentos para tratar la influenza?"],
+            "responses": ["Los antibióticos no ayudaran a tratar la influenza y podrían hacerle daño"]
+        },
+
+        {
+            "tag": "Consultas_InfeccionUrinaria",
+            "patterns": ["¿Qué es una infección urinaria?", "¿Cómo es la infección urinaria?"],
+            "responses": ["Las infecciones urinarias son infecciones comunes que ocurren cuando entran bacterias a la uretra, generalmente de la piel o el recto, e infectan las vías urinarias. Pueden afectar a distintas partes de las vías urinarias, pero la infección de vejiga (cistitis) es el tipo más común."]
+        },
+        {
+            "tag": "Sintomas_InfeccionUrinaria",
+            "patterns": ["¿Qué sintomas tiene una persona con infección urinaria?", "¿Qué sintomas padece una persona con infección urinaria?"],
+            "responses": ["Los sintomas que provocan una infección urinaria son: Dolor o ardor al orinar, orinar con frecuencia, sangre en la orina, presion o retorcijones en la ingle, dolor en la parte baja de la espalda o en el costado"]
+        },
+        {
+            "tag": "Complicaciones_InfeccionUrinaria",
+            "patterns": [""],
+            "responses": []
+        },
+        {
+            "tag": "AtencionMedica_InfeccionUrinaria",
+            "patterns": ["¿Cuando debería buscar atención médica si tengo infección urinaria?", "Tengo infección urinaria, ¿cuándo debo ir al hospital?", "Si una persona tiene infeccion urinaria, ¿en que momento debe buscar atencion medica?"],
+            "responses": ["Debe buscar atención medica si tiene síntomas de infección urinaria o cualquier síntoma intenso o preocupante."]
+        },
+        {
+            "tag": "Tratamiento_InfeccionUrinaria",
+            "patterns": ["¿Que medicamentos debo consumir si tengo infeccion urinaria?", "Si tengo infeccion urinaria, ¿Que antibioticos puedo consumir?"],
+            "responses": ["La mayoría de las infecciones urinarias se pueden tratar en la casa con antibióticos recetados por un profesional de atención médica."]
+        },
+        {
+            "tag": "Prevencion_InfeccionUrinaria",
+            "patterns": ["¿Cómo se puede prevenir la infecciones urinaria?", "¿Cómo puedo evitar tener infección urinaria?", "¿Que hacer para no tener infección urinaria?"],
+            "responses": ["Usted puede ayudar a prevenir las infecciones urinarias al hacer lo siguiente: orinar después de la actividad sexual, mantenerse bien hidratado, ducharse en vez de tomar baños de tina, minimizar el uso de duchas vaginales, aerosoles o talcos en el área genital."]
+        },
+
+        {
+            "tag": "Consultas_InfeccionPiel",
+            "patterns": ["¿Cómo es la infección de la piel?", "¿Qué son las infecciones de la piel?"],
+            "responses": ["Las infecciones de la piel ocurren cuando las bacterias infectan la piel y algunas veces el tejido profundo debajo de la piel. La celulitis es un tipo común de infección de la piel que provoca enrojecimiento, inflamación y dolor en el área infectada de la piel. Otro tipo de infección de la piel es el absceso, que es una acumulación de pus debajo de la piel."]
+        },
+        {
+            "tag": "Sintomas_InfeccionPiel",
+            "patterns": ["¿Qué sintomas presenta una persona que tiene la piel infectada?", "Si tengo mi piel infectada, ¿qué sintomas tendría?", "¿Cuáles son los sintomas de una persona con infeccion de piel?"],
+            "responses": ["Los síntomas de una piel infectada se puede presentar de acuerdo tipo de infeccion: de la celulitis pueden surgir en forma gradual o repentina e incluir: enrojecimiento de la piel, dolor, sensibilidad o sensación de calor cuando se toca la piel afectada, inflamación del área afectada. El absceso tiene síntomas similares a los de la celulitis, pero también tiene una acumulación de pus en el interior, que algunas veces se puede drenar."]
+        },
+        {
+            "tag": "Complicaciones_InfeccionPiel",
+            "patterns": [],
+            "responses": []
+        },
+        {
+            "tag": "AtencionMedica_InfeccionPiel",
+            "patterns": ["¿Cuándo debo buscar atencion medica si tengo infeccion en la piel?", "¿Cuando deberia buscar atencion medica una persona con la piel infectada?"],
+            "responses": ["Consulte a un médico si tiene síntomas de celulitis o absceso. Si bien la mayoría de los casos de celulitis se resuelven rápidamente con tratamiento, algunos pueden propagarse a los ganglios linfáticos y el torrente sanguíneo y ser potencialmente mortales."]
+        },
+        {
+            "tag": "Tratamiento_InfeccionPiel",
+            "patterns": ["¿Qué antibióticos debo consumir para tratar mi piel infectada?", "¿Qué medicamentos me recomiendas para tratar la infeccion de piel?"],
+            "responses": ["Te recomendarán antibióticos de acuerdo al tipo de infeccion de piel: si tienes celulitis, os antibióticos son necesarios para tratarlos. Si tiene un absceso en la piel, el médico tal vez necesite drenar el pus del absceso. Algunas veces se necesitan antibióticos para los abscesos después de que se haya drenado el pus."]
+        },
+        {
+            "tag": "Prevencion_InfeccionPiel",
+            "patterns": ["¿Cómo puedo evitar una infeccion en mi piel?", "¿Que hacer para evitar que mi piel se infecte?"],
+            "responses": ["Usted puede ayudar a prevenir las infecciones de la piel haciendo lo siguiente: límpiese las manos, lave los cortes con agua y jabón. hable con su médico sobre las medidas que puede tomar para evitar las infecciones de la piel, en especial si usted tiene una afección, como la diabetes, que aumenta su riesgo de tener ciertas infecciones de la piel."]
+        },
+
+        {
+            "tag": "Consultas_BronquitisAguda",
+            "patterns": ["¿Qué es la bronquitis aguda?", "¿Cuándo ocurre la bronquitis aguda?"],
+            "responses": ["La bronquitis aguda, a veces también llamada resfriado de pecho, ocurre cuando las vías respiratorias en el pulmón se inflaman y producen mucosidad en los pulmones. Eso es lo que lo hace toser. La bronquitis aguda puede durar menos de 3 semanas."]
+        },
+        {
+            "tag": "Sintomas_BronquitisAguda",
+            "patterns": ["¿Cuales son sintomas de la bronquitis aguda?", "Si tengo bronquitis aguda, ¿Que sintomas presentare?", "¿Como se que tengo bronquitis aguda?"],
+            "responses": ["Los síntomas de la bronquitis aguda duran menos de 3 semanas y pueden incluir: tos con o sin mucosidad, dolor en el pecho, cansancio (fatiga), dolor de cabeza leve, olores corporales leves, dolor de garganta"]
+        },
+        {
+            "tag": "Complicaciones_BronquitisAguda",
+            "patterns": [],
+            "responses": []
+        },
+        {
+            "tag": "AtencionMedica_BronquitisAguda",
+            "patterns": ["¿Cuando debo ir al medico si tengo bronquitis aguda?", "¿En que caso debo ir al hospital si tengo bronquitis aguda?"],
+            "responses": ["Consulte a un médico si tiene alguno de los siguientes signos y síntomas: temperatura de 100.4 °F (38 °C) o más, tos con mucosidad y sangre, falta de aire o dificultad para respirar, síntomas que duran más de 3 semanas, episodios repetidos de bronquitis"]
+        },
+        {
+            "tag": "Tratamiento_BronquitisAguda",
+            "patterns": ["¿Qué tratamiento debo recibir en caso de tener bronquitis aguda?", "¿Me recomienda consumir antibioticos para tratar la bronquitis?"],
+            "responses": ["Por lo general, la bronquitis aguda mejora por sí sola, sin antibióticos. Los antibióticos no lo ayudarán a mejorar si usted tiene bronquitis aguda."]
+        },
+        {
+            "tag": "Prevencion_BronquitisAguda",
+            "patterns": ["¿Qué debo hacer para evitar tener bronquitis aguda?", "¿Cómo puedo evitar prevenir la bronquitis aguda?"],
+            "responses": ["Para prevenir la bronquitis aguda, usted puede hacer lo siguiente: Limpiarse las manos, ponerse las vacunas recomendadas, como la vacuna contra la influenza, no fumar y evitar el humo de segunda mano, cubrirse la nariz y la boca al toser o estornudar."]
+        },
+
+        {
+            "tag": "Consultas_Sinusitis",
+            "patterns": ["¿Cuando ocurre la sinusitis?", "¿Cómo ocurre la sinusitis?"],
+            "responses": ["Las sinusitis ocurren cuando se acumula líquido en los senos paranasales (cavidades en la cara que están llenas de aire). Esta acumulación de líquido permite que se multipliquen los microbios. La mayoría de las sinusitis son causadas por virus, pero algunas pueden ser causadas por bacterias."]
+        },
+        {
+            "tag": "Sintomas_Sinusitis",
+            "patterns": ["¿Qué sintomas tiene una persona con sinusitis?", "Si tengo sinusitis, ¿qué sintomas puedo presentar?", "¿Cuáles son los sintomas de la sinusitis?"],
+            "responses": ["Los sintomas comunes de las sinusitis incluyen: moqueo, congestión nasal, dolor o presión en la cara, dolor de cabeza, goteo de mucosidad en la garganta (goteo posnasal), dolor de garganta, tos, mal aliento"]
+        },
+        {
+            "tag": "Complicaciones_Sinusitis",
+            "patterns": [],
+            "responses": []
+        },
+        {
+            "tag": "AtencionMedica_Sinusitis",
+            "patterns": ["¿Cuándo debo ir a un hospital para tratar la sinusitis?", "Cuándo debo buscar atencion medica si tengo sinusitis?"],
+            "responses": ["Busque antencion medica si presenta: Vea a un médico si presenta: síntomas graves, como fuerte dolor de cabeza o facial, síntomas que empeoran después de haber mejorado, síntomas que duran más de 10 días y no mejoran, fiebre que dura más de 3 a 4 días."]
+        },
+        {
+            "tag": "Tratamiento_Sinusitis",
+            "patterns": ["¿Los antibioticos son necesarios para tratar la sinusitis?", "¿Que medicamentos debo consumir para tratar la sinusitis?"],
+            "responses": ["En muchos casos de sinusitis, no se necesitan antibióticos. Por lo general, la mayoría de las sinusitis mejoran por sí solas, sin antibióticos.", "Use antibioticos si su medico los recomienda"]
+        },
+        {
+            "tag": "Prevencion_Sinusitis",
+            "patterns": ["¿Cómo puedo prevenir la sinusitis?", "¿Que puedo hacer para evitar tenes sinusitis?"],
+            "responses": ["Para prevenir la sinusitis, puede realizar las siguientes acciones: limpiarse las manos, ponerse las vacunas recomendadas, como la vacuna contra la influenza y la vacuna antineumocócica, evitar el contacto cercano con personas que estén resfriadas o que tengan otras infecciones de las vías respiratorias superiores, no fumar y evitar el humo de segunda mano, usar un humidificador limpio para humedecer el aire en su casa."]
+        },
+
+        {
+            "tag": "Consultas_",
+            "patterns": [],
+            "responses": []
+        },
+        {
+            "tag": "Sintomas_",
+            "patterns": [],
+            "responses": []
+        },
+        {
+            "tag": "Complicaciones_",
+            "patterns": [],
+            "responses": []
+        },
+        {
+            "tag": "AtencionMedica_",
+            "patterns": [],
+            "responses": []
+        },
+        {
+            "tag": "Tratamiento_",
+            "patterns": [],
+            "responses": []
+        },
+        {
+            "tag": "Prevencion_",
+            "patterns": [],
+            "responses": []
+        },
+
+        {
+            "tag": "Consultas_",
+            "patterns": [],
+            "responses": []
+        },
+        {
+            "tag": "Sintomas_",
+            "patterns": [],
+            "responses": []
+        },
+        {
+            "tag": "Complicaciones_",
+            "patterns": [],
+            "responses": []
+        },
+        {
+            "tag": "AtencionMedica_",
+            "patterns": [],
+            "responses": []
+        },
+        {
+            "tag": "Tratamiento_",
+            "patterns": [],
+            "responses": []
+        },
+        {
+            "tag": "Prevencion_",
+            "patterns": [],
+            "responses": []
+        }
+    ]
+}

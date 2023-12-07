@@ -73,16 +73,8 @@
                     "patterns": [],
                     "responses": []
                 }
-            }
-        },
+            },
 
-        "neurocirugia": {},
-
-        "psiquiatria": {},
-
-        "cirugia_general": {},
-
-        "oftalmologia": {
             "miopia": {
                 "consulta": {
                     "tag": "consulta_miopia",
@@ -169,7 +161,285 @@
                     ]
                 }
             },
-            
+
+            "presbicia": {
+                "consulta": {
+                    "tag": "consulta_presbicia",
+                    "pattern": ["Describe la presbicia", "¿Como es la presbicia?"],
+                    "responses": [
+                        "La presbicia, comúnmente conocida como 'vista cansada', es un problema visual relacionado con la edad que dificulta la capacidad del ojo para enfocar objetos cercanos. Esto se debe al endurecimiento del cristalino con el tiempo."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_presbicia",
+                    "patterns": ["Sintomas de la presbicia", "¿Cuales son los sintomas de la presbicia?"],
+                    "responses": [
+                        "Los síntomas incluyen dificultad para ver de cerca, necesidad de alejar los objetos para enfocar y fatiga ocular al realizar actividades que requieren visión de cerca."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_presbicia",
+                    "patterns": ["¿Cuales son los efectos que produce la presbicia?"],
+                    "responses": [
+                        "Puede afectar la productividad en tareas cercanas y causar molestias visuales, pero generalmente no tiene efectos graves en la salud ocular a largo plazo."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_presbicia",
+                        "patterns": ["¿Como se trata la presbicia?", "¿Cual es el tratamiento para la presbicia?"],
+                        "responses": [
+                            "El tratamiento principal es el uso de lentes correctivos, como gafas de lectura o lentes progresivas, que compensan la pérdida de la capacidad de enfoque cercano."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_presbicia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_presbicia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_presbicia",
+                        "patterns": ["¿Que medicamentos debo consumir para la presbicia?"],
+                        "responses": [
+                            "No hay medicamentos específicos para la presbicia, ya que se trata principalmente con corrección óptica."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_presbicia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_presbicia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_presbicia",
+                    "patterns": ["¿Que complicaciones genera la presbicia?"],
+                    "responses": [
+                        "La presbicia en sí misma no suele causar complicaciones, pero puede coexistir con otros problemas oculares que podrían necesitar atención adicional."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_presbicia",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo presbicia?"],
+                    "responses": [
+                        "Se debe buscar atención cuando los síntomas de dificultad para ver de cerca comienzan a afectar las actividades diarias y el rendimiento."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_presbicia",
+                    "patterns": ["¿Como se puede prevenir la presbicia?"],
+                    "responses": [
+                        "La presbicia es un proceso natural asociado con el envejecimiento, pero un estilo de vida saludable y revisiones oculares regulares pueden ayudar a identificar y abordar problemas visuales a tiempo."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_presbicia",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la presbicia?"],
+                    "responses": [
+                        "La principal causa de la presbicia es el envejecimiento, que lleva al endurecimiento del cristalino. También puede estar relacionada con factores genéticos."
+                    ]
+                }
+            },
+
+            "conjuntivitis": {
+                "consulta": {
+                    "tag": "consulta_conjuntivitis",
+                    "pattern": ["Describe la conjuntivitis", "¿Como es la conjuntivitis?"],
+                    "responses": [
+                        "La conjuntivitis es una inflamación de la conjuntiva, la membrana transparente que cubre la parte blanca del ojo y el interior de los párpados. Puede ser causada por infecciones, alergias o irritantes."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_conjuntivitis",
+                    "patterns": ["Sintomas de la conjuntivitis", "¿Que sintomas produce la conjuntivitis?"],
+                    "responses": [
+                        "Los síntomas incluyen enrojecimiento, picazón, secreción ocular, sensación de cuerpo extraño en el ojo y, en algunos casos, visión borrosa."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_conjuntivitis",
+                    "patterns": ["¿Cuales son los efectos que produce la conjuntivitis?"],
+                    "responses": [
+                        "La conjuntivitis no tratada puede causar molestias significativas y, en casos infecciosos, puede propagarse a otras personas."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_conjuntivitis",
+                        "patterns": ["¿Como se trata la conjuntivitis?", "¿Cual es el tratamiento para la conjuntivitis?"],
+                        "responses": [
+                            "El tratamiento varía según la causa e incluye compresas frías, lágrimas artificiales, antihistamínicos para formas alérgicas, y antibióticos o antivirales para formas infecciosas."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_conjuntivitis",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_conjuntivitis",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_conjuntivitis",
+                        "patterns": ["¿Que medicamentos debo consumir para la conjuntivitis?"],
+                        "responses": [
+                            "Se pueden usar gotas oculares antibióticas o antivirales según la causa específica de la conjuntivitis."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_conjuntivitis",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_conjuntivitis",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_conjuntivitis",
+                    "patterns": ["¿Que complicaciones genera la conjuntivitis?"],
+                    "responses": [
+                        "En casos graves o no tratados, puede dar lugar a complicaciones como queratitis o infecciones más profundas del ojo."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_conjuntivitis",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo conjuntivitis?"],
+                    "responses": [
+                        "Se debe buscar atención si los síntomas persisten, empeoran o si hay secreción amarilla o verde, que podría indicar una infección."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_conjuntivitis",
+                    "patterns": ["¿Como se puede prevenir la conjuntivitis?"],
+                    "responses": [
+                        "La prevención incluye lavado de manos frecuente, evitar tocarse los ojos y no compartir artículos personales como toallas o maquillaje."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_conjuntivitis",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la conjuntivitis?"],
+                    "responses": [
+                        "Las causas pueden ser infecciosas (viral o bacteriana), alérgicas o irritativas (productos químicos, humo, etc.)."
+                    ]
+                }
+            },
+
+            "glaucoma": {
+                "consulta": {
+                    "tag": "consulta_glaucoma",
+                    "pattern": ["Describe la glaucoma", "¿Que es la glaucoma?"],
+                    "responses": [
+                        "El glaucoma es una enfermedad ocular que implica daño al nervio óptico, generalmente causado por un aumento de la presión intraocular. Esta condición puede llevar a la pérdida gradual de la visión, y en casos avanzados, a la ceguera."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_glaucoma",
+                    "patterns": ["Sintomas de la glaucoma", "¿Que sintomas produce la glaucoma?"],
+                    "responses": [
+                        "En las etapas tempranas, el glaucoma puede ser asintomático. A medida que progresa, algunos pacientes experimentan visión periférica reducida, halos alrededor de las luces, dolor de cabeza y, en casos severos, pérdida de visión central."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_glaucoma",
+                    "patterns": ["¿Cuales son los efectos que produce la glaucoma?"],
+                    "responses": [
+                        "Si no se trata, el glaucoma puede resultar en una pérdida irreversible de la visión periférica y, eventualmente, central. La detección temprana y el tratamiento son fundamentales para prevenir daños significativos."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_glaucoma",
+                        "patterns": ["¿Como se trata la glaucoma?", "¿Cual es el tratamiento para la glaucoma?"],
+                        "responses": [
+                            "El tratamiento del glaucoma suele incluir medicamentos para reducir la presión intraocular, cirugía láser (trabeculoplastia) o cirugía convencional (trabeculectomía) para mejorar el drenaje del fluido ocular."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_glaucoma",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_glaucoma",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_glaucoma",
+                        "patterns": ["¿Que medicamentos debo consumir para la glaucoma?"],
+                        "responses": [
+                            "Medicamentos comunes incluyen gotas oculares como prostaglandinas, betabloqueantes, agonistas alfa y bloqueadores de los canales de calcio. Estos ayudan a controlar la presión intraocular."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_glaucoma",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_glaucoma",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_glaucoma",
+                    "patterns": ["¿Que complicaciones genera la glaucoma?"],
+                    "responses": [
+                        "Complicaciones potenciales incluyen pérdida de visión progresiva, discapacidad visual y afectación de la calidad de vida. Las complicaciones pueden evitarse o minimizarse con un tratamiento adecuado y seguimiento regular."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_glaucoma",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo glaucoma?"],
+                    "responses": [
+                        "Busca atención médica inmediata si experimentas cambios repentinos en la visión, especialmente si hay dolor ocular intenso o náuseas, ya que podrían indicar un ataque agudo de glaucoma."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_glaucoma",
+                    "patterns": ["¿Como se puede prevenir la glaucoma?"],
+                    "responses": [
+                        "La prevención se centra en exámenes oculares regulares, especialmente si hay antecedentes familiares de glaucoma. Adoptar un estilo de vida saludable, evitar el tabaquismo y cuidar la presión arterial también contribuyen a la prevención."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_glaucoma",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la glaucoma?"],
+                    "responses": [
+                        "Las causas exactas pueden variar, pero en la mayoría de los casos, el glaucoma está relacionado con un desequilibrio en la producción y drenaje del líquido ocular. Factores genéticos, edad avanzada y problemas de salud como la hipertensión pueden aumentar el riesgo."
+                    ]
+                }
+            }
+        },
+
+        "neurocirugia": {},
+
+        "psiquiatria": {},
+
+        "cirugia_general": {},
+
+        "oftalmologia": {
             "cataratas": {
                 "consulta": {
                     "tag": "consulta_cataratas",
@@ -431,6 +701,270 @@
                     "patterns": ["¿Que causa el linfoma?"],
                     "responses": [
                         "El linfoma comienza cuando un glóbulo blanco que combate enfermedades, llamado linfocito, sufre una mutación genética. La mutación le dice a la célula que se multiplique rápidamente, y se crean muchos linfocitos enfermos que continúan multiplicándose. La mutación también permite que las células sigan viviendo cuando otras células normales morirían. Esto produce demasiados linfocitos enfermos e ineficaces en los ganglios linfáticos y hace que los ganglios linfáticos, el bazo y el hígado se hinchen."
+                    ]
+                }
+            },
+
+            "anemia": {
+                "consulta": {
+                    "tag": "consulta_anemia",
+                    "pattern": ["Describe la anemia", "¿Que es la anemia?"],
+                    "responses": [
+                        "La anemia es una condición en la cual el cuerpo tiene una cantidad insuficiente de glóbulos rojos o hemoglobina, lo que lleva a una disminución en la capacidad de transporte de oxígeno."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_anemia",
+                    "patterns": ["¿Cuales son los sintomas de la anemia?", "Sintomas de la anemia"],
+                    "responses": [
+                        "Los síntomas pueden incluir fatiga, debilidad, palidez, falta de aliento y mareos. En casos graves, puede haber taquicardia e irritabilidad."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_anemia",
+                    "patterns": [],
+                    "responses": []
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_anemia",
+                        "patterns": ["¿Cual es el tratamiento para la anemia?", "¿Cómo se trata la anemia?"],
+                        "responses": [
+                            "El tratamiento varía según la causa de la anemia e incluye suplementos de hierro, cambios en la dieta, y en casos más severos, transfusiones de sangre."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_anemia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_anemia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_anemia",
+                        "patterns": ["¿Que medicamentos debo consumir para la anemia?"],
+                        "responses": [
+                            "Se pueden recetar suplementos de hierro, vitamina B12 o ácido fólico, dependiendo de la causa específica de la anemia."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_anemia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_anemia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_anemia",
+                    "patterns": ["¿Que complicaciones genera la anemia?"],
+                    "responses": [
+                        "Sin tratamiento adecuado, la anemia puede llevar a problemas cardíacos y otras complicaciones debido a la falta de oxígeno en los tejidos."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_anemia",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo anemia?"],
+                    "responses": [
+                        "Deberías buscar atención médica si experimentas síntomas persistentes de anemia, como fatiga extrema o palidez, para que se realicen pruebas y se determine la causa."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_anemia",
+                    "patterns": ["¿Como puedo evitar tener anemia?", "¿Como se puede prevenir la anemia?"],
+                    "responses": [
+                        "La prevención implica mantener una dieta equilibrada rica en hierro, vitamina B12 y ácido fólico, y abordar cualquier pérdida de sangre o trastorno subyacente."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_anemia",
+                    "patterns": ["¿Que causa la anemia?"],
+                    "responses": [
+                        "Las causas incluyen deficiencia de hierro, deficiencia de vitamina B12, pérdida de sangre crónica, y trastornos genéticos como la talasemia."
+                    ]
+                }
+            },
+
+            "hemofilia": {
+                "consulta": {
+                    "tag": "consulta_hemofilia",
+                    "pattern": ["¿Que es la hemofilia?", "Describe la hemofilia"],
+                    "responses": [
+                        "La hemofilia es un trastorno hereditario que afecta la capacidad de coagulación de la sangre, debido a la ausencia o disfunción de factores de coagulación."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_hemofilia",
+                    "patterns": ["¿Cuales son los sintomas de la hemofilia?"],
+                    "responses": [
+                        "Los síntomas incluyen: emorragias prolongadas después de lesiones o cirugías, hematomas frecuentes, y en casos severos, sangrado espontáneo en las articulaciones."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_hemofilia",
+                    "patterns": [],
+                    "responses": []
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_hemofilia",
+                        "patterns": ["¿Como se trata la hemofilia?", "¿Cual es el tratamiento para la hemofilia?"],
+                        "responses": [
+                            "El tratamiento implica la administración de factores de coagulación ausentes, a través de infusiones, para prevenir o controlar hemorragias."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_hemofilia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_hemofilia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_hemofilia",
+                        "patterns": ["¿Que medicamentos debo consumir para la hemofilia?"],
+                        "responses": [
+                            "Los medicamentos incluyen concentrados de factores de coagulación, administrados según sea necesario para prevenir o tratar hemorragias."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_hemofilia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_hemofilia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_hemofilia",
+                    "patterns": ["¿Que complicaciones genera la hemofilia?"],
+                    "responses": [
+                        "Las complicaciones pueden incluir daño articular por sangrado repetido en las articulaciones y, en casos graves, hemorragias internas potencialmente mortales."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_hemofilia",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo hemofilia?", "¿Cuando debo consultar al medico si tengo hemofilia?"],
+                    "responses": [
+                        "Si experimentas hemorragias inusuales o prolongadas, es crucial buscar atención médica para el diagnóstico y tratamiento adecuados."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_hemofilia",
+                    "patterns": ["¿Como se puede prevenir la hemofilia?"],
+                    "responses": [
+                        "Dado que es genético, la prevención implica asesoramiento genético para las parejas en riesgo y medidas para evitar lesiones que podrían provocar hemorragias."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_hemofilia",
+                    "patterns": ["¿Que causa la hemofilia?"],
+                    "responses": [
+                        "La hemofilia es genética y se transmite de padres a hijos a través de un gen defectuoso en el cromosoma X."
+                    ]
+                }
+            },
+
+            "trombocitopenia": {
+                "consulta": {
+                    "tag": "consulta_trombocitopenia",
+                    "pattern": ["¿Que es la trombocitopenia?", "Describe la trombocitopenia"],
+                    "responses": [
+                        "La trombocitopenia es una condición en la cual hay una cantidad anormalmente baja de plaquetas en la sangre, lo que afecta la capacidad de coagulación."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_trombocitopenia",
+                    "patterns": ["Sintomas de la trombocitopenia", "¿Cuales son los sintomas de la trombocitopenia?"],
+                    "responses": [
+                        "Los síntomas de la trombocitopenia incluyen: manchas moradas en la piel, sangrado fácil, hemorragias nasales frecuentes y encías sangrantes."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_trombocitopenia",
+                    "patterns": [],
+                    "responses": []
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_trombocitopenia",
+                        "patterns": ["¿Como se trata la trombocitopenia?"],
+                        "responses": [
+                            "El tratamiento puede incluir medicamentos para aumentar la producción de plaquetas, transfusiones de plaquetas y abordar la causa subyacente."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_trombocitopenia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_trombocitopenia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_trombocitopenia",
+                        "patterns": ["¿Que medicamentos debo consumir para la trombocitopenia?"],
+                        "responses": [
+                            "Medicamentos como corticosteroides, inmunoglobulina intravenosa (IVIG) o medicamentos que estimulan la producción de plaquetas."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_trombocitopenia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_trombocitopenia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_trombocitopenia",
+                    "patterns": ["¿Que complicaciones genera la trombocitopenia?"],
+                    "responses": [
+                        "Las complicaciones pueden incluir hemorragias graves que amenazan la vida, especialmente si la cantidad de plaquetas es muy baja."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_trombocitopenia",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo trombocitopenia?"],
+                    "responses": [
+                        "Si experimentas sangrado inusual o púrpura en la piel, es esencial buscar atención médica para el diagnóstico y tratamiento oportunos."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_trombocitopenia",
+                    "patterns": ["¿Como se puede prevenir la trombocitopenia?"],
+                    "responses": [
+                        "La prevención depende de abordar la causa subyacente y puede incluir evitar ciertos medicamentos o tratamientos para prevenir la destrucción de plaquetas."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_trombocitopenia",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la trombocitopenia?"],
+                    "responses": [
+                        "Puede ser causada por trastornos autoinmunes, efectos secundarios de medicamentos, infecciones virales o enfermedades genéticas."
                     ]
                 }
             }

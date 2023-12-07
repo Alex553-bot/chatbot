@@ -1,0 +1,104 @@
+{
+    "enfermedades": {
+        "virologia": {
+            "covid19": {
+                "consulta": {
+                    "tag": "consulta_covid19",
+                    "pattern": ["¿Qué es el COVID-19?", "Describe el COVID-19", "¿Cómo es el COVID-19?"],
+                    "responses": [
+                        "El COVID-19 es una enfermedad viral causada por el virus SARS-CoV-2. Se transmite principalmente a través de gotas respiratorias cuando una persona infectada tose o estornuda.",
+                        "Infección respiratoria que puede variar desde síntomas leves similares a los del resfriado hasta una enfermedad grave, especialmente en personas mayores o con enfermedades crónicas."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_covid19",
+                    "patterns": ["¿Cuáles son los síntomas del COVID-19?", "Síntomas del COVID-19", "¿Qué síntomas produce el COVID-19?"],
+                    "responses": [
+                        "Los síntomas comunes incluyen fiebre, tos, dificultad para respirar, pérdida del gusto o el olfato, fatiga y dolores musculares.",
+                        "Entre los síntomas más comunes se encuentran fiebre, tos seca, y dificultad para respirar. También puede causar pérdida del gusto o el olfato, fatiga y dolores musculares."
+                    ]
+                }
+            }
+        },
+        "neurocirugia": {
+            "tumor_cerebral": {
+                "consulta": {
+                    "tag": "consulta_tumor_cerebral",
+                    "pattern": ["¿Qué es un tumor cerebral?", "Describe un tumor cerebral", "¿Cómo se manifiesta un tumor cerebral?"],
+                    "responses": [
+                        "Un tumor cerebral es una masa de células anormales que crece en el cerebro. Puede causar síntomas como dolores de cabeza persistentes, cambios en la visión y problemas de coordinación.",
+                        "Los tumores cerebrales son crecimientos anormales de células en el cerebro. Sus síntomas pueden incluir dolores de cabeza, cambios en la personalidad y problemas de equilibrio."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_tumor_cerebral",
+                    "patterns": ["¿Cuáles son los síntomas de un tumor cerebral?", "Síntomas de tumor cerebral", "¿Qué señales puede dar un tumor cerebral?"],
+                    "responses": [
+                        "Los síntomas comunes incluyen dolores de cabeza persistentes, náuseas, problemas de visión, cambios en la personalidad y convulsiones.",
+                        "Entre los síntomas más comunes se encuentran dolores de cabeza persistentes, náuseas, visión borrosa, cambios en la personalidad y convulsiones."
+                    ]
+                }
+            }
+        },
+        "pediatria": {
+            "fiebre_infantil": {
+                "consulta": {
+                    "tag": "consulta_fiebre_infantil",
+                    "pattern": ["¿Cómo manejar la fiebre en niños?", "Descripción de fiebre infantil", "¿Qué hacer si mi hijo tiene fiebre?"],
+                    "responses": [
+                        "La fiebre en niños generalmente es causada por infecciones virales o bacterianas. Se recomienda administrar medicamentos para la fiebre, mantener al niño hidratado y consultar a un pediatra si persiste.",
+                        "Cuando un niño tiene fiebre, es importante mantenerlo cómodo, ofrecer líquidos con frecuencia y dar medicamentos como el paracetamol según las indicaciones del pediatra."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_fiebre_infantil",
+                    "patterns": ["¿Cuáles son los síntomas de fiebre en niños?", "Síntomas de fiebre infantil", "¿Cómo puedo saber si mi hijo tiene fiebre?"],
+                    "responses": [
+                        "Los síntomas de fiebre en niños incluyen calor, piel caliente al tacto, irritabilidad, falta de apetito y posiblemente escalofríos.",
+                        "Cuando un niño tiene fiebre, es probable que sienta calor al tacto, esté irritable, pierda interés en comer y pueda experimentar escalofríos."
+                    ]
+                }
+            }
+        },
+        "dermatologia": {
+            "acne": {
+                "consulta": {
+                    "tag": "consulta_acne",
+                    "pattern": ["¿Qué es el acné?", "Describe el acné", "¿Cómo tratar el acné?"],
+                    "responses": [
+                        "El acné es una afección de la piel que ocurre cuando los folículos pilosos se obstruyen con aceite y células muertas. Puede tratarse con limpieza facial regular, medicamentos tópicos y en casos severos, medicamentos orales.",
+                        "El acné es una enfermedad común de la piel que puede tratarse con cuidado de la piel, medicamentos tópicos como el peróxido de benzoilo y, en casos más graves, medicamentos recetados por un dermatólogo."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_acne",
+                    "patterns": ["¿Cuáles son los síntomas del acné?", "Síntomas de acné", "¿Cómo puedo saber si tengo acné?"],
+                    "responses": [
+                        "Los síntomas del acné incluyen puntos negros, espinillas, pústulas y quistes. Puede causar inflamación y afectar la apariencia de la piel.",
+                        "El acné se manifiesta a través de puntos negros, espinillas, pústulas y quistes. Estos pueden ser dolorosos e inflamatorios, afectando la apariencia de la piel."
+                    ]
+                }
+            }
+        },
+        "geriatria": {
+            "demencia_senil": {
+                "consulta": {
+                    "tag": "consulta_demencia_senil",
+                    "pattern": ["¿Qué es la demencia senil?", "Describe la demencia senil", "¿Cómo se diagnostica la demencia en personas mayores?"],
+                    "responses": [
+                        "La demencia senil es un trastorno cognitivo que afecta la memoria y otras funciones mentales. El diagnóstico se realiza mediante pruebas cognitivas y evaluación médica.",
+                        "La demencia senil es una afección que impacta la memoria y las funciones cognitivas en personas mayores. El diagnóstico implica pruebas cognitivas y evaluación médica exhaustiva."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_demencia_senil",
+                    "patterns": ["¿Cuáles son los síntomas de la demencia senil?", "Síntomas de demencia en personas mayores", "¿Cómo puedo reconocer la demencia en mi ser querido?"],
+                    "responses": [
+                        "Los síntomas incluyen pérdida de memoria, confusión, cambios en el comportamiento y dificultad para realizar tareas cotidianas. Es importante buscar atención médica para un diagnóstico preciso.",
+                        "La demencia senil se manifiesta con pérdida de memoria, confusión, alteraciones en el comportamiento y dificultad para realizar actividades diarias. La búsqueda de atención médica es crucial para un diagnóstico adecuado."
+                    ]
+                }
+            }
+        }
+    }
+}

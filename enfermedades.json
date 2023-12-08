@@ -99,7 +99,7 @@
                 "tratamiento": {
                     "general": {
                         "tag": "tratamiento_general_miopia",
-                        "patterns": ["¿Cual es el tratamiento para la miopia?"],
+                        "patterns": ["¿Como se trata la miopia?", "¿Cual es el tratamiento para la miopia?"],
                         "responses": [
                             "Los tratamientos más comunes para la miopía consisten en anteojos con prescripción médica o lentes de contacto. El oculista le recetará los anteojos adecuados para ayudarle a ver lo más claramente posible."
                         ]
@@ -136,14 +136,14 @@
                 },
                 "complicaciones": {
                     "tag": "complicaciones_miopia",
-                    "patterns": ["¿Que puede ocasionar la miopia?", "¿Que complicaciones existen en una persona con miopia?"],
+                    "patterns": ["¿Que complicaciones genera la miopia?" ,"¿Que puede ocasionar la miopia?", "¿Que complicaciones existen en una persona con miopia?"],
                     "responses": [
                         "La miopía se asocia con una variedad de complicaciones de leves a graves, como las siguientes: reducción de la calidad de vida, fatiga ocular, otros problemas de los ojos como el desprendimiento de retina, glaucoma, cataratas."
                     ]
                 },
                 "atencion_medica": {
                     "tag": "atencion_medica_miopia",
-                    "patterns": ["¿Cuando debo consultar al medico?", "¿Es necesario ir al hospital?"],
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo miopia?"],
                     "responses": [
                         "Debes buscar atención médica si presentas los siguientes síntomas: aparición repentina de muchas moscas volantes (motas o líneas diminutas que parecen ir a la deriva por el campo de visión), destellos de luz en uno o ambos ojos, una sombra gris parecida a una cortina que cubre todo o parte del campo de visión, una sombra en la visión exterior o lateral (visión periférica)."
                     ]
@@ -155,7 +155,7 @@
                 },
                 "causas": {
                     "tag": "causas_miopia",
-                    "patterns": ["¿Que causa la miopia?", "¿Como se genera la miopia?"],
+                    "patterns": ["¿Cuales son las causas para la aparicion de la miopia"],
                     "responses": [
                         "La miopía ocurre cuando el globo ocular crece demasiado largo, desde adelante hacia atrás, o cuando hay problemas con la forma de su córnea (la capa transparente frontal del ojo) o el cristalino (el “lente” interno que ayuda al ojo a enfocar)."
                     ]
@@ -506,7 +506,7 @@
                 },
                 "atencion_medica": {
                     "tag": "atencion_medica_cataratas",
-                    "patterns": ["¿Cuando debo consultar a un medico?", "¿Cuando debo asistir a un hospital?", "¿Cuando debo buscar asistencia medica?"],
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo cataratas?", "¿Cuando debo consultar a un medico si tengo cataratas?", "¿Cuando debo asistir a un hospital si tengo cataratas?", "¿Cuando debo buscar asistencia medica si tengo cataratas?"],
                     "responses": [
                         "Pida cita médica para un examen ocular si nota algún cambio en su visión. Si presentas cambios repentinos en la visión, como visión doble o destellos de luz, dolor ocular repentino o dolor de cabeza repentino, acuda al médico de inmediato."
                     ]
@@ -521,11 +521,281 @@
                 },
                 "causas": {
                     "tag": "causas_cataratas",
-                    "patterns": ["¿Que causa las cataratas?"],
+                    "patterns": ["¿Cuales son las causas para la aparicion de las cataratas?"],
                     "responses": [
                         "El envejecimiento es la principal causa de esta enfermedad, fruto del proceso degenerativo natural del ojo. Este se activa, generalmente, a partir de los 40 años y hace que el cristalino sea cada vez menos transparente.",
                         "Asímismo, existen otros factores ajenos a la edad que pueden provocar una catarata como los: traumatismos, la miopía, la diabetes, consumo de fármacos como la corticoides, o condiciones genéticas.",
                         "Las cataratas también pueden provocarse por otras afecciones oculares, cirugías oculares anteriores o afecciones médicas como la diabetes. El uso prolongado de medicamentos esteroides también puede provocar el desarrollo de cataratas."
+                    ]
+                }
+            },
+
+            "estrabismo": {
+                "consulta": {
+                    "tag": "consulta_estrabismo",
+                    "pattern": ["Describe el estrabismo", "¿Que es el estrabismo?"],
+                    "responses": [
+                        "El estrabismo es una condición en la cual los ojos no están alineados correctamente y apuntan en direcciones diferentes. Puede ser constante o intermitente, afectando la percepción visual y la coordinación de los ojos."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_estrabismo",
+                    "patterns": ["¿Que sintomas produce el estrabismo?"],
+                    "responses": [
+                        "Los síntomas incluyen ojos desalineados, visión doble, fatiga ocular y posiblemente inclinación de la cabeza para compensar. En los niños, puede manifestarse como un ojo perezoso."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_estrabismo",
+                    "patterns": ["¿Cuales son los efectos que produce la estrabismo?"],
+                    "responses": [
+                        "Si no se trata, el estrabismo puede afectar la percepción tridimensional y la visión en general. También puede provocar problemas de autoestima y sociales, especialmente en niños."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_estrabismo",
+                        "patterns": ["¿Como se trata el estrabismo?", "¿Cual es el tratamiento para el estrabismo?"],
+                        "responses": [
+                            "El tratamiento puede incluir lentes correctoras, terapia visual para fortalecer los músculos oculares, y en casos severos, cirugía para alinear los ojos adecuadamente."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_estrabismo",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_estrabismo",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_estrabismo",
+                        "patterns": ["¿Que medicamentos debo consumir para el estrabismo?"],
+                        "responses": [
+                            "En general, no se utilizan medicamentos para tratar directamente el estrabismo. El enfoque principal es corregir la alineación ocular y fortalecer los músculos."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_estrabismo",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_estrabismo",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_estrabismo",
+                    "patterns": ["¿Que complicaciones genera el estrabismo?"],
+                    "responses": [
+                        "Las complicaciones pueden incluir problemas de visión y la posibilidad de desarrollar ambliopía (ojo perezoso). La detección y tratamiento tempranos son esenciales para prevenir complicaciones a largo plazo."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_estrabismo",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo estrabismo?"],
+                    "responses": [
+                        "Busca atención si notas desalineación ocular persistente, visión doble o cualquier cambio en la alineación de los ojos, especialmente en niños, ya que el tratamiento temprano es crucial."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_estrabismo",
+                    "patterns": ["¿Como se puede prevenir el estrabismo?"],
+                    "responses": [
+                        "La prevención puede no ser siempre posible, pero la detección temprana y el tratamiento adecuado pueden prevenir complicaciones a largo plazo. Las revisiones oculares regulares son clave, especialmente en la infancia."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_estrabismo",
+                    "patterns": ["¿Cuales son las causas para la aparicion del estrabismo?"],
+                    "responses": [
+                        "Las causas pueden incluir desequilibrios musculares oculares, problemas de los nervios que controlan los músculos o factores genéticos. Lesiones o enfermedades neurológicas también pueden contribuir."
+                    ]
+                }
+            },
+
+            "astigmatismo": {
+                "consulta": {
+                    "tag": "consulta_astigmatismo",
+                    "pattern": ["Describe el astigmatismo", "¿Que es el astigmatismo?"],
+                    "responses": [
+                        "El astigmatismo es un error refractivo del ojo que se produce cuando la córnea o el cristalino tienen una forma irregular, lo que resulta en una visión borrosa o distorsionada."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_astigmatismo",
+                    "patterns": ["Sintomas del astigmatismo"],
+                    "responses": [
+                        "Los síntomas pueden incluir visión borrosa, fatiga ocular, dolores de cabeza y dificultad para ver claramente tanto de cerca como de lejos."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_astigmatismo",
+                    "patterns": ["¿Cuales son los efectos que produce el astigmatismo?"],
+                    "responses": [
+                        "Si no se corrige, el astigmatismo puede afectar la calidad de la visión y provocar molestias oculares. Sin embargo, es tratable con lentes correctoras."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_astigmatismo",
+                        "patterns": ["¿Como se trata el astigmatismo?", "¿Cual es el tratamiento para el astigmatismo?"],
+                        "responses": [
+                            "El tratamiento suele involucrar el uso de lentes correctoras, ya sean anteojos o lentes de contacto. En casos más severos, la cirugía refractiva, como LASIK, puede ser una opción."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_astigmatismo",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_astigmatismo",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_astigmatismo",
+                        "patterns": ["¿Que medicamentos debo consumir para el astigmatismo?"],
+                        "responses": [
+                            "No hay medicamentos específicos para tratar el astigmatismo. La corrección óptica es la clave para mejorar la visión."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_astigmatismo",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_astigmatismo",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_astigmatismo",
+                    "patterns": ["¿Que complicaciones genera el astigmatismo?"],
+                    "responses": [
+                        "Las complicaciones son raras, pero el astigmatismo no corregido puede contribuir a la fatiga visual y dolores de cabeza. La detección temprana y el tratamiento son efectivos."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_astigmatismo",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo astigmatismo?"],
+                    "responses": [
+                        "Busca atención si experimentas visión borrosa persistente o molestias oculares. Una evaluación ocular determinará si el astigmatismo es la causa."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_astigmatismo",
+                    "patterns": ["¿Como se puede prevenir el astigmatismo?"],
+                    "responses": [
+                        "El astigmatismo no siempre es prevenible, ya que puede tener un componente genético. Sin embargo, las revisiones oculares regulares pueden detectar y corregir el astigmatismo temprano."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_astigmatismo",
+                    "patterns": ["¿Cuales son las causas para la aparicion del astigmatismo?"],
+                    "responses": [
+                        "Las causas suelen estar relacionadas con la forma irregular de la córnea o el cristalino. Puede ser hereditario o desarrollarse debido a lesiones o cirugías oculares anteriores."
+                    ]
+                }
+            },
+
+            "retinopatia_diabetica": {
+                "consulta": {
+                    "tag": "consulta_retinopatia_diabetica",
+                    "pattern": ["Describe la retinopatia diabetica", "¿Que es la retinopatia diabetica?"],
+                    "responses": [
+                        "La retinopatía diabética es una complicación de la diabetes que afecta los vasos sanguíneos de la retina, causando daño y, en casos avanzados, pérdida de la visión."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_retinopatia_diabetica",
+                    "patterns": ["Sintomas de la retinopatia diabetica", "¿Que sintomas produce la retinopatia diabetica?"],
+                    "responses": [
+                        "En las etapas iniciales, puede ser asintomática. A medida que progresa, puede haber visión borrosa, manchas oscuras o pérdida de visión periférica."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_retinopatia_diabetica",
+                    "patterns": ["¿Cuales son los efectos que produce la retinopatia diabetica?"],
+                    "responses": [
+                        "La retinopatía diabética no tratada puede llevar a la ceguera. Además, puede causar edema macular, aumentando la gravedad de la afectación visual."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_retinopatia_diabetica",
+                        "patterns": ["¿Como se trata la retinopatia diabetica?", "¿Cual es el tratamiento para la retinopatia diabetica?"],
+                        "responses": [
+                            "El tratamiento puede incluir láser para sellar vasos sanguíneos anormales, medicamentos para controlar la inflamación o, en casos avanzados, cirugía para corregir complicaciones."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_retinopatia_diabetica",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_retinopatia_diabetica",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_retinopatia_diabetica",
+                        "patterns": ["¿Que medicamentos debo consumir para la retinopatia diabetica?"],
+                        "responses": [
+                            "Medicamentos como los anti-VEGF (factor de crecimiento endotelial vascular) pueden administrarse para tratar el edema macular y prevenir el crecimiento de nuevos vasos sanguíneos anormales."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_retinopatia_diabetica",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_retinopatia_diabetica",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_retinopatia_diabetica",
+                    "patterns": ["¿Que complicaciones genera la retinopatia diabetica?"],
+                    "responses": [
+                        "Las complicaciones pueden incluir desprendimiento de retina, glaucoma y cataratas. El control cuidadoso de la diabetes y la detección temprana son cruciales."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_retinopatia_diabetica",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo retinopatia diabetica?"],
+                    "responses": [
+                        "Busca atención si tienes diabetes y experimentas cambios visuales. La detección temprana y el manejo adecuado de la diabetes son esenciales para prevenir complicaciones."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_retinopatia_diabetica",
+                    "patterns": ["¿Como se puede prevenir la retinopatia diabetica?"],
+                    "responses": [
+                        "La prevención implica controlar la diabetes de manera efectiva, mantener niveles de azúcar en sangre estables y someterse a exámenes oculares regulares para detectar la retinopatía diabética en sus primeras etapas."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_retinopatia_diabetica",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la retinopatia diabetica?"],
+                    "responses": [
+                        "La retinopatía diabética está causada por los cambios en la circulación sanguínea que tienen las personas con diabetes (sobre todo el aumento de la glucosa) y que dañan los vasos sanguíneos de la retina que ocasionan hemorragias, pérdida de líquido y cúmulo de grasas."
                     ]
                 }
             }
@@ -580,10 +850,8 @@
                 "medicamentos": {
                     "general": {
                         "tag": "medicamentos_general_leucemia",
-                        "patterns": ["¿Cuándo debo consultar al médico?", "¿Cuando debo buscar asistencia medica?"],
+                        "patterns": [],
                         "responses": [
-                            "Pide una cita con el médico si tienes síntomas o signos persistentes que te preocupen. Los síntomas de la leucemia suelen ser imprecisos y poco específicos. Es posible que pases por alto los síntomas tempranos de la leucemia porque se parecen a los de la gripe y de otras enfermedades comunes.",
-                            ""
                         ]
                     },
                     "adultos": {
@@ -604,7 +872,7 @@
                 },
                 "atencion_medica": {
                     "tag": "atencion_medica_leucemia",
-                    "patterns": ["¿Cuándo debo consultar al médico?", "¿Cuando debo buscar asistencia medica?"],
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo leucemia?", "¿Cuándo debo consultar al médico si tengo leucemia?", "¿Cuando debo buscar asistencia medica si tengo leucemia?"],
                     "responses": [
                         "Pide una cita con el médico si tienes síntomas o signos persistentes que te preocupen. Los síntomas de la leucemia suelen ser imprecisos y poco específicos. Es posible que pases por alto los síntomas tempranos de la leucemia porque se parecen a los de la gripe y de otras enfermedades comunes."
                     ]
@@ -616,7 +884,7 @@
                 },
                 "causas": {
                     "tag": "causas_leucemia",
-                    "patterns": ["¿Que causa la leucemia?"],
+                    "patterns": ["¿Cuales son las causas para la aparicion de la leucemia?"],
                     "responses": [
                         "Algunos factores ambientales relacionados con la aparición de la leucemia son: exposición a radiaciones ionizantes, exposición a las radiaciones, enfermedades congénitas o hereditarias."
                     ]
@@ -648,7 +916,7 @@
                 "tratamiento": {
                     "general": {
                         "tag": "tratamiento_general_linfoma",
-                        "patterns": ["¿Como se trata el linfoma?"],
+                        "patterns": ["¿Como se trata el linfoma?", "¿Cual es el tratamiento para el linfoma?"],
                         "responses": [
                             "Cuando se requiere un tratamiento para el linfoma, se pueden utilizar uno o más de los siguientes tratamientos: quimioterapia, profilaxis del SNC, radioterapia, terapia con anticuerpos monoclonales, radioinmunoterapia, terapia biológica, transplante de células madre."
                         ]
@@ -698,7 +966,7 @@
                 },
                 "causas": {
                     "tag": "causas_linfoma",
-                    "patterns": ["¿Que causa el linfoma?"],
+                    "patterns": ["¿Cuales son las causas para la aparicion del linfoma?"],
                     "responses": [
                         "El linfoma comienza cuando un glóbulo blanco que combate enfermedades, llamado linfocito, sufre una mutación genética. La mutación le dice a la célula que se multiplique rápidamente, y se crean muchos linfocitos enfermos que continúan multiplicándose. La mutación también permite que las células sigan viviendo cuando otras células normales morirían. Esto produce demasiados linfocitos enfermos e ineficaces en los ganglios linfáticos y hace que los ganglios linfáticos, el bazo y el hígado se hinchen."
                     ]
@@ -786,7 +1054,7 @@
                 },
                 "causas": {
                     "tag": "causas_anemia",
-                    "patterns": ["¿Que causa la anemia?"],
+                    "patterns": ["¿Cuales son las causas para la aparicion de la anemia?"],
                     "responses": [
                         "Las causas incluyen deficiencia de hierro, deficiencia de vitamina B12, pérdida de sangre crónica, y trastornos genéticos como la talasemia."
                     ]
@@ -874,7 +1142,7 @@
                 },
                 "causas": {
                     "tag": "causas_hemofilia",
-                    "patterns": ["¿Que causa la hemofilia?"],
+                    "patterns": ["¿Cuales son las causas para la aparicion de la hemofilia?"],
                     "responses": [
                         "La hemofilia es genética y se transmite de padres a hijos a través de un gen defectuoso en el cromosoma X."
                     ]
@@ -970,7 +1238,8 @@
             }
         },
 
-        "bioquimica": {},
+        "bioquimica": {
+        },
 
         "radiologia": {},
 

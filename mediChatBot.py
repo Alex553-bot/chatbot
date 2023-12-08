@@ -1,26 +1,20 @@
-from telegram import Bot
-from telegram.ext import Updater
+import telebot
+import spacy
 
-# Reemplaza 'TOKEN_AQUI' con el token de tu bot
-TOKEN = '6868602618:AAG5jSFLgC0nLUY96TndRe7-DkHBfRMXlis'
+bot = telebot.TeleBot("6868602618:AAG5jSFLgC0nLUY96TndRe7-DkHBfRMXlis")
 
-# Crea una instancia de la clase Bot
-mi_bot = Bot(token=TOKEN)
 
-# Imprime el nombre de usuario de tu bot
-print(mi_bot.get_me().username)
+#PARA PROBAR SI HAY RESPUESTA
+#commands
+@bot.message_handler(commands=["help","start"])
 
-# También puedes usar la clase Updater para manejar actualizaciones
-updater = Updater(token=TOKEN, use_context=True)
-dispatcher = updater.dispatcher
+def enviar(message):
+    bot.reply_to(message, "Hola, ¿como estas?")
 
-def start(update, context):
-    context.bot.send_message(chat_id=update.effective_chat.id, text="Hola, soy un bot de ejemplo.")
 
-from telegram.ext import CommandHandler
-start_handler = CommandHandler('start', start)
-dispatcher.add_handler(start_handler)
+@bot.message_handler(func=lambda message:True)
 
-# Inicia el bot
-updater.start_polling()
-updater.idle()
+def mensaje(message):
+    bot.reply_to(message, message.text)
+##
+bot.polling()

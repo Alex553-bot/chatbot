@@ -1,0 +1,19 @@
+{"saldes":[
+    {
+        "tag": "saludos",
+        "patterns":["hola","Hola","buenos dias", "buenas tardes","buenas noches","que tal?", "como estas","saludos"],
+        "responses":["hola!","Buenos dias!","Buenas tades!","Buenas noches!","¿como estas?","¿Que tal?","¡Hola! Todo bien, gracias.","Hola, ¿en qué puedo ayudarte hoy?"]
+
+    },
+    {
+         "tag": "despedidas",
+         "patterns": ["adiós", "hasta luego", "nos vemos", "chau", "hasta pronto", "hasta la próxima", "adiós y cuídate", "que tengas un buen día", "hasta luego, cuídate"],
+         "responses": ["¡Adiós!", "Hasta luego", "Nos vemos", "¡Cuídate!", "Hasta la próxima", "¡Que tengas un buen día!", "Hasta luego, cuídate", "Hasta pronto, cuídate mucho", "¡Que te mejores!"]
+    },
+    {
+        "tag": "agradecimientos",
+        "patterns": ["gracias", "muchas gracias", "agradecido/a", "te agradezco", "agradecimiento", "mil gracias", "gracias por la ayuda", "gracias por todo", "te estoy agradecido/a"],
+        "responses": ["De nada, es mi deber ayudarte", "¡No hay de qué!", "Estoy aquí para ayudarte", "¡Con gusto!", "Me alegra poder ayudarte", "No hay problema, ¿hay algo más en lo que pueda asistirte?", "Estamos para apoyarte en lo que necesites"]
+    }
+] 
+}

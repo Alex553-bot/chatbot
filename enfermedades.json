@@ -1247,7 +1247,187 @@
 
         "ortopedia": {},
 
-        "obstetricia": {},
+        "obstetricia": {
+            "preemclapsia": {
+                "consulta": {
+                    "tag": "consulta_preemclapsia",
+                    "pattern": ["Describe la preeclampsia", "¿Como es la preeclampsia?", "¿Que es la preemclapsia?"],
+                    "responses": [
+                        "La preeclampsia es una complicación del embarazo caracterizada por presión arterial alta y daño a órganos como los riñones y el hígado."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_preemclapsia",
+                    "patterns": ["Sintomas de la preemclapsia", "¿Que sintomas produce la preeclampsia?"],
+                    "responses": [
+                        "Los síntomas incluyen presión arterial alta, hinchazón repentino, especialmente en manos y cara, proteína en la orina, dolores de cabeza persistentes y cambios en la visión."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_preemclapsia",
+                    "patterns": ["¿Cuales son los efectos que produce el preeclampsia?"],
+                    "responses": [
+                        "La preeclampsia puede afectar negativamente tanto a la madre como al feto, aumentando el riesgo de parto prematuro y problemas de salud a largo plazo."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_preemclapsia",
+                        "patterns": ["¿Como se trata la preemclapsia?", "¿Cual es el tratamiento para la preemclapsia?"],
+                        "responses": [
+                            "El único tratamiento definitivo es el parto. En casos leves, puede ser necesario el reposo y medicamentos para controlar la presión arterial."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_preemclapsia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_preemclapsia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_preemclapsia",
+                        "patterns": ["¿Que medicamentos debo consumir para la preemclapsia?"],
+                        "responses": [
+                            "Los medicamentos antihipertensivos, como la metildopa, a menudo se recetan para controlar la presión arterial."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_preemclapsia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_preemclapsia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_preemclapsia",
+                    "patterns": ["¿Que complicaciones genera la preemclapsia?"],
+                    "responses": [
+                        "La preeclampsia no tratada puede llevar a complicaciones graves, como eclampsia (convulsiones), problemas hepáticos y renales."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_preemclapsia",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo preemclapsia?"],
+                    "responses": [
+                        "Busca atención médica si experimentas hinchazón súbita, dolores de cabeza intensos, cambios visuales, o cualquier síntoma preocupante durante el embarazo."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_preemclapsia",
+                    "patterns": ["¿Como se puede prevenir la preemclapsia?"],
+                    "responses": [
+                        "La prevención puede incluir controles regulares durante el embarazo, mantener una dieta saludable y evitar factores de riesgo conocidos."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_preemclapsia",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la preemclapsia?"],
+                    "responses": [
+                        "Las causas exactas no son claras, pero factores como la presión arterial alta previa, la obesidad y ciertos trastornos autoinmunitarios pueden aumentar el riesgo."
+                    ]
+                }
+            },
+
+            "parto_prematuro": {
+                "consulta": {
+                    "tag": "consulta_parto_prematuro",
+                    "pattern": ["Describe el parto prematuro", "¿Como es la parto prematuro?"],
+                    "responses": [
+                        "El parto prematuro ocurre cuando el bebé nace antes de las 37 semanas de gestación."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_parto_prematuro",
+                    "patterns": ["Sintomas del parto prematuro", "¿Que sintomas produce el parto prematuro?"],
+                    "responses": [
+                        "Los síntomas incluyen ontracciones uterinas regulares antes de tiempo, cambios en la secreción vaginal y dolor abdominal pueden indicar un parto prematuro."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_parto_prematuro",
+                    "patterns": ["¿Cuales son los efectos que produce el parto prematuro?"],
+                    "responses": [
+                        "Los bebés nacidos prematuros pueden enfrentar problemas de salud a corto y largo plazo, como dificultades respiratorias y retrasos en el desarrollo."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_parto_prematuro",
+                        "patterns": ["¿Como se trata el parto prematuro?", "¿Cual es el tratamiento para el parto prematuro?"],
+                        "responses": [
+                            "Dependiendo de la situación, el médico puede recetar reposo, medicamentos para detener las contracciones y, en algunos casos, el parto se realiza de manera controlada."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_parto_prematuro",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_parto_prematuro",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_parto_prematuro",
+                        "patterns": ["¿Que medicamentos debo consumir para el parto prematuro?"],
+                        "responses": [
+                            "Medicamentos como la progesterona pueden ayudar a prevenir el parto prematuro en mujeres con antecedentes de partos prematuros."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_parto_prematuro",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_parto_prematuro",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_parto_prematuro",
+                    "patterns": ["¿Que complicaciones genera el parto prematuro?"],
+                    "responses": [
+                        "Complicaciones para el bebé incluyen bajo peso al nacer y problemas respiratorios. La madre puede experimentar complicaciones por un parto prematuro."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_parto_prematuro",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo parto prematuro?"],
+                    "responses": [
+                        "Busca atención médica inmediata si experimentas síntomas de parto prematuro, especialmente antes de la semana 37 de gestación."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_parto_prematuro",
+                    "patterns": ["¿Como se puede prevenir el parto prematuro?"],
+                    "responses": [
+                        "La atención prenatal regular, el manejo de condiciones médicas, el control del estrés y evitar el consumo de sustancias nocivas pueden ayudar a prevenir el parto prematuro."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_parto_prematuro",
+                    "patterns": ["¿Cuales son las causas para tener parto prematuro?"],
+                    "responses": [
+                        "Las causas pueden variar, desde infecciones y problemas cervicales hasta múltiples embarazos y trastornos crónicos de salud."
+                    ]
+                }
+            }
+        },
 
         "pediatria": {},
 

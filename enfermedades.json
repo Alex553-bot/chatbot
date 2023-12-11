@@ -1,0 +1,1616 @@
+{
+    "enfermedades": {
+        "dermatologia": {},
+
+        "optometria": {
+            "template": {
+                "consulta": {
+                    "tag": "consulta_template",
+                    "pattern": [],
+                    "responses": []
+                },
+                "sintomas": {
+                    "tag": "sintomas_template",
+                    "patterns": [],
+                    "responses": []
+                },
+                "efectos": {
+                    "tag": "efectos_template",
+                    "patterns": [],
+                    "responses": []
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_template",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_template",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_template",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_template",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_template",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_template",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_template",
+                    "patterns": [],
+                    "responses": []
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_template",
+                    "patterns": [],
+                    "responses": []
+                },
+                "prevencion": {
+                    "tag": "prevencion_template",
+                    "patterns": [],
+                    "responses": []
+                },
+                "causas": {
+                    "tag": "causas_template",
+                    "patterns": [],
+                    "responses": []
+                }
+            },
+
+            "miopia": {
+                "consulta": {
+                    "tag": "consulta_miopia",
+                    "pattern": ["¿Que es la miopia?", "Describe la miopia", "¿Como es la miopia?"],
+                    "responses": [
+                        "La miopía es un problema de refracción (forma en que la luz se refleja dentro del ojo) que hace que los objetos lejanos se vean borrosos. Pasa cuando la forma de su ojo hace que la luz se enfoque en un área enfrente de la retina (una capa de tejido sensible a la luz en la parte de atrás del ojo), en vez de enfocarse en la propia retina.", "Anomalía del ojo que produce una visión borrosa o poco clara de los objetos lejanos; se debe a una curvatura excesiva del cristalino que hace que las imágenes de los objetos se formen un poco antes de llegar a la retina."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_miopia",
+                    "patterns": ["¿Cuales son los sintomas de la miopia?", "Sintomas de la miopia", "¿Que sintomas produce la miopia?"],
+                    "responses": [
+                        "Los síntomas más comunes de la miopía son: Problemas para ver cosas que están lejos, La necesidad de entrecerrar los ojos para ver claramente, Fatiga ocular.", 
+                        "Entre los signos y síntomas de la miopía se pueden incluir los siguientes: visión borrosa al mirar objetos que están lejos, necesidad de entrecerrar los ojos para ver con claridad, dolores de cabeza, fatiga ocular"
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_miopia",
+                    "patterns": [],
+                    "responses": []
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_miopia",
+                        "patterns": ["¿Como se trata la miopia?", "¿Cual es el tratamiento para la miopia?"],
+                        "responses": [
+                            "Los tratamientos más comunes para la miopía consisten en anteojos con prescripción médica o lentes de contacto. El oculista le recetará los anteojos adecuados para ayudarle a ver lo más claramente posible."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_miopia",
+                        "patterns": ["¿Cual es el tratamiento para la miopia en adultos?"],
+                        "responses": [
+                            "Los adultos también pueden tener cirugía para tratar la miopía. La cirugía cambia la forma de su córnea para que pueda enfocar la luz claramente."
+                        ]
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_miopia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_miopia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_miopia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_miopia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_miopia",
+                    "patterns": ["¿Que complicaciones genera la miopia?" ,"¿Que puede ocasionar la miopia?", "¿Que complicaciones existen en una persona con miopia?"],
+                    "responses": [
+                        "La miopía se asocia con una variedad de complicaciones de leves a graves, como las siguientes: reducción de la calidad de vida, fatiga ocular, otros problemas de los ojos como el desprendimiento de retina, glaucoma, cataratas."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_miopia",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo miopia?"],
+                    "responses": [
+                        "Debes buscar atención médica si presentas los siguientes síntomas: aparición repentina de muchas moscas volantes (motas o líneas diminutas que parecen ir a la deriva por el campo de visión), destellos de luz en uno o ambos ojos, una sombra gris parecida a una cortina que cubre todo o parte del campo de visión, una sombra en la visión exterior o lateral (visión periférica)."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_miopia",
+                    "patterns": [],
+                    "responses": []
+                },
+                "causas": {
+                    "tag": "causas_miopia",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la miopia"],
+                    "responses": [
+                        "La miopía ocurre cuando el globo ocular crece demasiado largo, desde adelante hacia atrás, o cuando hay problemas con la forma de su córnea (la capa transparente frontal del ojo) o el cristalino (el “lente” interno que ayuda al ojo a enfocar)."
+                    ]
+                }
+            },
+
+            "presbicia": {
+                "consulta": {
+                    "tag": "consulta_presbicia",
+                    "pattern": ["Describe la presbicia", "¿Como es la presbicia?"],
+                    "responses": [
+                        "La presbicia, comúnmente conocida como 'vista cansada', es un problema visual relacionado con la edad que dificulta la capacidad del ojo para enfocar objetos cercanos. Esto se debe al endurecimiento del cristalino con el tiempo."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_presbicia",
+                    "patterns": ["Sintomas de la presbicia", "¿Cuales son los sintomas de la presbicia?"],
+                    "responses": [
+                        "Los síntomas incluyen dificultad para ver de cerca, necesidad de alejar los objetos para enfocar y fatiga ocular al realizar actividades que requieren visión de cerca."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_presbicia",
+                    "patterns": ["¿Cuales son los efectos que produce la presbicia?"],
+                    "responses": [
+                        "Puede afectar la productividad en tareas cercanas y causar molestias visuales, pero generalmente no tiene efectos graves en la salud ocular a largo plazo."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_presbicia",
+                        "patterns": ["¿Como se trata la presbicia?", "¿Cual es el tratamiento para la presbicia?"],
+                        "responses": [
+                            "El tratamiento principal es el uso de lentes correctivos, como gafas de lectura o lentes progresivas, que compensan la pérdida de la capacidad de enfoque cercano."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_presbicia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_presbicia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_presbicia",
+                        "patterns": ["¿Que medicamentos debo consumir para la presbicia?"],
+                        "responses": [
+                            "No hay medicamentos específicos para la presbicia, ya que se trata principalmente con corrección óptica."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_presbicia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_presbicia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_presbicia",
+                    "patterns": ["¿Que complicaciones genera la presbicia?"],
+                    "responses": [
+                        "La presbicia en sí misma no suele causar complicaciones, pero puede coexistir con otros problemas oculares que podrían necesitar atención adicional."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_presbicia",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo presbicia?"],
+                    "responses": [
+                        "Se debe buscar atención cuando los síntomas de dificultad para ver de cerca comienzan a afectar las actividades diarias y el rendimiento."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_presbicia",
+                    "patterns": ["¿Como se puede prevenir la presbicia?"],
+                    "responses": [
+                        "La presbicia es un proceso natural asociado con el envejecimiento, pero un estilo de vida saludable y revisiones oculares regulares pueden ayudar a identificar y abordar problemas visuales a tiempo."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_presbicia",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la presbicia?"],
+                    "responses": [
+                        "La principal causa de la presbicia es el envejecimiento, que lleva al endurecimiento del cristalino. También puede estar relacionada con factores genéticos."
+                    ]
+                }
+            },
+
+            "conjuntivitis": {
+                "consulta": {
+                    "tag": "consulta_conjuntivitis",
+                    "pattern": ["Describe la conjuntivitis", "¿Como es la conjuntivitis?"],
+                    "responses": [
+                        "La conjuntivitis es una inflamación de la conjuntiva, la membrana transparente que cubre la parte blanca del ojo y el interior de los párpados. Puede ser causada por infecciones, alergias o irritantes."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_conjuntivitis",
+                    "patterns": ["Sintomas de la conjuntivitis", "¿Que sintomas produce la conjuntivitis?"],
+                    "responses": [
+                        "Los síntomas incluyen enrojecimiento, picazón, secreción ocular, sensación de cuerpo extraño en el ojo y, en algunos casos, visión borrosa."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_conjuntivitis",
+                    "patterns": ["¿Cuales son los efectos que produce la conjuntivitis?"],
+                    "responses": [
+                        "La conjuntivitis no tratada puede causar molestias significativas y, en casos infecciosos, puede propagarse a otras personas."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_conjuntivitis",
+                        "patterns": ["¿Como se trata la conjuntivitis?", "¿Cual es el tratamiento para la conjuntivitis?"],
+                        "responses": [
+                            "El tratamiento varía según la causa e incluye compresas frías, lágrimas artificiales, antihistamínicos para formas alérgicas, y antibióticos o antivirales para formas infecciosas."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_conjuntivitis",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_conjuntivitis",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_conjuntivitis",
+                        "patterns": ["¿Que medicamentos debo consumir para la conjuntivitis?"],
+                        "responses": [
+                            "Se pueden usar gotas oculares antibióticas o antivirales según la causa específica de la conjuntivitis."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_conjuntivitis",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_conjuntivitis",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_conjuntivitis",
+                    "patterns": ["¿Que complicaciones genera la conjuntivitis?"],
+                    "responses": [
+                        "En casos graves o no tratados, puede dar lugar a complicaciones como queratitis o infecciones más profundas del ojo."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_conjuntivitis",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo conjuntivitis?"],
+                    "responses": [
+                        "Se debe buscar atención si los síntomas persisten, empeoran o si hay secreción amarilla o verde, que podría indicar una infección."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_conjuntivitis",
+                    "patterns": ["¿Como se puede prevenir la conjuntivitis?"],
+                    "responses": [
+                        "La prevención incluye lavado de manos frecuente, evitar tocarse los ojos y no compartir artículos personales como toallas o maquillaje."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_conjuntivitis",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la conjuntivitis?"],
+                    "responses": [
+                        "Las causas pueden ser infecciosas (viral o bacteriana), alérgicas o irritativas (productos químicos, humo, etc.)."
+                    ]
+                }
+            },
+
+            "glaucoma": {
+                "consulta": {
+                    "tag": "consulta_glaucoma",
+                    "pattern": ["Describe la glaucoma", "¿Que es la glaucoma?"],
+                    "responses": [
+                        "El glaucoma es una enfermedad ocular que implica daño al nervio óptico, generalmente causado por un aumento de la presión intraocular. Esta condición puede llevar a la pérdida gradual de la visión, y en casos avanzados, a la ceguera."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_glaucoma",
+                    "patterns": ["Sintomas de la glaucoma", "¿Que sintomas produce la glaucoma?"],
+                    "responses": [
+                        "En las etapas tempranas, el glaucoma puede ser asintomático. A medida que progresa, algunos pacientes experimentan visión periférica reducida, halos alrededor de las luces, dolor de cabeza y, en casos severos, pérdida de visión central."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_glaucoma",
+                    "patterns": ["¿Cuales son los efectos que produce la glaucoma?"],
+                    "responses": [
+                        "Si no se trata, el glaucoma puede resultar en una pérdida irreversible de la visión periférica y, eventualmente, central. La detección temprana y el tratamiento son fundamentales para prevenir daños significativos."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_glaucoma",
+                        "patterns": ["¿Como se trata la glaucoma?", "¿Cual es el tratamiento para la glaucoma?"],
+                        "responses": [
+                            "El tratamiento del glaucoma suele incluir medicamentos para reducir la presión intraocular, cirugía láser (trabeculoplastia) o cirugía convencional (trabeculectomía) para mejorar el drenaje del fluido ocular."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_glaucoma",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_glaucoma",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_glaucoma",
+                        "patterns": ["¿Que medicamentos debo consumir para la glaucoma?"],
+                        "responses": [
+                            "Medicamentos comunes incluyen gotas oculares como prostaglandinas, betabloqueantes, agonistas alfa y bloqueadores de los canales de calcio. Estos ayudan a controlar la presión intraocular."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_glaucoma",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_glaucoma",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_glaucoma",
+                    "patterns": ["¿Que complicaciones genera la glaucoma?"],
+                    "responses": [
+                        "Complicaciones potenciales incluyen pérdida de visión progresiva, discapacidad visual y afectación de la calidad de vida. Las complicaciones pueden evitarse o minimizarse con un tratamiento adecuado y seguimiento regular."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_glaucoma",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo glaucoma?"],
+                    "responses": [
+                        "Busca atención médica inmediata si experimentas cambios repentinos en la visión, especialmente si hay dolor ocular intenso o náuseas, ya que podrían indicar un ataque agudo de glaucoma."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_glaucoma",
+                    "patterns": ["¿Como se puede prevenir la glaucoma?"],
+                    "responses": [
+                        "La prevención se centra en exámenes oculares regulares, especialmente si hay antecedentes familiares de glaucoma. Adoptar un estilo de vida saludable, evitar el tabaquismo y cuidar la presión arterial también contribuyen a la prevención."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_glaucoma",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la glaucoma?"],
+                    "responses": [
+                        "Las causas exactas pueden variar, pero en la mayoría de los casos, el glaucoma está relacionado con un desequilibrio en la producción y drenaje del líquido ocular. Factores genéticos, edad avanzada y problemas de salud como la hipertensión pueden aumentar el riesgo."
+                    ]
+                }
+            }
+        },
+
+        "neurocirugia": {},
+
+        "psiquiatria": {},
+
+        "cirugia_general": {},
+
+        "oftalmologia": {
+            "cataratas": {
+                "consulta": {
+                    "tag": "consulta_cataratas",
+                    "pattern": ["¿Que son las cataratas?"],
+                    "responses": [
+                        "Una catarata es una opacidad del cristalino, normalmente transparente, del ojo. Para las personas que tienen cataratas, ver a través de cristalinos opacos es algo parecido a mirar a través de una ventana escarchada o empañada.", 
+                        "La catarata es una patología que consiste en la pérdida de transparencia del cristalino, la lente natural del ojo ya través de la cual pasan los rayos de luz hasta la retina y se forman las imágenes. Por esta razón, a medida que el cristalino se vuelve opaco, el paciente experimenta una pérdida progresiva de visión."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_cataratas",
+                    "patterns": ["¿Que sintomas tiene la carata?", "¿Cuales son los sintomas que causan las cataratas?"],
+                    "responses": [
+                        "La visión borrosa o “ver nublado”, incluso “ver doble” es una sensación común entre quienes padecen esta patología",
+                        "Algunos síntomas habituales son: La fotofobia, el empeoramiento de la visión en los días soleados, disminución de la sensibilidad a los colores, los contrastes, y el aumento de la miopía.",
+                        "Los signos y síntomas de las cataratas incluyen los siguientes: visión nublada, borrosa o tenue, aumento de la dificultad con la visión por la noche, sensibilidad a la luz y al resplandor, necesidad de una luz más brillante para leer y para otras actividades, ver halos alrededor de las luces, cambios frecuentes en los anteojos o lentes de contacto recetados, decoloración o amarillamiento de los colores, visión doble en un solo ojo"
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_cataratas",
+                    "patterns": [],
+                    "responses": []
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_cataratas",
+                        "patterns": ["¿Cual es el tratamiento para las cataratas?"],
+                        "responses": [
+                            "La única manera de eliminar la catarata es a través de una operación, siendo la técnica más habitual la facoemulsificación. Esta consiste en deshacer la catarata y aspirarla, bien sea a través del método convencional por ultrasonidos o con el nuevo láser de femtosegundo, que también se utiliza para la cirugía refractiva o los trasplantes de córnea."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_cataratas",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_cataratas",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_cataratas",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_cataratas",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_cataratas",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_cataratas",
+                    "patterns": [],
+                    "responses": []
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_cataratas",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo cataratas?", "¿Cuando debo consultar a un medico si tengo cataratas?", "¿Cuando debo asistir a un hospital si tengo cataratas?", "¿Cuando debo buscar asistencia medica si tengo cataratas?"],
+                    "responses": [
+                        "Pida cita médica para un examen ocular si nota algún cambio en su visión. Si presentas cambios repentinos en la visión, como visión doble o destellos de luz, dolor ocular repentino o dolor de cabeza repentino, acuda al médico de inmediato."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_cataratas",
+                    "patterns": ["¿Como se puede prevenir la catarata?", "¿Como puedo evitar tener catarata?"],
+                    "responses": [
+                        "La catarata no se puede evitar, pero sí que se puede detectar y tratar precozmente antes de que siga evolucionando y merme considerablemente la visión y la calidad de vida del paciente, de forma que se puede llegar a reducir hasta un 30% el riesgo de caídas.",
+                        "Ningún estudio ha demostrado cómo prevenir las cataratas o hacer más lento su avance. Sin embargo, los médicos creen que varias estrategias pueden ser útiles, entre ellas: hacerse exámenes de la vista regulares, dejar de fumar, eligir una dieta saludable con muchas frutas y vegetales, usar lentes de sol, y reducir el consumo de bebidas alcoholicas."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_cataratas",
+                    "patterns": ["¿Cuales son las causas para la aparicion de las cataratas?"],
+                    "responses": [
+                        "El envejecimiento es la principal causa de esta enfermedad, fruto del proceso degenerativo natural del ojo. Este se activa, generalmente, a partir de los 40 años y hace que el cristalino sea cada vez menos transparente.",
+                        "Asímismo, existen otros factores ajenos a la edad que pueden provocar una catarata como los: traumatismos, la miopía, la diabetes, consumo de fármacos como la corticoides, o condiciones genéticas.",
+                        "Las cataratas también pueden provocarse por otras afecciones oculares, cirugías oculares anteriores o afecciones médicas como la diabetes. El uso prolongado de medicamentos esteroides también puede provocar el desarrollo de cataratas."
+                    ]
+                }
+            },
+
+            "estrabismo": {
+                "consulta": {
+                    "tag": "consulta_estrabismo",
+                    "pattern": ["Describe el estrabismo", "¿Que es el estrabismo?"],
+                    "responses": [
+                        "El estrabismo es una condición en la cual los ojos no están alineados correctamente y apuntan en direcciones diferentes. Puede ser constante o intermitente, afectando la percepción visual y la coordinación de los ojos."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_estrabismo",
+                    "patterns": ["¿Que sintomas produce el estrabismo?"],
+                    "responses": [
+                        "Los síntomas incluyen ojos desalineados, visión doble, fatiga ocular y posiblemente inclinación de la cabeza para compensar. En los niños, puede manifestarse como un ojo perezoso."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_estrabismo",
+                    "patterns": ["¿Cuales son los efectos que produce la estrabismo?"],
+                    "responses": [
+                        "Si no se trata, el estrabismo puede afectar la percepción tridimensional y la visión en general. También puede provocar problemas de autoestima y sociales, especialmente en niños."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_estrabismo",
+                        "patterns": ["¿Como se trata el estrabismo?", "¿Cual es el tratamiento para el estrabismo?"],
+                        "responses": [
+                            "El tratamiento puede incluir lentes correctoras, terapia visual para fortalecer los músculos oculares, y en casos severos, cirugía para alinear los ojos adecuadamente."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_estrabismo",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_estrabismo",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_estrabismo",
+                        "patterns": ["¿Que medicamentos debo consumir para el estrabismo?"],
+                        "responses": [
+                            "En general, no se utilizan medicamentos para tratar directamente el estrabismo. El enfoque principal es corregir la alineación ocular y fortalecer los músculos."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_estrabismo",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_estrabismo",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_estrabismo",
+                    "patterns": ["¿Que complicaciones genera el estrabismo?"],
+                    "responses": [
+                        "Las complicaciones pueden incluir problemas de visión y la posibilidad de desarrollar ambliopía (ojo perezoso). La detección y tratamiento tempranos son esenciales para prevenir complicaciones a largo plazo."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_estrabismo",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo estrabismo?"],
+                    "responses": [
+                        "Busca atención si notas desalineación ocular persistente, visión doble o cualquier cambio en la alineación de los ojos, especialmente en niños, ya que el tratamiento temprano es crucial."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_estrabismo",
+                    "patterns": ["¿Como se puede prevenir el estrabismo?"],
+                    "responses": [
+                        "La prevención puede no ser siempre posible, pero la detección temprana y el tratamiento adecuado pueden prevenir complicaciones a largo plazo. Las revisiones oculares regulares son clave, especialmente en la infancia."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_estrabismo",
+                    "patterns": ["¿Cuales son las causas para la aparicion del estrabismo?"],
+                    "responses": [
+                        "Las causas pueden incluir desequilibrios musculares oculares, problemas de los nervios que controlan los músculos o factores genéticos. Lesiones o enfermedades neurológicas también pueden contribuir."
+                    ]
+                }
+            },
+
+            "astigmatismo": {
+                "consulta": {
+                    "tag": "consulta_astigmatismo",
+                    "pattern": ["Describe el astigmatismo", "¿Que es el astigmatismo?"],
+                    "responses": [
+                        "El astigmatismo es un error refractivo del ojo que se produce cuando la córnea o el cristalino tienen una forma irregular, lo que resulta en una visión borrosa o distorsionada."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_astigmatismo",
+                    "patterns": ["Sintomas del astigmatismo"],
+                    "responses": [
+                        "Los síntomas pueden incluir visión borrosa, fatiga ocular, dolores de cabeza y dificultad para ver claramente tanto de cerca como de lejos."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_astigmatismo",
+                    "patterns": ["¿Cuales son los efectos que produce el astigmatismo?"],
+                    "responses": [
+                        "Si no se corrige, el astigmatismo puede afectar la calidad de la visión y provocar molestias oculares. Sin embargo, es tratable con lentes correctoras."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_astigmatismo",
+                        "patterns": ["¿Como se trata el astigmatismo?", "¿Cual es el tratamiento para el astigmatismo?"],
+                        "responses": [
+                            "El tratamiento suele involucrar el uso de lentes correctoras, ya sean anteojos o lentes de contacto. En casos más severos, la cirugía refractiva, como LASIK, puede ser una opción."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_astigmatismo",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_astigmatismo",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_astigmatismo",
+                        "patterns": ["¿Que medicamentos debo consumir para el astigmatismo?"],
+                        "responses": [
+                            "No hay medicamentos específicos para tratar el astigmatismo. La corrección óptica es la clave para mejorar la visión."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_astigmatismo",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_astigmatismo",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_astigmatismo",
+                    "patterns": ["¿Que complicaciones genera el astigmatismo?"],
+                    "responses": [
+                        "Las complicaciones son raras, pero el astigmatismo no corregido puede contribuir a la fatiga visual y dolores de cabeza. La detección temprana y el tratamiento son efectivos."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_astigmatismo",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo astigmatismo?"],
+                    "responses": [
+                        "Busca atención si experimentas visión borrosa persistente o molestias oculares. Una evaluación ocular determinará si el astigmatismo es la causa."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_astigmatismo",
+                    "patterns": ["¿Como se puede prevenir el astigmatismo?"],
+                    "responses": [
+                        "El astigmatismo no siempre es prevenible, ya que puede tener un componente genético. Sin embargo, las revisiones oculares regulares pueden detectar y corregir el astigmatismo temprano."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_astigmatismo",
+                    "patterns": ["¿Cuales son las causas para la aparicion del astigmatismo?"],
+                    "responses": [
+                        "Las causas suelen estar relacionadas con la forma irregular de la córnea o el cristalino. Puede ser hereditario o desarrollarse debido a lesiones o cirugías oculares anteriores."
+                    ]
+                }
+            },
+
+            "retinopatia_diabetica": {
+                "consulta": {
+                    "tag": "consulta_retinopatia_diabetica",
+                    "pattern": ["Describe la retinopatia diabetica", "¿Que es la retinopatia diabetica?"],
+                    "responses": [
+                        "La retinopatía diabética es una complicación de la diabetes que afecta los vasos sanguíneos de la retina, causando daño y, en casos avanzados, pérdida de la visión."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_retinopatia_diabetica",
+                    "patterns": ["Sintomas de la retinopatia diabetica", "¿Que sintomas produce la retinopatia diabetica?"],
+                    "responses": [
+                        "En las etapas iniciales, puede ser asintomática. A medida que progresa, puede haber visión borrosa, manchas oscuras o pérdida de visión periférica."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_retinopatia_diabetica",
+                    "patterns": ["¿Cuales son los efectos que produce la retinopatia diabetica?"],
+                    "responses": [
+                        "La retinopatía diabética no tratada puede llevar a la ceguera. Además, puede causar edema macular, aumentando la gravedad de la afectación visual."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_retinopatia_diabetica",
+                        "patterns": ["¿Como se trata la retinopatia diabetica?", "¿Cual es el tratamiento para la retinopatia diabetica?"],
+                        "responses": [
+                            "El tratamiento puede incluir láser para sellar vasos sanguíneos anormales, medicamentos para controlar la inflamación o, en casos avanzados, cirugía para corregir complicaciones."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_retinopatia_diabetica",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_retinopatia_diabetica",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_retinopatia_diabetica",
+                        "patterns": ["¿Que medicamentos debo consumir para la retinopatia diabetica?"],
+                        "responses": [
+                            "Medicamentos como los anti-VEGF (factor de crecimiento endotelial vascular) pueden administrarse para tratar el edema macular y prevenir el crecimiento de nuevos vasos sanguíneos anormales."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_retinopatia_diabetica",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_retinopatia_diabetica",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_retinopatia_diabetica",
+                    "patterns": ["¿Que complicaciones genera la retinopatia diabetica?"],
+                    "responses": [
+                        "Las complicaciones pueden incluir desprendimiento de retina, glaucoma y cataratas. El control cuidadoso de la diabetes y la detección temprana son cruciales."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_retinopatia_diabetica",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo retinopatia diabetica?"],
+                    "responses": [
+                        "Busca atención si tienes diabetes y experimentas cambios visuales. La detección temprana y el manejo adecuado de la diabetes son esenciales para prevenir complicaciones."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_retinopatia_diabetica",
+                    "patterns": ["¿Como se puede prevenir la retinopatia diabetica?"],
+                    "responses": [
+                        "La prevención implica controlar la diabetes de manera efectiva, mantener niveles de azúcar en sangre estables y someterse a exámenes oculares regulares para detectar la retinopatía diabética en sus primeras etapas."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_retinopatia_diabetica",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la retinopatia diabetica?"],
+                    "responses": [
+                        "La retinopatía diabética está causada por los cambios en la circulación sanguínea que tienen las personas con diabetes (sobre todo el aumento de la glucosa) y que dañan los vasos sanguíneos de la retina que ocasionan hemorragias, pérdida de líquido y cúmulo de grasas."
+                    ]
+                }
+            }
+        },
+
+        "medicina_alternativa": {},
+
+        "virologia": {},
+
+        "hematologia": {
+            "leucemia": {
+                "consulta": {
+                    "tag": "consulta_leucemia",
+                    "pattern": ["¿Que es la leucemia?", "Describe la leucemia"],
+                    "responses": [
+                        "La leucemia es un cáncer de la sangre. Se trata de la proliferación incontrolada y excesiva de glóbulos blancos anómalos en la medula ósea, que se adueñan de ella e impiden la producción de las restantes células normales (plaquetas y glóbulos rojos), al tiempo que invaden la sangre y otros órganos.",
+                        "La leucemia es el cáncer de los tejidos que forman la sangre en el organismo, incluso la médula ósea y el sistema linfático."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_leucemia",
+                    "patterns": ["¿Cuales son los sintomas de la leucemia?", "¿Que sintomas produce la leucemia?"],
+                    "responses": [
+                        "Los signos y síntomas comunes incluyen los siguientes: fiebre o escalofríos, fatiga persistente, debilidad, infecciones frecuentes o graves, pérdida de peso sin intentarlo, ganglios linfáticos inflamados, agrandamiento del hígado o del bazo, sangrado y formación de hematomas con facilidad, sangrados nasales recurrentes, pequeñas manchas rojas en la piel (petequia), hiperhidrosis, sobre todo por la noche, dolor o sensibilidad en los huesos",
+                        "En general, las leucemias agudas se manifiestan con los siguientes síntomas: cansancio y debilidad, fiebre, sudores, pérdida de apetito y de peso, anemia, hematomas en la piel, sangrado por la nariz o las encías, menstruaciones  exageradas: por la falta de plaquetas, infecciones recurrentes: como neumonías o amigdalitis, debido a la falta de glóbulos blancos."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_leucemia",
+                    "patterns": [],
+                    "responses": []
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_leucemia",
+                        "patterns": ["¿Como se trata la leucemia?", "¿Cual es el tratamiento para la leucemia?"],
+                        "responses": [
+                            "Sin tratamiento, la leucemia es una enfermedad rápidamente mortal. Y este siempre tiene que establecerse según el tipo de leucemia que afecte al paciente, su edad y su estado general de  salud. Se pueden distinguir los siguientes: quimioterapia, radioterapia y trasplante de médula ósea."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_leucemia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_leucemia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_leucemia",
+                        "patterns": [],
+                        "responses": [
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_leucemia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_leucemia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_leucemia",
+                    "patterns": [],
+                    "responses": []
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_leucemia",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo leucemia?", "¿Cuándo debo consultar al médico si tengo leucemia?", "¿Cuando debo buscar asistencia medica si tengo leucemia?"],
+                    "responses": [
+                        "Pide una cita con el médico si tienes síntomas o signos persistentes que te preocupen. Los síntomas de la leucemia suelen ser imprecisos y poco específicos. Es posible que pases por alto los síntomas tempranos de la leucemia porque se parecen a los de la gripe y de otras enfermedades comunes."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_leucemia",
+                    "patterns": [],
+                    "responses": []
+                },
+                "causas": {
+                    "tag": "causas_leucemia",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la leucemia?"],
+                    "responses": [
+                        "Algunos factores ambientales relacionados con la aparición de la leucemia son: exposición a radiaciones ionizantes, exposición a las radiaciones, enfermedades congénitas o hereditarias."
+                    ]
+                }
+            },
+
+            "linfoma": {
+                "consulta": {
+                    "tag": "consulta_linfoma",
+                    "pattern": ["¿Que es el linfoma?"],
+                    "responses": [
+                        "El linfoma es un cáncer que se desarrolla en las células blancas del sistema linfático. Los síntomas pueden incluir ganglios linfáticos agrandados, pérdida de peso inexplicable, fatiga, sudoración y falta de aliento nocturnos, tos, o problemas para respirar.",
+                        "El linfoma es un tipo de cáncer del sistema linfático, que es parte de la red del organismo que combate los gérmenes. El sistema linfático comprende los ganglios linfáticos (glándulas linfáticas), el bazo, el timo y la médula ósea. El linfoma puede afectar todas esas zonas, así como otros órganos del cuerpo."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_linfoma",
+                    "patterns": ["¿Cuales son los sintomas del linfoma?"],
+                    "responses": [
+                        "Los signos y síntomas del linfoma pueden incluir: hinchazón indolora de los ganglios linfáticos en el cuello, las axilas o la ingle, fatiga persistente, fiebre, sudores nocturnos, dificultad para respirar, pérdida de peso sin causa aparente, picazón en la piel",
+                        "Los síntomas del linfoma pueden incluir: agrandamiento de los ganglios linfáticos en el cuello, las axilas o la ingle, pérdida inexplicable de peso, fiebre, transpiración nocturna desmedida, picazón generalizada, fatiga, pérdida del apetito, tos o dificultad para respirar, dolor en el abdomen, el pecho o los huesos"
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_linfoma",
+                    "patterns": [],
+                    "responses": []
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_linfoma",
+                        "patterns": ["¿Como se trata el linfoma?", "¿Cual es el tratamiento para el linfoma?"],
+                        "responses": [
+                            "Cuando se requiere un tratamiento para el linfoma, se pueden utilizar uno o más de los siguientes tratamientos: quimioterapia, profilaxis del SNC, radioterapia, terapia con anticuerpos monoclonales, radioinmunoterapia, terapia biológica, transplante de células madre."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_linfoma",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_linfoma",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_linfoma",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_linfoma",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_linfoma",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_linfoma",
+                    "patterns": [],
+                    "responses": []
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_linfoma",
+                    "patterns": [],
+                    "responses": []
+                },
+                "prevencion": {
+                    "tag": "prevencion_linfoma",
+                    "patterns": [],
+                    "responses": []
+                },
+                "causas": {
+                    "tag": "causas_linfoma",
+                    "patterns": ["¿Cuales son las causas para la aparicion del linfoma?"],
+                    "responses": [
+                        "El linfoma comienza cuando un glóbulo blanco que combate enfermedades, llamado linfocito, sufre una mutación genética. La mutación le dice a la célula que se multiplique rápidamente, y se crean muchos linfocitos enfermos que continúan multiplicándose. La mutación también permite que las células sigan viviendo cuando otras células normales morirían. Esto produce demasiados linfocitos enfermos e ineficaces en los ganglios linfáticos y hace que los ganglios linfáticos, el bazo y el hígado se hinchen."
+                    ]
+                }
+            },
+
+            "anemia": {
+                "consulta": {
+                    "tag": "consulta_anemia",
+                    "pattern": ["Describe la anemia", "¿Que es la anemia?"],
+                    "responses": [
+                        "La anemia es una condición en la cual el cuerpo tiene una cantidad insuficiente de glóbulos rojos o hemoglobina, lo que lleva a una disminución en la capacidad de transporte de oxígeno."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_anemia",
+                    "patterns": ["¿Cuales son los sintomas de la anemia?", "Sintomas de la anemia"],
+                    "responses": [
+                        "Los síntomas pueden incluir fatiga, debilidad, palidez, falta de aliento y mareos. En casos graves, puede haber taquicardia e irritabilidad."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_anemia",
+                    "patterns": [],
+                    "responses": []
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_anemia",
+                        "patterns": ["¿Cual es el tratamiento para la anemia?", "¿Cómo se trata la anemia?"],
+                        "responses": [
+                            "El tratamiento varía según la causa de la anemia e incluye suplementos de hierro, cambios en la dieta, y en casos más severos, transfusiones de sangre."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_anemia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_anemia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_anemia",
+                        "patterns": ["¿Que medicamentos debo consumir para la anemia?"],
+                        "responses": [
+                            "Se pueden recetar suplementos de hierro, vitamina B12 o ácido fólico, dependiendo de la causa específica de la anemia."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_anemia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_anemia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_anemia",
+                    "patterns": ["¿Que complicaciones genera la anemia?"],
+                    "responses": [
+                        "Sin tratamiento adecuado, la anemia puede llevar a problemas cardíacos y otras complicaciones debido a la falta de oxígeno en los tejidos."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_anemia",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo anemia?"],
+                    "responses": [
+                        "Deberías buscar atención médica si experimentas síntomas persistentes de anemia, como fatiga extrema o palidez, para que se realicen pruebas y se determine la causa."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_anemia",
+                    "patterns": ["¿Como puedo evitar tener anemia?", "¿Como se puede prevenir la anemia?"],
+                    "responses": [
+                        "La prevención implica mantener una dieta equilibrada rica en hierro, vitamina B12 y ácido fólico, y abordar cualquier pérdida de sangre o trastorno subyacente."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_anemia",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la anemia?"],
+                    "responses": [
+                        "Las causas incluyen deficiencia de hierro, deficiencia de vitamina B12, pérdida de sangre crónica, y trastornos genéticos como la talasemia."
+                    ]
+                }
+            },
+
+            "hemofilia": {
+                "consulta": {
+                    "tag": "consulta_hemofilia",
+                    "pattern": ["¿Que es la hemofilia?", "Describe la hemofilia"],
+                    "responses": [
+                        "La hemofilia es un trastorno hereditario que afecta la capacidad de coagulación de la sangre, debido a la ausencia o disfunción de factores de coagulación."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_hemofilia",
+                    "patterns": ["¿Cuales son los sintomas de la hemofilia?"],
+                    "responses": [
+                        "Los síntomas incluyen: emorragias prolongadas después de lesiones o cirugías, hematomas frecuentes, y en casos severos, sangrado espontáneo en las articulaciones."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_hemofilia",
+                    "patterns": [],
+                    "responses": []
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_hemofilia",
+                        "patterns": ["¿Como se trata la hemofilia?", "¿Cual es el tratamiento para la hemofilia?"],
+                        "responses": [
+                            "El tratamiento implica la administración de factores de coagulación ausentes, a través de infusiones, para prevenir o controlar hemorragias."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_hemofilia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_hemofilia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_hemofilia",
+                        "patterns": ["¿Que medicamentos debo consumir para la hemofilia?"],
+                        "responses": [
+                            "Los medicamentos incluyen concentrados de factores de coagulación, administrados según sea necesario para prevenir o tratar hemorragias."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_hemofilia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_hemofilia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_hemofilia",
+                    "patterns": ["¿Que complicaciones genera la hemofilia?"],
+                    "responses": [
+                        "Las complicaciones pueden incluir daño articular por sangrado repetido en las articulaciones y, en casos graves, hemorragias internas potencialmente mortales."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_hemofilia",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo hemofilia?", "¿Cuando debo consultar al medico si tengo hemofilia?"],
+                    "responses": [
+                        "Si experimentas hemorragias inusuales o prolongadas, es crucial buscar atención médica para el diagnóstico y tratamiento adecuados."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_hemofilia",
+                    "patterns": ["¿Como se puede prevenir la hemofilia?"],
+                    "responses": [
+                        "Dado que es genético, la prevención implica asesoramiento genético para las parejas en riesgo y medidas para evitar lesiones que podrían provocar hemorragias."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_hemofilia",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la hemofilia?"],
+                    "responses": [
+                        "La hemofilia es genética y se transmite de padres a hijos a través de un gen defectuoso en el cromosoma X."
+                    ]
+                }
+            },
+
+            "trombocitopenia": {
+                "consulta": {
+                    "tag": "consulta_trombocitopenia",
+                    "pattern": ["¿Que es la trombocitopenia?", "Describe la trombocitopenia"],
+                    "responses": [
+                        "La trombocitopenia es una condición en la cual hay una cantidad anormalmente baja de plaquetas en la sangre, lo que afecta la capacidad de coagulación."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_trombocitopenia",
+                    "patterns": ["Sintomas de la trombocitopenia", "¿Cuales son los sintomas de la trombocitopenia?"],
+                    "responses": [
+                        "Los síntomas de la trombocitopenia incluyen: manchas moradas en la piel, sangrado fácil, hemorragias nasales frecuentes y encías sangrantes."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_trombocitopenia",
+                    "patterns": [],
+                    "responses": []
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_trombocitopenia",
+                        "patterns": ["¿Como se trata la trombocitopenia?"],
+                        "responses": [
+                            "El tratamiento puede incluir medicamentos para aumentar la producción de plaquetas, transfusiones de plaquetas y abordar la causa subyacente."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_trombocitopenia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_trombocitopenia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_trombocitopenia",
+                        "patterns": ["¿Que medicamentos debo consumir para la trombocitopenia?"],
+                        "responses": [
+                            "Medicamentos como corticosteroides, inmunoglobulina intravenosa (IVIG) o medicamentos que estimulan la producción de plaquetas."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_trombocitopenia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_trombocitopenia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_trombocitopenia",
+                    "patterns": ["¿Que complicaciones genera la trombocitopenia?"],
+                    "responses": [
+                        "Las complicaciones pueden incluir hemorragias graves que amenazan la vida, especialmente si la cantidad de plaquetas es muy baja."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_trombocitopenia",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo trombocitopenia?"],
+                    "responses": [
+                        "Si experimentas sangrado inusual o púrpura en la piel, es esencial buscar atención médica para el diagnóstico y tratamiento oportunos."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_trombocitopenia",
+                    "patterns": ["¿Como se puede prevenir la trombocitopenia?"],
+                    "responses": [
+                        "La prevención depende de abordar la causa subyacente y puede incluir evitar ciertos medicamentos o tratamientos para prevenir la destrucción de plaquetas."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_trombocitopenia",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la trombocitopenia?"],
+                    "responses": [
+                        "Puede ser causada por trastornos autoinmunes, efectos secundarios de medicamentos, infecciones virales o enfermedades genéticas."
+                    ]
+                }
+            }
+        },
+
+        "bioquimica": {
+        },
+
+        "radiologia": {},
+
+        "cirugia_plastica": {},
+
+        "ortopedia": {
+            "osteoartritis": {
+                "consulta": {
+                    "tag": "consulta_osteoartritis",
+                    "pattern": ["Describe la osteoartritis", "¿Que es la osteoartritis?", "osteoartritis"],
+                    "responses": [
+                        "La osteoartritis es una enfermedad degenerativa de las articulaciones que resulta del desgaste del cartílago que recubre las extremidades de los huesos. Con el tiempo, esto puede llevar a dolor, inflamación y limitación en el movimiento articular."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_osteoartritis",
+                    "patterns": ["Sintomas de la osteoartritis", "¿Que sintomas produce la osteoartritis?"],
+                    "responses": [
+                        "Los síntomas incluyen dolor en las articulaciones, rigidez, pérdida de flexibilidad, crepitación al moverse y, en etapas avanzadas, la formación de espolones óseos."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_osteoartritis",
+                    "patterns": ["¿Cuales son los efectos que produce la osteoartritis?"],
+                    "responses": [
+                        "La osteoartritis puede afectar significativamente la calidad de vida, causando discapacidad funcional y limitando la capacidad de realizar actividades diarias."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_osteoartritis",
+                        "patterns": ["¿Como se trata la osteoartritis?", "¿Cual es el tratamiento para la osteoartritis?"],
+                        "responses": [
+                            "El tratamiento se centra en aliviar el dolor, mejorar la función articular y retrasar la progresión de la enfermedad. Puede incluir medicamentos, terapia física, cambios en el estilo de vida y, en casos graves, cirugía de reemplazo articular."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_osteoartritis",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_osteoartritis",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_osteoartritis",
+                        "patterns": ["¿Que medicamentos debo consumir para la osteoartritis?"],
+                        "responses": [
+                            "Se utilizan analgésicos, antiinflamatorios no esteroides (AINE), y en casos más avanzados, medicamentos modificadores de la enfermedad para aliviar el dolor y reducir la inflamación."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_osteoartritis",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_osteoartritis",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_osteoartritis",
+                    "patterns": ["¿Que complicaciones genera la osteoartritis?"],
+                    "responses": [
+                        "Las complicaciones pueden incluir discapacidad progresiva, deformidad articular y limitaciones en la movilidad. Además, puede afectar la calidad de vida emocional y mental."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_osteoartritis",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo osteoartritis?"],
+                    "responses": [
+                        "Debe buscarse atención médica si se experimenta dolor persistente en las articulaciones, especialmente si se acompaña de hinchazón o pérdida de función."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_osteoartritis",
+                    "patterns": ["¿Como se puede prevenir la osteoartritis?"],
+                    "responses": [
+                        "La prevención implica mantener un peso saludable, hacer ejercicio regularmente para fortalecer los músculos y las articulaciones, y adoptar medidas para evitar lesiones articulares."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_osteoartritis",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la osteoartritis?"],
+                    "responses": [
+                        "Las causas pueden incluir el envejecimiento, lesiones articulares previas, predisposición genética, obesidad y factores ocupacionales que implican estrés repetitivo en las articulaciones."
+                    ]
+                }
+            },
+
+            "escoliosis": {
+                "consulta": {
+                    "tag": "consulta_escoliosis",
+                    "pattern": ["Escoliosis", "¿Que es la escoliosis?", "Describe la escoliosis", "Define la escoliosis"],
+                    "responses": [
+                        "La escoliosis es una deformidad de la columna vertebral caracterizada por una curvatura lateral anormal. Puede ser congénita o desarrollarse durante el crecimiento."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_escoliosis",
+                    "patterns": ["Sintomas de la escoliosis", "¿Que sintomas produce la escoliosis?"],
+                    "responses": [
+                        "Los síntomas incluyen una espalda desalineada, hombros o caderas asimétricas, y en casos graves, puede haber dificultad para respirar debido a la compresión de los pulmones."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_escoliosis",
+                    "patterns": ["¿Cuales son los efectos que produce el escoliosis?"],
+                    "responses": [
+                        "En casos severos, la escoliosis puede afectar la función pulmonar y causar dolor crónico. También puede tener impacto en la autoestima debido a la apariencia física alterada."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_escoliosis",
+                        "patterns": ["¿Como se trata la escoliosis?", "¿Cual es el tratamiento para la escoliosis?"],
+                        "responses": [
+                            "El tratamiento depende de la gravedad de la curvatura. Puede incluir observación, fisioterapia, uso de corsés y, en casos extremos, cirugía correctiva."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_escoliosis",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_escoliosis",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_escoliosis",
+                        "patterns": ["¿Que medicamentos debo consumir para la escoliosis?"],
+                        "responses": [
+                            "No se utilizan medicamentos específicos para tratar la escoliosis. El enfoque suele ser más conservador, centrado en la corrección física y la gestión del dolor."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_escoliosis",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_escoliosis",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_escoliosis",
+                    "patterns": ["¿Que complicaciones genera la escoliosis?"],
+                    "responses": [
+                        "Las complicaciones pueden incluir problemas respiratorios, dolor crónico y limitaciones en la movilidad."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_escoliosis",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo escoliosis?"],
+                    "responses": [
+                        "Se debe buscar atención si se observa una asimetría evidente en la espalda o si hay preocupaciones sobre el desarrollo de la columna vertebral, especialmente durante la adolescencia."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_escoliosis",
+                    "patterns": ["¿Como se puede prevenir la escoliosis?"],
+                    "responses": [
+                        "La prevención suele centrarse en la detección temprana y el monitoreo regular, especialmente en niños y adolescentes durante las etapas de crecimiento rápido."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_escoliosis",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la escoliosis?"],
+                    "responses": [
+                        "Las causas pueden incluir factores genéticos, malformaciones congénitas, desequilibrios musculares y, en algunos casos, no hay una causa específica identificable."
+                    ]
+                }
+            }
+        },
+
+        "obstetricia": {
+            "preemclapsia": {
+                "consulta": {
+                    "tag": "consulta_preemclapsia",
+                    "pattern": ["Describe la preeclampsia", "¿Como es la preeclampsia?", "¿Que es la preemclapsia?"],
+                    "responses": [
+                        "La preeclampsia es una complicación del embarazo caracterizada por presión arterial alta y daño a órganos como los riñones y el hígado."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_preemclapsia",
+                    "patterns": ["Sintomas de la preemclapsia", "¿Que sintomas produce la preeclampsia?"],
+                    "responses": [
+                        "Los síntomas incluyen presión arterial alta, hinchazón repentino, especialmente en manos y cara, proteína en la orina, dolores de cabeza persistentes y cambios en la visión."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_preemclapsia",
+                    "patterns": ["¿Cuales son los efectos que produce el preeclampsia?"],
+                    "responses": [
+                        "La preeclampsia puede afectar negativamente tanto a la madre como al feto, aumentando el riesgo de parto prematuro y problemas de salud a largo plazo."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_preemclapsia",
+                        "patterns": ["¿Como se trata la preemclapsia?", "¿Cual es el tratamiento para la preemclapsia?"],
+                        "responses": [
+                            "El único tratamiento definitivo es el parto. En casos leves, puede ser necesario el reposo y medicamentos para controlar la presión arterial."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_preemclapsia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_preemclapsia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_preemclapsia",
+                        "patterns": ["¿Que medicamentos debo consumir para la preemclapsia?"],
+                        "responses": [
+                            "Los medicamentos antihipertensivos, como la metildopa, a menudo se recetan para controlar la presión arterial."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_preemclapsia",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_preemclapsia",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_preemclapsia",
+                    "patterns": ["¿Que complicaciones genera la preemclapsia?"],
+                    "responses": [
+                        "La preeclampsia no tratada puede llevar a complicaciones graves, como eclampsia (convulsiones), problemas hepáticos y renales."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_preemclapsia",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo preemclapsia?"],
+                    "responses": [
+                        "Busca atención médica si experimentas hinchazón súbita, dolores de cabeza intensos, cambios visuales, o cualquier síntoma preocupante durante el embarazo."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_preemclapsia",
+                    "patterns": ["¿Como se puede prevenir la preemclapsia?"],
+                    "responses": [
+                        "La prevención puede incluir controles regulares durante el embarazo, mantener una dieta saludable y evitar factores de riesgo conocidos."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_preemclapsia",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la preemclapsia?"],
+                    "responses": [
+                        "Las causas exactas no son claras, pero factores como la presión arterial alta previa, la obesidad y ciertos trastornos autoinmunitarios pueden aumentar el riesgo."
+                    ]
+                }
+            },
+
+            "parto_prematuro": {
+                "consulta": {
+                    "tag": "consulta_parto_prematuro",
+                    "pattern": ["Describe el parto prematuro", "¿Como es la parto prematuro?"],
+                    "responses": [
+                        "El parto prematuro ocurre cuando el bebé nace antes de las 37 semanas de gestación."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_parto_prematuro",
+                    "patterns": ["Sintomas del parto prematuro", "¿Que sintomas produce el parto prematuro?"],
+                    "responses": [
+                        "Los síntomas incluyen ontracciones uterinas regulares antes de tiempo, cambios en la secreción vaginal y dolor abdominal pueden indicar un parto prematuro."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_parto_prematuro",
+                    "patterns": ["¿Cuales son los efectos que produce el parto prematuro?"],
+                    "responses": [
+                        "Los bebés nacidos prematuros pueden enfrentar problemas de salud a corto y largo plazo, como dificultades respiratorias y retrasos en el desarrollo."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_parto_prematuro",
+                        "patterns": ["¿Como se trata el parto prematuro?", "¿Cual es el tratamiento para el parto prematuro?"],
+                        "responses": [
+                            "Dependiendo de la situación, el médico puede recetar reposo, medicamentos para detener las contracciones y, en algunos casos, el parto se realiza de manera controlada."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_parto_prematuro",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_parto_prematuro",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_parto_prematuro",
+                        "patterns": ["¿Que medicamentos debo consumir para el parto prematuro?"],
+                        "responses": [
+                            "Medicamentos como la progesterona pueden ayudar a prevenir el parto prematuro en mujeres con antecedentes de partos prematuros."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_parto_prematuro",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_parto_prematuro",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_parto_prematuro",
+                    "patterns": ["¿Que complicaciones genera el parto prematuro?"],
+                    "responses": [
+                        "Complicaciones para el bebé incluyen bajo peso al nacer y problemas respiratorios. La madre puede experimentar complicaciones por un parto prematuro."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_parto_prematuro",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo parto prematuro?"],
+                    "responses": [
+                        "Busca atención médica inmediata si experimentas síntomas de parto prematuro, especialmente antes de la semana 37 de gestación."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_parto_prematuro",
+                    "patterns": ["¿Como se puede prevenir el parto prematuro?"],
+                    "responses": [
+                        "La atención prenatal regular, el manejo de condiciones médicas, el control del estrés y evitar el consumo de sustancias nocivas pueden ayudar a prevenir el parto prematuro."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_parto_prematuro",
+                    "patterns": ["¿Cuales son las causas para tener parto prematuro?"],
+                    "responses": [
+                        "Las causas pueden variar, desde infecciones y problemas cervicales hasta múltiples embarazos y trastornos crónicos de salud."
+                    ]
+                }
+            }
+        },
+
+        "pediatria": {},
+
+        "geriatria": {}
+    }
+}

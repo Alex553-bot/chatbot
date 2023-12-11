@@ -1,104 +1,693 @@
 {
     "enfermedades": {
-        "virologia": {
-            "covid19": {
-                "consulta": {
-                    "tag": "consulta_covid19",
-                    "pattern": ["¿Qué es el COVID-19?", "Describe el COVID-19", "¿Cómo es el COVID-19?"],
-                    "responses": [
-                        "El COVID-19 es una enfermedad viral causada por el virus SARS-CoV-2. Se transmite principalmente a través de gotas respiratorias cuando una persona infectada tose o estornuda.",
-                        "Infección respiratoria que puede variar desde síntomas leves similares a los del resfriado hasta una enfermedad grave, especialmente en personas mayores o con enfermedades crónicas."
-                    ]
-                },
-                "sintomas": {
-                    "tag": "sintomas_covid19",
-                    "patterns": ["¿Cuáles son los síntomas del COVID-19?", "Síntomas del COVID-19", "¿Qué síntomas produce el COVID-19?"],
-                    "responses": [
-                        "Los síntomas comunes incluyen fiebre, tos, dificultad para respirar, pérdida del gusto o el olfato, fatiga y dolores musculares.",
-                        "Entre los síntomas más comunes se encuentran fiebre, tos seca, y dificultad para respirar. También puede causar pérdida del gusto o el olfato, fatiga y dolores musculares."
-                    ]
-                }
-            }
-        },
-        "neurocirugia": {
-            "tumor_cerebral": {
-                "consulta": {
-                    "tag": "consulta_tumor_cerebral",
-                    "pattern": ["¿Qué es un tumor cerebral?", "Describe un tumor cerebral", "¿Cómo se manifiesta un tumor cerebral?"],
-                    "responses": [
-                        "Un tumor cerebral es una masa de células anormales que crece en el cerebro. Puede causar síntomas como dolores de cabeza persistentes, cambios en la visión y problemas de coordinación.",
-                        "Los tumores cerebrales son crecimientos anormales de células en el cerebro. Sus síntomas pueden incluir dolores de cabeza, cambios en la personalidad y problemas de equilibrio."
-                    ]
-                },
-                "sintomas": {
-                    "tag": "sintomas_tumor_cerebral",
-                    "patterns": ["¿Cuáles son los síntomas de un tumor cerebral?", "Síntomas de tumor cerebral", "¿Qué señales puede dar un tumor cerebral?"],
-                    "responses": [
-                        "Los síntomas comunes incluyen dolores de cabeza persistentes, náuseas, problemas de visión, cambios en la personalidad y convulsiones.",
-                        "Entre los síntomas más comunes se encuentran dolores de cabeza persistentes, náuseas, visión borrosa, cambios en la personalidad y convulsiones."
-                    ]
-                }
-            }
-        },
-        "pediatria": {
-            "fiebre_infantil": {
-                "consulta": {
-                    "tag": "consulta_fiebre_infantil",
-                    "pattern": ["¿Cómo manejar la fiebre en niños?", "Descripción de fiebre infantil", "¿Qué hacer si mi hijo tiene fiebre?"],
-                    "responses": [
-                        "La fiebre en niños generalmente es causada por infecciones virales o bacterianas. Se recomienda administrar medicamentos para la fiebre, mantener al niño hidratado y consultar a un pediatra si persiste.",
-                        "Cuando un niño tiene fiebre, es importante mantenerlo cómodo, ofrecer líquidos con frecuencia y dar medicamentos como el paracetamol según las indicaciones del pediatra."
-                    ]
-                },
-                "sintomas": {
-                    "tag": "sintomas_fiebre_infantil",
-                    "patterns": ["¿Cuáles son los síntomas de fiebre en niños?", "Síntomas de fiebre infantil", "¿Cómo puedo saber si mi hijo tiene fiebre?"],
-                    "responses": [
-                        "Los síntomas de fiebre en niños incluyen calor, piel caliente al tacto, irritabilidad, falta de apetito y posiblemente escalofríos.",
-                        "Cuando un niño tiene fiebre, es probable que sienta calor al tacto, esté irritable, pierda interés en comer y pueda experimentar escalofríos."
-                    ]
-                }
-            }
-        },
         "dermatologia": {
-            "acne": {
+            "psoriasis": {
+              "consulta": {
+                "tag": "consulta_psoriasis",
+                "patterns": ["¿Qué es la psoriasis?", "Describe la psoriasis"],
+                "responses": [
+                  "La psoriasis es una enfermedad crónica de la piel caracterizada por la rápida multiplicación de células cutáneas. Se manifiesta en forma de manchas rojas cubiertas con escamas plateadas y puede causar picazón y malestar.",
+                  "La psoriasis es un trastorno autoinmune que afecta la piel, causando inflamación y la formación de parches escamosos."
+                ]
+              },
+              "sintomas": {
+                "tag": "sintomas_psoriasis",
+                "patterns": ["¿Cuáles son los síntomas de la psoriasis?", "¿Qué síntomas produce la psoriasis?"],
+                "responses": [
+                  "Los síntomas comunes de la psoriasis incluyen manchas rojas en la piel, escamas plateadas, picazón intensa, piel seca y agrietada, y en casos más graves, dolor en las articulaciones.",
+                  "La psoriasis puede manifestarse con diferentes síntomas en cada persona, pero generalmente se caracteriza por lesiones rojas y descamativas en la piel."
+                ]
+              },
+              "efectos": {
+                "tag": "efectos_psoriasis",
+                "patterns": ["¿Cuáles son los efectos de la psoriasis en la calidad de vida?"],
+                "responses": [
+                  "La psoriasis puede tener efectos significativos en la calidad de vida, afectando la salud emocional y social de quienes la padecen. Además de los síntomas físicos, la psoriasis puede contribuir al estrés y la ansiedad."
+                ]
+              },
+              "tratamiento": {
+                "general": {
+                  "tag": "tratamiento_general_psoriasis",
+                  "patterns": ["¿Cómo se trata la psoriasis?", "¿Cuál es el tratamiento para la psoriasis?"],
+                  "responses": [
+                    "El tratamiento para la psoriasis puede incluir terapias tópicas, fototerapia, medicamentos sistémicos y cambios en el estilo de vida. Es importante consultar a un dermatólogo para determinar el enfoque adecuado para cada caso."
+                  ]
+                },
+                "adultos": {
+                  "tag": "tratamiento_adultos_psoriasis",
+                  "patterns": ["¿Cómo se trata la psoriasis en adultos?"],
+                  "responses": [
+                    "En adultos, el tratamiento puede incluir cremas y ungüentos tópicos, terapias con luz ultravioleta, medicamentos orales o inyectables, y en algunos casos, cambios en la dieta y el estilo de vida."
+                  ]
+                },
+                "ninos": {
+                  "tag": "tratamiento_ninos_psoriasis",
+                  "patterns": ["¿Cómo se trata la psoriasis en niños?"],
+                  "responses": [
+                    "El tratamiento de la psoriasis en niños generalmente se adapta a su edad y puede incluir terapias tópicas suaves, cambios en la dieta y la atención cuidadosa de un dermatólogo pediátrico."
+                  ]
+                }
+              },
+              "medicamentos": {
+                "general": {
+                  "tag": "medicamentos_general_psoriasis",
+                  "patterns": ["¿Cuáles son los medicamentos para tratar la psoriasis?"],
+                  "responses": [
+                    "Los medicamentos para tratar la psoriasis pueden incluir cremas con esteroides, retinoides tópicos, medicamentos inmunosupresores y, en casos más severos, biológicos que se administran por vía oral o inyectable."
+                  ]
+                },
+                "adultos": {
+                  "tag": "medicamentos_adultos_psoriasis",
+                  "patterns": ["¿Cuáles son los medicamentos para tratar la psoriasis en adultos?"],
+                  "responses": [
+                    "En adultos, los medicamentos pueden variar desde cremas y ungüentos hasta medicamentos sistémicos como metotrexato o ciclosporina, y biológicos como el adalimumab o el etanercept."
+                  ]
+                },
+                "ninos": {
+                  "tag": "medicamentos_ninos_psoriasis",
+                  "patterns": ["¿Cuáles son los medicamentos para tratar la psoriasis en niños?"],
+                  "responses": [
+                    "En niños, se prefieren tratamientos tópicos suaves, y se evitan en gran medida los medicamentos sistémicos, a menos que sea absolutamente necesario y bajo la supervisión de un pediatra."
+                  ]
+                }
+              },
+              "complicaciones": {
+                "tag": "complicaciones_psoriasis",
+                "patterns": ["¿Cuáles son las complicaciones de la psoriasis?"],
+                "responses": [
+                  "Las complicaciones de la psoriasis pueden incluir artritis psoriásica, problemas en las uñas, trastornos oculares y un mayor riesgo de enfermedades cardiovasculares. Es fundamental un monitoreo continuo con el dermatólogo para prevenir y tratar estas complicaciones."
+                ]
+              },
+              "atencion_medica": {
+                "tag": "atencion_medica_psoriasis",
+                "patterns": ["¿Cuándo debo buscar atención médica si tengo psoriasis?", "¿Cuándo debo consultar al dermatólogo si tengo psoriasis?"],
+                "responses": [
+                  "Es importante buscar atención médica si experimentas síntomas persistentes de psoriasis, como picazón intensa, enrojecimiento y descamación. Un dermatólogo puede proporcionar un diagnóstico preciso y un plan de tratamiento adecuado."
+                ]
+              },
+              "prevencion": {
+                "tag": "prevencion_psoriasis",
+                "patterns": ["¿Cómo se puede prevenir la psoriasis?"],
+                "responses": [
+                  "La psoriasis no se puede prevenir en su totalidad, pero se pueden tomar medidas para reducir los factores desencadenantes y mejorar la calidad de vida. Estos incluyen mantener una buena higiene de la piel, evitar el estrés excesivo y seguir el plan de tratamiento recomendado por el dermatólogo."
+                ]
+              },
+              "causas": {
+                "tag": "causas_psoriasis",
+                "patterns": ["¿Cuáles son las causas para la aparición de la psoriasis?"],
+                "responses": [
+                  "Las causas exactas de la psoriasis no se conocen completamente, pero se cree que involucran factores genéticos, inmunológicos y ambientales. La interacción de estos factores puede desencadenar el desarrollo de la enfermedad en individuos susceptibles."
+                ]
+              }
+            }
+          },
+          
+          "neurocirugia": {
+            "tumor_cerebral": {
+              "consulta": {
+                "tag": "consulta_tumor_cerebral",
+                "patterns": ["¿Qué es un tumor cerebral?", "Explícame sobre los tumores cerebrales"],
+                "responses": [
+                  "Un tumor cerebral es una masa anormal de células en el cerebro. Puede ser benigno (no canceroso) o maligno (canceroso) y afectar el funcionamiento normal del cerebro al ejercer presión sobre áreas circundantes.",
+                  "Los tumores cerebrales pueden clasificarse según su origen (primarios) o si se han diseminado desde otras partes del cuerpo (metastásicos). El diagnóstico y tratamiento adecuados son esenciales y suelen requerir la intervención de un neurocirujano."
+                ]
+              },
+              "sintomas": {
+                "tag": "sintomas_tumor_cerebral",
+                "patterns": ["¿Cuáles son los síntomas de un tumor cerebral?", "¿Qué síntomas produce un tumor cerebral?"],
+                "responses": [
+                  "Los síntomas de un tumor cerebral pueden variar según la ubicación y el tamaño. Algunos síntomas comunes incluyen dolores de cabeza persistentes, cambios en la visión, pérdida de memoria, convulsiones, cambios de personalidad y dificultades motoras.",
+                  "Es importante buscar atención médica si se experimentan síntomas persistentes, ya que un diagnóstico temprano mejora las opciones de tratamiento y el pronóstico."
+                ]
+              },
+              "efectos": {
+                "tag": "efectos_tumor_cerebral",
+                "patterns": ["¿Cuáles son los efectos de un tumor cerebral en la calidad de vida?"],
+                "responses": [
+                  "Los efectos de un tumor cerebral pueden ser significativos e incluir alteraciones cognitivas, discapacidades motoras, cambios en la función sensorial y, en casos graves, pérdida de funciones vitales. El tratamiento busca minimizar estos efectos y mejorar la calidad de vida del paciente."
+                ]
+              },
+              "tratamiento": {
+                "general": {
+                  "tag": "tratamiento_general_tumor_cerebral",
+                  "patterns": ["¿Cómo se trata un tumor cerebral?", "¿Cuál es el tratamiento para un tumor cerebral?"],
+                  "responses": [
+                    "El tratamiento de un tumor cerebral puede incluir cirugía para extirpar el tumor, radioterapia para destruir las células cancerosas y quimioterapia en algunos casos. El enfoque específico dependerá del tipo, tamaño y ubicación del tumor, así como del estado de salud general del paciente."
+                  ]
+                },
+                "adultos": {
+                  "tag": "tratamiento_adultos_tumor_cerebral",
+                  "patterns": ["¿Cómo se trata un tumor cerebral en adultos?"],
+                  "responses": [
+                    "En adultos, el tratamiento puede requerir la combinación de cirugía, radioterapia y quimioterapia. La planificación del tratamiento se realiza de manera individualizada según las características del tumor y la respuesta del paciente."
+                  ]
+                },
+                "ninos": {
+                  "tag": "tratamiento_ninos_tumor_cerebral",
+                  "patterns": ["¿Cómo se trata un tumor cerebral en niños?"],
+                  "responses": [
+                    "En niños, el tratamiento de los tumores cerebrales a menudo implica un equipo multidisciplinario que incluye neurocirujanos pediátricos, oncólogos y radioterapeutas. Se busca preservar la función cerebral y mejorar la calidad de vida del niño."
+                  ]
+                }
+              },
+              "medicamentos": {
+                "general": {
+                  "tag": "medicamentos_general_tumor_cerebral",
+                  "patterns": ["¿Cuáles son los medicamentos para tratar un tumor cerebral?"],
+                  "responses": [
+                    "Los medicamentos para tratar un tumor cerebral pueden incluir medicamentos para controlar la inflamación, corticosteroides para reducir la hinchazón y medicamentos específicos para combatir las células cancerosas. La elección de medicamentos dependerá del tipo y la etapa del tumor."
+                  ]
+                },
+                "adultos": {
+                  "tag": "medicamentos_adultos_tumor_cerebral",
+                  "patterns": ["¿Cuáles son los medicamentos para tratar un tumor cerebral en adultos?"],
+                  "responses": [
+                    "En adultos, se pueden recetar medicamentos específicos para el tipo de tumor cerebral, así como terapias de apoyo para aliviar los efectos secundarios del tratamiento."
+                  ]
+                },
+                "ninos": {
+                  "tag": "medicamentos_ninos_tumor_cerebral",
+                  "patterns": ["¿Cuáles son los medicamentos para tratar un tumor cerebral en niños?"],
+                  "responses": [
+                    "En niños, se utilizan medicamentos adaptados a su edad y peso. La dosificación y la elección de medicamentos se ajustan cuidadosamente para garantizar la efectividad y minimizar los efectos secundarios."
+                  ]
+                }
+              },
+              "complicaciones": {
+                "tag": "complicaciones_tumor_cerebral",
+                "patterns": ["¿Cuáles son las complicaciones de un tumor cerebral?"],
+                "responses": [
+                  "Las complicaciones de un tumor cerebral pueden incluir déficits neurológicos permanentes, problemas cognitivos, trastornos emocionales y, en casos graves, discapacidades significativas. El seguimiento médico continuo es crucial para abordar y prevenir posibles complicaciones."
+                ]
+              },
+              "atencion_medica": {
+                "tag": "atencion_medica_tumor_cerebral",
+                "patterns": ["¿Cuándo debo buscar atención médica si tengo un tumor cerebral?", "¿Cuándo debo consultar al neurocirujano si tengo un tumor cerebral?"],
+                "responses": [
+                  "Es fundamental buscar atención médica inmediata ante la presencia de síntomas sospechosos de un tumor cerebral, como dolores de cabeza intensos, cambios en la visión, convulsiones o alteraciones en la función cerebral. La evaluación por un neurocirujano es esencial para un diagnóstico preciso y un plan de tratamiento adecuado."
+                ]
+              },
+              "prevencion": {
+                "tag": "prevencion_tumor_cerebral",
+                "patterns": ["¿Cómo se puede prevenir un tumor cerebral?"],
+                "responses": [
+                  "No hay medidas específicas de prevención para los tumores cerebrales primarios, pero llevar un estilo de vida saludable y evitar factores de riesgo conocidos, como la exposición a radiaciones ionizantes, puede ayudar a reducir el riesgo. La detección temprana y el tratamiento adecuado son clave para mejorar el pronóstico."
+                ]
+              },
+              "causas": {
+                "tag": "causas_tumor_cerebral",
+                "patterns": ["¿Cuáles son las causas para la aparición de un tumor cerebral?"],
+                "responses": [
+                  "Las causas exactas de los tumores cerebrales no siempre son claras, pero factores genéticos y ambientales pueden desempeñar un papel. La exposición a radiaciones, antecedentes familiares de tumores cerebrales y ciertos trastornos genéticos pueden aumentar el riesgo."
+                ]
+              }
+            }
+          },
+     
+          "psiquiatria": {
+            "enfermedades_mentales": {
+              "trastorno_ansiedad": {
                 "consulta": {
-                    "tag": "consulta_acne",
-                    "pattern": ["¿Qué es el acné?", "Describe el acné", "¿Cómo tratar el acné?"],
-                    "responses": [
-                        "El acné es una afección de la piel que ocurre cuando los folículos pilosos se obstruyen con aceite y células muertas. Puede tratarse con limpieza facial regular, medicamentos tópicos y en casos severos, medicamentos orales.",
-                        "El acné es una enfermedad común de la piel que puede tratarse con cuidado de la piel, medicamentos tópicos como el peróxido de benzoilo y, en casos más graves, medicamentos recetados por un dermatólogo."
-                    ]
+                  "tag": "consulta_trastorno_ansiedad",
+                  "patterns": ["¿Qué es el trastorno de ansiedad?", "Explícame sobre la ansiedad"],
+                  "responses": ["El trastorno de ansiedad es una condición mental caracterizada por una preocupación excesiva y persistente, acompañada de síntomas como nerviosismo, tensión muscular y dificultad para concentrarse."]
                 },
                 "sintomas": {
-                    "tag": "sintomas_acne",
-                    "patterns": ["¿Cuáles son los síntomas del acné?", "Síntomas de acné", "¿Cómo puedo saber si tengo acné?"],
-                    "responses": [
-                        "Los síntomas del acné incluyen puntos negros, espinillas, pústulas y quistes. Puede causar inflamación y afectar la apariencia de la piel.",
-                        "El acné se manifiesta a través de puntos negros, espinillas, pústulas y quistes. Estos pueden ser dolorosos e inflamatorios, afectando la apariencia de la piel."
-                    ]
-                }
-            }
-        },
-        "geriatria": {
-            "demencia_senil": {
-                "consulta": {
-                    "tag": "consulta_demencia_senil",
-                    "pattern": ["¿Qué es la demencia senil?", "Describe la demencia senil", "¿Cómo se diagnostica la demencia en personas mayores?"],
-                    "responses": [
-                        "La demencia senil es un trastorno cognitivo que afecta la memoria y otras funciones mentales. El diagnóstico se realiza mediante pruebas cognitivas y evaluación médica.",
-                        "La demencia senil es una afección que impacta la memoria y las funciones cognitivas en personas mayores. El diagnóstico implica pruebas cognitivas y evaluación médica exhaustiva."
-                    ]
+                  "tag": "sintomas_trastorno_ansiedad",
+                  "patterns": ["¿Cuáles son los síntomas del trastorno de ansiedad?", "¿Qué síntomas produce la ansiedad?"],
+                  "responses": ["Los síntomas incluyen inquietud, fatiga, irritabilidad, tensión muscular, problemas para conciliar el sueño y dificultad para controlar las preocupaciones."]
                 },
-                "sintomas": {
-                    "tag": "sintomas_demencia_senil",
-                    "patterns": ["¿Cuáles son los síntomas de la demencia senil?", "Síntomas de demencia en personas mayores", "¿Cómo puedo reconocer la demencia en mi ser querido?"],
-                    "responses": [
-                        "Los síntomas incluyen pérdida de memoria, confusión, cambios en el comportamiento y dificultad para realizar tareas cotidianas. Es importante buscar atención médica para un diagnóstico preciso.",
-                        "La demencia senil se manifiesta con pérdida de memoria, confusión, alteraciones en el comportamiento y dificultad para realizar actividades diarias. La búsqueda de atención médica es crucial para un diagnóstico adecuado."
-                    ]
+                "efectos": {
+                  "tag": "efectos_trastorno_ansiedad",
+                  "patterns": ["¿Cuáles son los efectos de un trastorno de ansiedad en la calidad de vida?"],
+                  "responses": ["El trastorno de ansiedad puede afectar la calidad de vida, provocando problemas en las relaciones personales, laborales y la salud en general."]
+                },
+                "tratamiento": {
+                  "general": {
+                    "tag": "tratamiento_general_trastorno_ansiedad",
+                    "patterns": ["¿Cómo se trata el trastorno de ansiedad?", "Explícame el tratamiento para la ansiedad"],
+                    "responses": ["El tratamiento puede incluir terapia cognitivo-conductual, medicamentos ansiolíticos y cambios en el estilo de vida para reducir el estrés."]
+                  },
+                  "adultos": {
+                    "tag": "tratamiento_adultos_trastorno_ansiedad",
+                    "patterns": ["¿Cómo se trata el trastorno de ansiedad en adultos?"],
+                    "responses": ["En adultos, el tratamiento se adapta a las necesidades individuales, considerando factores como la intensidad de los síntomas y la respuesta a la terapia."]
+                  },
+                  "ninos": {
+                    "tag": "tratamiento_ninos_trastorno_ansiedad",
+                    "patterns": ["¿Cómo se trata el trastorno de ansiedad en niños?"],
+                    "responses": ["En niños, el tratamiento implica la colaboración con padres y maestros, y puede incluir terapia de juego y técnicas para mejorar las habilidades de afrontamiento."]
+                  }
+                },
+                "medicamentos": {
+                  "general": {
+                    "tag": "medicamentos_general_trastorno_ansiedad",
+                    "patterns": ["¿Cuáles son los medicamentos para tratar el trastorno de ansiedad?"],
+                    "responses": ["Los medicamentos pueden incluir ansiolíticos como benzodiazepinas o antidepresivos, según la gravedad del trastorno."]
+                  },
+                  "adultos": {
+                    "tag": "medicamentos_adultos_trastorno_ansiedad",
+                    "patterns": ["¿Cuáles son los medicamentos para tratar el trastorno de ansiedad en adultos?"],
+                    "responses": ["En adultos, se puede prescribir medicación basada en la evaluación del psiquiatra para controlar los síntomas."]
+                  },
+                  "ninos": {
+                    "tag": "medicamentos_ninos_trastorno_ansiedad",
+                    "patterns": ["¿Cuáles son los medicamentos para tratar el trastorno de ansiedad en niños?"],
+                    "responses": ["En niños, la prescripción de medicamentos se realiza con precaución y bajo la supervisión de un pediatra especializado en salud mental."]
+                  }
+                },
+                "complicaciones": {
+                  "tag": "complicaciones_trastorno_ansiedad",
+                  "patterns": ["¿Cuáles son las complicaciones de un trastorno de ansiedad?"],
+                  "responses": ["Las complicaciones pueden incluir problemas de salud física y mental a largo plazo si no se trata adecuadamente."]
+                },
+                "atencion_medica": {
+                  "tag": "atencion_medica_trastorno_ansiedad",
+                  "patterns": ["¿Cuándo debo buscar atención médica si tengo trastorno de ansiedad?", "¿Cuándo debo consultar al psiquiatra por ansiedad?"],
+                  "responses": ["Busca atención médica si experimentas síntomas persistentes que afectan tu vida diaria. Un psiquiatra puede ofrecer evaluación y orientación adecuadas."]
+                },
+                "prevencion": {
+                  "tag": "prevencion_trastorno_ansiedad",
+                  "patterns": ["¿Cómo se puede prevenir el trastorno de ansiedad?"],
+                  "responses": ["La prevención implica desarrollar habilidades de afrontamiento, reducir el estrés y buscar apoyo temprano si se experimentan síntomas de ansiedad."]
+                },
+                "causas": {
+                  "tag": "causas_trastorno_ansiedad",
+                  "patterns": ["¿Cuáles son las causas del trastorno de ansiedad?"],
+                  "responses": ["Las causas pueden ser multifactoriales e incluir predisposición genética, eventos traumáticos y desequilibrios químicos en el cerebro."]
                 }
+              }
             }
-        }
+          },
+            "virologia": {
+                "enfermedades_virales": {
+                  "influenza": {
+                    "consulta": {
+                      "tag": "consulta_influenza",
+                      "patterns": ["¿Qué es la influenza?", "Explícame sobre la influenza"],
+                      "responses": [
+                        "La influenza, comúnmente conocida como la gripe, es una enfermedad viral contagiosa que afecta el sistema respiratorio. Es causada por diferentes tipos de virus de la influenza y puede presentar síntomas que van desde leves hasta graves."
+                      ]
+                    },
+                    "sintomas": {
+                      "tag": "sintomas_influenza",
+                      "patterns": ["¿Cuáles son los síntomas de la influenza?", "¿Qué síntomas produce la influenza?"],
+                      "responses": [
+                        "Los síntomas comunes de la influenza incluyen fiebre, escalofríos, tos, dolor de garganta, dolores musculares, fatiga, dolor de cabeza y congestión nasal. En algunos casos, la influenza puede llevar a complicaciones graves, especialmente en grupos de riesgo."
+                      ]
+                    },
+                    "efectos": {
+                      "tag": "efectos_influenza",
+                      "patterns": ["¿Cuáles son los efectos de la influenza?", "Explícame los efectos de la influenza"],
+                      "responses": [
+                        "La influenza puede tener efectos significativos en la salud, especialmente en personas vulnerables, como niños pequeños, adultos mayores y aquellos con sistemas inmunológicos debilitados. Las complicaciones pueden incluir neumonía, exacerbación de enfermedades crónicas y, en casos extremos, pueden ser mortales."
+                      ]
+                    },
+                    "tratamiento": {
+                      "general": {
+                        "tag": "tratamiento_general_influenza",
+                        "patterns": ["¿Cómo se trata la influenza?", "¿Cuál es el tratamiento para la influenza?"],
+                        "responses": [
+                          "El tratamiento de la influenza generalmente incluye descanso, hidratación, y en algunos casos, medicamentos antivirales. Es esencial buscar atención médica si se presentan síntomas graves o si perteneces a un grupo de riesgo."
+                        ]
+                      },
+                      "adultos": {
+                        "tag": "tratamiento_adultos_influenza",
+                        "patterns": ["¿Cuál es el tratamiento para la influenza en adultos?"],
+                        "responses": [
+                          "En adultos, el tratamiento puede incluir medicamentos antivirales como el oseltamivir (Tamiflu) o el zanamivir (Relenza). Estos medicamentos son más efectivos cuando se administran temprano en el curso de la enfermedad."
+                        ]
+                      },
+                      "ninos": {
+                        "tag": "tratamiento_ninos_influenza",
+                        "patterns": ["¿Cómo se trata la influenza en niños?"],
+                        "responses": [
+                          "En niños, el tratamiento se adapta a su edad y puede incluir medicamentos antivirales en forma líquida, así como medidas de apoyo, como descanso y líquidos abundantes."
+                        ]
+                      }
+                    },
+                    "medicamentos": {
+                      "general": {
+                        "tag": "medicamentos_general_influenza",
+                        "patterns": ["¿Qué medicamentos se usan para tratar la influenza?", "Explícame los medicamentos para la influenza"],
+                        "responses": [
+                          "Los medicamentos antivirales, como el oseltamivir y el zanamivir, pueden ayudar a reducir la duración y gravedad de la influenza al inhibir la replicación viral. Sin embargo, su eficacia disminuye si se administran demasiado tarde en el curso de la enfermedad."
+                        ]
+                      },
+                      "adultos": {
+                        "tag": "medicamentos_adultos_influenza",
+                        "patterns": ["¿Qué medicamentos toman los adultos para tratar la influenza?"],
+                        "responses": [
+                          "En adultos, se pueden recetar medicamentos antivirales según la gravedad de los síntomas. Además, se pueden utilizar medicamentos para aliviar los síntomas, como analgésicos y antifebriles."
+                        ]
+                      },
+                      "ninos": {
+                        "tag": "medicamentos_ninos_influenza",
+                        "patterns": ["¿Qué medicamentos toman los niños para tratar la influenza?"],
+                        "responses": [
+                          "En niños, se prefieren formulaciones adaptadas a su edad de medicamentos antivirales y otros medicamentos para aliviar los síntomas, siempre bajo la supervisión de un profesional de la salud."
+                        ]
+                      }
+                    },
+                    "complicaciones": {
+                      "tag": "complicaciones_influenza",
+                      "patterns": ["¿Cuáles son las complicaciones de la influenza?", "Explícame las complicaciones de la influenza"],
+                      "responses": [
+                        "Las complicaciones de la influenza pueden incluir neumonía viral, exacerbación de enfermedades crónicas como el asma y, en casos graves, síndrome de distrés respiratorio agudo (SDRA) y fallo orgánico. Es crucial monitorear de cerca la salud en casos de influenza, especialmente en grupos de riesgo."
+                      ]
+                    },
+                    "atencion_medica": {
+                      "tag": "atencion_medica_influenza",
+                      "patterns": ["¿Cuándo debo buscar atención médica si tengo influenza?", "¿Cuándo debo consultar al médico si tengo influenza?"],
+                      "responses": [
+                        "Es importante buscar atención médica si experimentas síntomas graves de influenza, como dificultad para respirar, dolor persistente en el pecho, confusión, deshidratación o fiebre alta que no cede con medicamentos. Los grupos de riesgo deben buscar atención médica incluso ante síntomas más leves."
+                      ]
+                    },
+                    "prevencion": {
+                      "tag": "prevencion_influenza",
+                      "patterns": ["¿Cómo puedo prevenir la influenza?", "Explícame la prevención de la influenza"],
+                      "responses": [
+                        "La prevención de la influenza incluye la vacunación anual, el lavado frecuente de manos, evitar el contacto cercano con personas enfermas y practicar la etiqueta respiratoria al toser o estornudar. La vacuna contra la influenza es especialmente recomendada para grupos de riesgo."
+                      ]
+                    },
+                    "causas": {
+                      "tag": "causas_influenza",
+                      "patterns": ["¿Cuáles son las causas de la influenza?", "Explícame las causas de la influenza"],
+                      "responses": [
+                        "La influenza es causada por diferentes tipos y subtipos de virus de la influenza. Estos virus pueden cambiar con el tiempo, lo que lleva a la variabilidad estacional y a la necesidad de vacunas actualizadas. La transmisión ocurre principalmente a través de gotas respiratorias cuando una persona infectada tose o estornuda."
+                      ]
+                    }
+                  }
+                },
+                "pediatria": {
+                    "enfermedades_infantiles": {
+                      "varicela": {
+                        "consulta": {
+                          "tag": "consulta_varicela",
+                          "patterns": ["¿Qué es la varicela?", "Explícame sobre la varicela"],
+                          "responses": [
+                            "La varicela es una enfermedad altamente contagiosa causada por el virus varicela-zóster. Se caracteriza por la aparición de una erupción cutánea con picazón y síntomas como fiebre y malestar general."
+                          ]
+                        },
+                        "sintomas": {
+                          "tag": "sintomas_varicela",
+                          "patterns": ["¿Cuáles son los síntomas de la varicela?", "¿Qué síntomas produce la varicela?"],
+                          "responses": [
+                            "Los síntomas de la varicela incluyen picazón, fiebre, malestar, dolor de cabeza y la aparición de una erupción cutánea característica con ampollas que se convierten en costras. La mayoría de los casos son leves, pero pueden ocurrir complicaciones en ciertos grupos."
+                          ]
+                        },
+                        "efectos": {
+                          "tag": "efectos_varicela",
+                          "patterns": ["¿Cuáles son los efectos de la varicela?", "Explícame los efectos de la varicela"],
+                          "responses": [
+                            "La varicela generalmente es una enfermedad autolimitada, pero puede llevar a complicaciones en casos graves. Las complicaciones pueden incluir infecciones de la piel, neumonía, encefalitis y, en casos raros, problemas más serios. Es importante buscar atención médica si se presentan complicaciones."
+                          ]
+                        },
+                        "tratamiento": {
+                          "general": {
+                            "tag": "tratamiento_general_varicela",
+                            "patterns": ["¿Cómo se trata la varicela?", "¿Cuál es el tratamiento para la varicela?"],
+                            "responses": [
+                              "El tratamiento de la varicela generalmente se centra en aliviar los síntomas. Se pueden usar medicamentos para reducir la picazón, mantener una buena hidratación y descansar. En algunos casos, especialmente en adultos y personas de alto riesgo, se pueden recetar medicamentos antivirales."
+                            ]
+                          },
+                          "adultos": {
+                            "tag": "tratamiento_adultos_varicela",
+                            "patterns": ["¿Cómo se trata la varicela en adultos?"],
+                            "responses": [
+                              "En adultos, el tratamiento de la varicela puede requerir una atención más cuidadosa, y se pueden recetar antivirales para reducir la duración y gravedad de la enfermedad. Además, es importante controlar y tratar cualquier complicación que pueda surgir."
+                            ]
+                          },
+                          "ninos": {
+                            "tag": "tratamiento_ninos_varicela",
+                            "patterns": ["¿Cómo se trata la varicela en niños?"],
+                            "responses": [
+                              "En niños, el tratamiento se adapta a su edad y peso. Se enfoca en aliviar los síntomas, mantener la hidratación y prevenir infecciones secundarias. La mayoría de los niños se recuperan completamente con cuidados en el hogar."
+                            ]
+                          }
+                        },
+                        "medicamentos": {
+                          "general": {
+                            "tag": "medicamentos_general_varicela",
+                            "patterns": ["¿Qué medicamentos se usan para tratar la varicela?", "Explícame los medicamentos para la varicela"],
+                            "responses": [
+                              "Los medicamentos para la varicela pueden incluir antihistamínicos para reducir la picazón, acetaminofén o ibuprofeno para controlar la fiebre y el malestar. En casos específicos, especialmente en adultos, se pueden recetar antivirales."
+                            ]
+                          },
+                          "adultos": {
+                            "tag": "medicamentos_adultos_varicela",
+                            "patterns": ["¿Qué medicamentos toman los adultos para tratar la varicela?"],
+                            "responses": [
+                              "En adultos, se pueden recetar antivirales como aciclovir o valaciclovir para reducir la replicación del virus y acelerar la recuperación. Además, se pueden usar medicamentos sintomáticos para aliviar molestias."
+                            ]
+                          },
+                          "ninos": {
+                            "tag": "medicamentos_ninos_varicela",
+                            "patterns": ["¿Qué medicamentos toman los niños para tratar la varicela?"],
+                            "responses": [
+                              "En niños, se pueden utilizar formulaciones pediátricas de antihistamínicos y analgésicos para aliviar los síntomas. En casos graves o en personas de alto riesgo, se pueden considerar antivirales bajo supervisión médica."
+                            ]
+                          }
+                        },
+                        "complicaciones": {
+                          "tag": "complicaciones_varicela",
+                          "patterns": ["¿Cuáles son las complicaciones de la varicela?", "Explícame las complicaciones de la varicela"],
+                          "responses": [
+                            "Las complicaciones de la varicela pueden incluir infecciones bacterianas de la piel, neumonía, encefalitis y, en casos raros, síndrome de Reye. Las personas con sistemas inmunológicos comprometidos tienen un mayor riesgo de complicaciones graves."
+                          ]
+                        },
+                        "atencion_medica": {
+                          "tag": "atencion_medica_varicela",
+                          "patterns": ["¿Cuándo debo buscar atención médica si tengo varicela?", "¿Cuándo debo consultar al pediatra si mi hijo tiene varicela?"],
+                          "responses": [
+                            "Es importante buscar atención médica si se presentan complicaciones como fiebre alta persistente, dificultad para respirar, enrojecimiento o inflamación alrededor de las ampollas, o cualquier otro síntoma preocupante. En niños, se debe consultar al pediatra ante cualquier signo de complicación."
+                          ]
+                        },
+                        "prevencion": {
+                          "tag": "prevencion_varicela",
+                          "patterns": ["¿Cómo puedo prevenir la varicela?", "Explícame las medidas de prevención para la varicela"],
+                          "responses": [
+                            "La prevención de la varicela se logra mejor a través de la vacunación. La vacuna contra la varicela es segura y efectiva, proporcionando inmunidad a largo plazo. Además de la vacunación, se deben tomar medidas de higiene, como lavado de manos frecuente, para prevenir la propagación del virus."
+                          ]
+                        },
+                        "causas": {
+                          "tag": "causas_varicela",
+                          "patterns": ["¿Cuáles son las causas de la varicela?", "Explícame cómo se contagia la varicela"],
+                          "responses": [
+                            "La varicela es causada por el virus varicela-zóster. Se propaga principalmente de persona a persona a través del contacto directo con las ampollas de una persona infectada. También puede propagarse a través del contacto con el aire respirado o a través de pequeñas partículas líquidas expulsadas al toser o estornudar."
+                          ]
+                        }
+                      }
+                    }
+                    
+                  },
+                  "geriatria": {
+                    "enfermedades_geriatricas": {
+                      "demencia": {
+                        "consulta": {
+                          "tag": "consulta_demencia",
+                          "patterns": ["¿Qué es la demencia?", "Explícame sobre la demencia en personas mayores"],
+                          "responses": [
+                            "La demencia es un síndrome que implica el deterioro de la función cognitiva más allá de lo que se considera parte del envejecimiento normal. Afecta la memoria, el pensamiento, la orientación, la comprensión, el cálculo, la capacidad de aprendizaje, el lenguaje y el juicio."
+                          ]
+                        },
+                        "sintomas": {
+                          "tag": "sintomas_demencia",
+                          "patterns": ["¿Cuáles son los síntomas de la demencia?", "¿Qué síntomas presenta una persona con demencia?"],
+                          "responses": [
+                            "Los síntomas de la demencia incluyen pérdida de memoria, dificultades en la realización de tareas cotidianas, confusión en tiempo y espacio, problemas de comunicación, cambios de personalidad y pérdida de habilidades motoras. Estos síntomas afectan la calidad de vida y la autonomía."
+                          ]
+                        },
+                        "efectos": {
+                          "tag": "efectos_demencia",
+                          "patterns": ["¿Cuáles son los efectos de la demencia?", "Explícame cómo afecta la demencia a las personas mayores"],
+                          "responses": [
+                            "La demencia tiene efectos profundos en la vida diaria de las personas mayores. Puede llevar a la dependencia, aumentar la vulnerabilidad a otras enfermedades, afectar la calidad del sueño y generar desafíos emocionales tanto para los pacientes como para sus familiares. La atención y el apoyo adecuados son esenciales."
+                          ]
+                        },
+                        "tratamiento": {
+                          "general": {
+                            "tag": "tratamiento_general_demencia",
+                            "patterns": ["¿Cómo se trata la demencia?", "¿Cuál es el tratamiento para la demencia?"],
+                            "responses": [
+                              "El tratamiento de la demencia implica enfoques multidisciplinarios. Puede incluir medicamentos para gestionar síntomas específicos, terapias cognitivas y ocupacionales, apoyo psicológico para pacientes y familiares, y medidas para mejorar la calidad de vida."
+                            ]
+                          },
+                          "farmacologico": {
+                            "tag": "tratamiento_farmacologico_demencia",
+                            "patterns": ["¿Hay medicamentos para la demencia?", "Explícame los medicamentos para tratar la demencia"],
+                            "responses": [
+                              "Existen medicamentos que pueden ayudar a gestionar algunos síntomas de la demencia, como los inhibidores de la colinesterasa para mejorar la función cognitiva. Sin embargo, el tratamiento farmacológico debe ser cuidadosamente evaluado y supervisado por profesionales de la salud."
+                            ]
+                          },
+                          "no_farmacologico": {
+                            "tag": "tratamiento_no_farmacologico_demencia",
+                            "patterns": ["¿Cuáles son los tratamientos no farmacológicos para la demencia?"],
+                            "responses": [
+                              "Los tratamientos no farmacológicos incluyen terapias ocupacionales, terapias de reminiscencia, estimulación cognitiva, ejercicio físico adaptado y programas de apoyo social. Estos enfoques buscan mejorar la calidad de vida y mantener la funcionalidad en la medida de lo posible."
+                            ]
+                          }
+                        },
+                        "complicaciones": {
+                          "tag": "complicaciones_demencia",
+                          "patterns": ["¿Cuáles son las complicaciones de la demencia?", "Explícame las complicaciones de la demencia en personas mayores"],
+                          "responses": [
+                            "Las complicaciones de la demencia incluyen la progresión de los síntomas, la pérdida de autonomía, el riesgo de caídas e infecciones, y desafíos emocionales tanto para los pacientes como para los cuidadores. La atención continua y el monitoreo son cruciales para abordar estas complicaciones."
+                          ]
+                        },
+                        "atencion_medica": {
+                          "tag": "atencion_medica_demencia",
+                          "patterns": ["¿Cuándo debo buscar atención médica si hay sospecha de demencia?", "Explícame cuándo consultar al médico por demencia"],
+                          "responses": [
+                            "Es importante buscar atención médica si se observan signos de demencia, como pérdida de memoria significativa o cambios en el comportamiento. Un diagnóstico temprano permite iniciar intervenciones que pueden ralentizar la progresión de la enfermedad y mejorar la calidad de vida."
+                          ]
+                        },
+                        "prevencion": {
+                          "tag": "prevencion_demencia",
+                          "patterns": ["¿Cómo se puede prevenir la demencia en personas mayores?", "Explícame las medidas de prevención para la demencia"],
+                          "responses": [
+                            "Si bien no existe una forma garantizada de prevenir la demencia, se cree que llevar un estilo de vida saludable, mantener la actividad mental y física, controlar factores de riesgo como la hipertensión y la diabetes, y participar en actividades sociales pueden contribuir a la salud cerebral a medida que envejecemos."
+                          ]
+                        },
+                        "causas": {
+                          "tag": "causas_demencia",
+                          "patterns": ["¿Cuáles son las causas de la demencia en personas mayores?", "Explícame por qué se desarrolla la demencia"],
+                          "responses": [
+                            "Las causas de la demencia pueden variar e incluir enfermedad de Alzheimer, demencia vascular, enfermedad de Parkinson y otras condiciones. Factores genéticos y ambientales también pueden desempeñar un papel. Un diagnóstico preciso es fundamental para determinar la causa subyacente y guiar el tratamiento."
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "bioquimica": {
+                    "enfermedades_bioquimicas": {
+                      "diabetes": {
+                        "consulta": {
+                          "tag": "consulta_diabetes",
+                          "patterns": ["¿Qué es la diabetes desde el punto de vista bioquímico?", "Explícame la diabetes desde la perspectiva de la bioquímica"],
+                          "responses": [
+                            "La diabetes es una enfermedad metabólica caracterizada por la incapacidad del cuerpo para regular los niveles de glucosa en la sangre de manera eficiente. Desde el punto de vista bioquímico, esto está relacionado con la producción, secreción o acción insuficiente de la insulina, una hormona clave en el metabolismo de la glucosa."
+                          ]
+                        },
+                        "sintomas": {
+                          "tag": "sintomas_diabetes",
+                          "patterns": ["¿Cuáles son los síntomas bioquímicos de la diabetes?", "Explícame los signos bioquímicos de la diabetes"],
+                          "responses": [
+                            "Los síntomas bioquímicos de la diabetes incluyen niveles elevados de glucosa en la sangre (hiperglucemia), presencia de cuerpos cetónicos en la orina, resistencia a la insulina y alteraciones en el metabolismo de los carbohidratos, lípidos y proteínas."
+                          ]
+                        },
+                        "efectos": {
+                          "tag": "efectos_diabetes",
+                          "patterns": ["¿Cuáles son los efectos bioquímicos de la diabetes en el organismo?", "Explícame cómo afecta la diabetes desde el punto de vista bioquímico"],
+                          "responses": [
+                            "Desde el punto de vista bioquímico, la diabetes puede llevar a una serie de efectos, como daño a los vasos sanguíneos (angiopatía), neuropatía, nefropatía y trastornos en la cicatrización de heridas. Estos efectos se deben a la acumulación de glucosa no controlada en diferentes tejidos y órganos."
+                          ]
+                        },
+                        "tratamiento": {
+                          "general": {
+                            "tag": "tratamiento_general_diabetes",
+                            "patterns": ["¿Cómo se trata bioquímicamente la diabetes?", "Explícame el tratamiento desde el punto de vista de la bioquímica"],
+                            "responses": [
+                              "El tratamiento bioquímico de la diabetes se centra en normalizar los niveles de glucosa en la sangre. Esto puede incluir la administración de insulina, medicamentos que mejoran la sensibilidad a la insulina, y medidas para controlar la dieta y el ejercicio, que influyen en la bioquímica del metabolismo de la glucosa."
+                            ]
+                          },
+                          "farmacologico": {
+                            "tag": "tratamiento_farmacologico_diabetes",
+                            "patterns": ["¿Hay medicamentos bioquímicos para tratar la diabetes?", "Explícame los medicamentos desde el punto de vista de la bioquímica"],
+                            "responses": [
+                              "Existen diversos medicamentos que actúan a nivel bioquímico para controlar la diabetes. Estos incluyen medicamentos que aumentan la secreción de insulina, reducen la producción de glucosa en el hígado, mejoran la sensibilidad a la insulina y retardan la absorción de glucosa en el intestino."
+                            ]
+                          },
+                          "no_farmacologico": {
+                            "tag": "tratamiento_no_farmacologico_diabetes",
+                            "patterns": ["¿Cuáles son los tratamientos no farmacológicos desde el punto de vista bioquímico para la diabetes?"],
+                            "responses": [
+                              "Las medidas no farmacológicas incluyen cambios en la dieta para controlar la ingesta de carbohidratos, aumento de la actividad física para mejorar la sensibilidad a la insulina, y monitoreo regular de los niveles de glucosa en la sangre para ajustar el tratamiento según las necesidades bioquímicas del paciente."
+                            ]
+                          }
+                        },
+                        "complicaciones": {
+                          "tag": "complicaciones_diabetes",
+                          "patterns": ["¿Cuáles son las complicaciones bioquímicas de la diabetes?", "Explícame las complicaciones desde el punto de vista de la bioquímica"],
+                          "responses": [
+                            "Las complicaciones bioquímicas de la diabetes incluyen daño a órganos como los riñones, ojos y nervios debido a la hiperglucemia crónica. Además, la diabetes puede aumentar el riesgo de enfermedad cardiovascular debido a cambios en el metabolismo de lípidos y la inflamación crónica."
+                          ]
+                        },
+                        "prevencion": {
+                          "tag": "prevencion_diabetes",
+                          "patterns": ["¿Cómo se puede prevenir la diabetes desde el punto de vista bioquímico?", "Explícame las medidas de prevención bioquímica para la diabetes"],
+                          "responses": [
+                            "Desde el punto de vista bioquímico, la prevención de la diabetes implica adoptar un estilo de vida saludable que incluya una dieta equilibrada, actividad física regular y control de factores de riesgo como la obesidad. La identificación temprana de la predisposición genética también puede permitir intervenciones preventivas."
+                          ]
+                        },
+                        "causas": {
+                          "tag": "causas_diabetes",
+                          "patterns": ["¿Cuáles son las causas bioquímicas de la diabetes?", "Explícame por qué se desarrolla la diabetes desde el punto de vista de la bioquímica"],
+                          "responses": [
+                            "Las causas bioquímicas de la diabetes pueden incluir factores genéticos que afectan la producción o acción de la insulina, así como factores ambientales como la dieta y el estilo de vida. La interacción de estos elementos contribuye al desarrollo de la enfermedad."
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "cirugia_plastica": {
+                    "procedimientos": {
+                      "aumento_mamario": {
+                        "consulta": {
+                          "tag": "consulta_aumento_mamario",
+                          "patterns": ["¿En qué consiste la cirugía de aumento mamario?", "Explícame sobre el aumento de senos"],
+                          "responses": [
+                            "La cirugía de aumento mamario es un procedimiento de cirugía plástica diseñado para aumentar el tamaño y mejorar la forma de los senos. Generalmente se realiza utilizando implantes mamarios y puede tener diferentes enfoques, como la colocación submuscular o subglandular."
+                          ]
+                        },
+                        "sintomas_postoperatorios": {
+                          "tag": "sintomas_postoperatorios_aumento_mamario",
+                          "patterns": ["¿Cuáles son los síntomas después de la cirugía de aumento mamario?", "Explícame los efectos después de aumentar los senos"],
+                          "responses": [
+                            "Después de la cirugía de aumento mamario, es común experimentar hinchazón, sensibilidad en los senos, molestias y cambios temporales en la sensación del pezón. Estos síntomas suelen disminuir con el tiempo, y se proporcionarán instrucciones para la recuperación adecuada."
+                          ]
+                        },
+                        "cuidados_postoperatorios": {
+                          "tag": "cuidados_postoperatorios_aumento_mamario",
+                          "patterns": ["¿Cómo debo cuidar mis senos después de la cirugía de aumento mamario?"],
+                          "responses": [
+                            "Los cuidados postoperatorios incluyen seguir las indicaciones del cirujano plástico, usar prendas de compresión según sea necesario, evitar actividades extenuantes durante la recuperación y asistir a las citas de seguimiento. Es fundamental seguir un plan de cuidados para garantizar una recuperación exitosa."
+                          ]
+                        },
+                        "resultados_esperados": {
+                          "tag": "resultados_esperados_aumento_mamario",
+                          "patterns": ["¿Cuándo veré los resultados después de la cirugía de aumento mamario?", "Explícame sobre los resultados esperados"],
+                          "responses": [
+                            "Los resultados de la cirugía de aumento mamario son visibles inmediatamente después del procedimiento, pero la hinchazón inicial puede afectar la apariencia. A medida que la hinchazón disminuye y los senos se asientan, los resultados finales se apreciarán en unas pocas semanas a meses, proporcionando una forma y tamaño mejorados de los senos."
+                          ]
+                        },
+                        "posibles_complicaciones": {
+                          "tag": "posibles_complicaciones_aumento_mamario",
+                          "patterns": ["¿Cuáles son las posibles complicaciones de la cirugía de aumento mamario?", "Explícame sobre los riesgos"],
+                          "responses": [
+                            "Aunque la cirugía de aumento mamario es generalmente segura, como cualquier procedimiento quirúrgico, puede haber riesgos. Esto incluye infección, hematomas, cambios en la sensibilidad del pezón y posibles complicaciones con los implantes. Es crucial discutir estos riesgos con el cirujano antes de tomar una decisión."
+                          ]
+                        },
+                        "candidatos_ideales": {
+                          "tag": "candidatos_ideales_aumento_mamario",
+                          "patterns": ["¿Quiénes son candidatos ideales para la cirugía de aumento mamario?", "Explícame quiénes pueden someterse a este procedimiento"],
+                          "responses": [
+                            "Los candidatos ideales para la cirugía de aumento mamario son aquellos que gozan de buena salud general, tienen expectativas realistas sobre los resultados, y desean mejorar la forma o el tamaño de sus senos. La evaluación del cirujano plástico determinará la idoneidad de cada paciente para el procedimiento."
+                          ]
+                        },
+                        "proceso_decision": {
+                          "tag": "proceso_decision_aumento_mamario",
+                          "patterns": ["¿Cómo puedo tomar decisiones informadas sobre la cirugía de aumento mamario?"],
+                          "responses": [
+                            "Tomar decisiones informadas implica investigar a fondo, discutir metas y expectativas con el cirujano, comprender los riesgos y beneficios, y seguir las recomendaciones del profesional de la salud. La comunicación abierta y honesta con el cirujano es esencial para un proceso de toma de decisiones exitoso."
+                          ]
+                        }
+                      }
+                    }
+                  }
+          }
+      }
+      
     }
-}
+
+  

@@ -1245,7 +1245,187 @@
 
         "cirugia_plastica": {},
 
-        "ortopedia": {},
+        "ortopedia": {
+            "osteoartritis": {
+                "consulta": {
+                    "tag": "consulta_osteoartritis",
+                    "pattern": ["Describe la osteoartritis", "¿Que es la osteoartritis?", "osteoartritis"],
+                    "responses": [
+                        "La osteoartritis es una enfermedad degenerativa de las articulaciones que resulta del desgaste del cartílago que recubre las extremidades de los huesos. Con el tiempo, esto puede llevar a dolor, inflamación y limitación en el movimiento articular."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_osteoartritis",
+                    "patterns": ["Sintomas de la osteoartritis", "¿Que sintomas produce la osteoartritis?"],
+                    "responses": [
+                        "Los síntomas incluyen dolor en las articulaciones, rigidez, pérdida de flexibilidad, crepitación al moverse y, en etapas avanzadas, la formación de espolones óseos."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_osteoartritis",
+                    "patterns": ["¿Cuales son los efectos que produce la osteoartritis?"],
+                    "responses": [
+                        "La osteoartritis puede afectar significativamente la calidad de vida, causando discapacidad funcional y limitando la capacidad de realizar actividades diarias."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_osteoartritis",
+                        "patterns": ["¿Como se trata la osteoartritis?", "¿Cual es el tratamiento para la osteoartritis?"],
+                        "responses": [
+                            "El tratamiento se centra en aliviar el dolor, mejorar la función articular y retrasar la progresión de la enfermedad. Puede incluir medicamentos, terapia física, cambios en el estilo de vida y, en casos graves, cirugía de reemplazo articular."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_osteoartritis",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_osteoartritis",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_osteoartritis",
+                        "patterns": ["¿Que medicamentos debo consumir para la osteoartritis?"],
+                        "responses": [
+                            "Se utilizan analgésicos, antiinflamatorios no esteroides (AINE), y en casos más avanzados, medicamentos modificadores de la enfermedad para aliviar el dolor y reducir la inflamación."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_osteoartritis",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_osteoartritis",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_osteoartritis",
+                    "patterns": ["¿Que complicaciones genera la osteoartritis?"],
+                    "responses": [
+                        "Las complicaciones pueden incluir discapacidad progresiva, deformidad articular y limitaciones en la movilidad. Además, puede afectar la calidad de vida emocional y mental."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_osteoartritis",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo osteoartritis?"],
+                    "responses": [
+                        "Debe buscarse atención médica si se experimenta dolor persistente en las articulaciones, especialmente si se acompaña de hinchazón o pérdida de función."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_osteoartritis",
+                    "patterns": ["¿Como se puede prevenir la osteoartritis?"],
+                    "responses": [
+                        "La prevención implica mantener un peso saludable, hacer ejercicio regularmente para fortalecer los músculos y las articulaciones, y adoptar medidas para evitar lesiones articulares."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_osteoartritis",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la osteoartritis?"],
+                    "responses": [
+                        "Las causas pueden incluir el envejecimiento, lesiones articulares previas, predisposición genética, obesidad y factores ocupacionales que implican estrés repetitivo en las articulaciones."
+                    ]
+                }
+            },
+
+            "escoliosis": {
+                "consulta": {
+                    "tag": "consulta_escoliosis",
+                    "pattern": ["Escoliosis", "¿Que es la escoliosis?", "Describe la escoliosis", "Define la escoliosis"],
+                    "responses": [
+                        "La escoliosis es una deformidad de la columna vertebral caracterizada por una curvatura lateral anormal. Puede ser congénita o desarrollarse durante el crecimiento."
+                    ]
+                },
+                "sintomas": {
+                    "tag": "sintomas_escoliosis",
+                    "patterns": ["Sintomas de la escoliosis", "¿Que sintomas produce la escoliosis?"],
+                    "responses": [
+                        "Los síntomas incluyen una espalda desalineada, hombros o caderas asimétricas, y en casos graves, puede haber dificultad para respirar debido a la compresión de los pulmones."
+                    ]
+                },
+                "efectos": {
+                    "tag": "efectos_escoliosis",
+                    "patterns": ["¿Cuales son los efectos que produce el escoliosis?"],
+                    "responses": [
+                        "En casos severos, la escoliosis puede afectar la función pulmonar y causar dolor crónico. También puede tener impacto en la autoestima debido a la apariencia física alterada."
+                    ]
+                },
+                "tratamiento": {
+                    "general": {
+                        "tag": "tratamiento_general_escoliosis",
+                        "patterns": ["¿Como se trata la escoliosis?", "¿Cual es el tratamiento para la escoliosis?"],
+                        "responses": [
+                            "El tratamiento depende de la gravedad de la curvatura. Puede incluir observación, fisioterapia, uso de corsés y, en casos extremos, cirugía correctiva."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "tratamiento_adultos_escoliosis",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "tratamiento_ninos_escoliosis",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "medicamentos": {
+                    "general": {
+                        "tag": "medicamentos_general_escoliosis",
+                        "patterns": ["¿Que medicamentos debo consumir para la escoliosis?"],
+                        "responses": [
+                            "No se utilizan medicamentos específicos para tratar la escoliosis. El enfoque suele ser más conservador, centrado en la corrección física y la gestión del dolor."
+                        ]
+                    },
+                    "adultos": {
+                        "tag": "medicamentos_adultos_escoliosis",
+                        "patterns": [],
+                        "responses": []
+                    },
+                    "ninos": {
+                        "tag": "medicamentos_ninos_escoliosis",
+                        "patterns": [],
+                        "responses": []
+                    }
+                },
+                "complicaciones": {
+                    "tag": "complicaciones_escoliosis",
+                    "patterns": ["¿Que complicaciones genera la escoliosis?"],
+                    "responses": [
+                        "Las complicaciones pueden incluir problemas respiratorios, dolor crónico y limitaciones en la movilidad."
+                    ]
+                },
+                "atencion_medica": {
+                    "tag": "atencion_medica_escoliosis",
+                    "patterns": ["¿Cuando debo buscar asistencia medica si tengo escoliosis?"],
+                    "responses": [
+                        "Se debe buscar atención si se observa una asimetría evidente en la espalda o si hay preocupaciones sobre el desarrollo de la columna vertebral, especialmente durante la adolescencia."
+                    ]
+                },
+                "prevencion": {
+                    "tag": "prevencion_escoliosis",
+                    "patterns": ["¿Como se puede prevenir la escoliosis?"],
+                    "responses": [
+                        "La prevención suele centrarse en la detección temprana y el monitoreo regular, especialmente en niños y adolescentes durante las etapas de crecimiento rápido."
+                    ]
+                },
+                "causas": {
+                    "tag": "causas_escoliosis",
+                    "patterns": ["¿Cuales son las causas para la aparicion de la escoliosis?"],
+                    "responses": [
+                        "Las causas pueden incluir factores genéticos, malformaciones congénitas, desequilibrios musculares y, en algunos casos, no hay una causa específica identificable."
+                    ]
+                }
+            }
+        },
 
         "obstetricia": {
             "preemclapsia": {

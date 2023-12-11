@@ -1,0 +1,69 @@
+{
+    "intents": [
+      {
+        "name": "BuscarHospital",
+        "patterns": [
+          "Encuentra un hospital cercano",
+          "Necesito ayuda médica",
+          "¿Dónde hay un hospital?"
+        ],
+        "responses": ["Claro, ¿puedes proporcionarme tu ubicación actual?"]
+      },
+      {
+        "name": "ProporcionarUbicacion",
+        "patterns": [
+            "Mi ubicación es en {ubicacion}", 
+            "Vivo en {ubicacion}"
+        ],
+        "responses": ["Gracias por proporcionar tu ubicación en {ubicacion}. ¿Tienes alguna preferencia en cuanto al tipo de hospital?"]
+      },
+      {
+        "name": "EspecialidadHospital",
+        "patterns": [
+            "Necesito un hospital especializado en {especialidad}", 
+            "Busco un hospital para {especialidad}"
+        ],
+        "responses": ["Entendido. Buscaré hospitales cercanos especializados en {especialidad} en tu área."]
+      },
+      {
+        "name": "BuscarResultados",
+        "patterns": [
+            "Encuentra hospitales", 
+            "Busca hospitales cerca de mí"
+        ],
+        "responses": ["Estoy buscando hospitales cercanos. Por favor, espera un momento."]
+      },
+      {
+        "name": "MostrarResultados",
+        "patterns": [],
+        "responses": ["Aquí tienes algunos hospitales cercanos: {lista_de_hospitales}"]
+      },
+      {
+        "name": "NoEntendido",
+        "patterns": [
+            "No entiendo", 
+            "¿Puedes repetir?", 
+            "No sé"
+        ],
+        "responses": ["Lo siento, no entendí. ¿Puedes reformular tu pregunta?"]
+      },
+      {
+        "name": "CancelarBusqueda",
+        "patterns": [
+            "Cancelar búsqueda", 
+            "No quiero buscar más"
+        ],
+        "responses": ["Entendido. Si necesitas ayuda en el futuro, no dudes en preguntar."]
+      },
+      {
+        "name": "InformacionNoDisponible",
+        "patterns": [
+            "No tengo esa información", 
+            "No sé sobre eso", 
+            "No puedo ayudarte con eso"
+        ],
+        "responses": ["Lo siento, no tengo información sobre eso en este momento."]
+      }
+    ]
+  }
+  

@@ -1,0 +1,1215 @@
+{
+    "datos": [
+        {
+            "departamento": "Cochabamba",
+            "municipios": [
+                {
+                    "municipio": "Aiquile", 
+                    "hospitales": [
+                        {
+                            "nombre": "Elvira", 
+                            "direccion": "Sobre la Carretera hacia Elvira lado sud",
+                            "especialidades": [
+                                "Psiquiatría", 
+                                "Radiologia", 
+                                "Cirugia General"
+                            ]
+                        }, 
+                        {
+                            "nombre": "Estanzuelas", 
+                            "direccion": "Localidad Estanzuelas lado derecho de la iglesia junto a la escuela Estanzuelas",
+                            "especialidades": [
+                                "Dermatologia",
+                                "Optometria",
+                                "Neurocirugia",
+                                "Psiquiatria",
+                                "Cirugia General",
+                                "Oftalmologia",
+                                "Medicina Alternativa"                            
+                            ]
+                        }, 
+                        {
+                            "nombre": "Lagarpampa", 
+                            "direccion": "Localidad lagarpampa lado oeste de la plaza",
+                            "especialidades": [
+                                "Medicina Interna", 
+                                "Geriatria"
+                            ]
+                        }, 
+                        {
+                            "nombre": "Villa Granado", 
+                            "direccion": "Calle Padre Ceferino Guzzo Buffa lado norte frente a la iglesia",
+                            "especialidades": [
+                                    "Dermatología",
+                                    "Neurocirugía",
+                                    "Oftalmología",
+                                    "Virología",
+                                    "Hematología",
+                                    "Cirugía Plástica"
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "municipio": "Alalay",
+                    "hospitales": [
+                        {
+                            "nombre": "GUAMAN HUACHANA",
+                            "direccion": "guaman huachana municipio de alalay",
+                            "especialidades": [
+                                    "Dermatologia",
+                                    "Cirugia General",
+                                    "Virologia",
+                                    "Hematologia",
+                                    "Obstreticia",
+                                    "Ortopedia"
+                            ]
+                        },
+                        {
+                            "nombre": "AYAPAMPA",
+                            "direccion": "Comunidad de Ayapampa",
+                            "especialidades": [
+                                    "Dermatología",
+                                    "Cirugía General",
+                                    "Neurocirugía",
+                                    "Obstetricia",
+                                    "Radiología",
+                                    "Hematología",
+                                    "Optometría"
+                            ]
+                        },
+                        {
+                            "nombre": "SIVINGANI CHICO",
+                            "direccion": "sivingani chico municipio de alalay",
+                            "especialidades": [
+                                    "Cirugía Plástica",
+                                    "Obstetricia",
+                                    "Virología",
+                                    "Optometría",
+                                    "Dermatología"
+                            ]
+                        },
+                        {
+                            "nombre": "YANAGAGA",
+                            "direccion": "YANAGAGA",
+                            "especialidades": [
+                                    "Neurocirugia",
+                                    "Cirugia Plastica",
+                                    "Dermatologia",
+                                    "Pedriatria",
+                                    "Hematologia",
+                                    "Oftalmologia",
+                                    "Obstreticia"
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "municipio": "Arani",
+                    "hospitales": [
+                        {
+                            "nombre": "ARANI",
+                            "direccion": "Av. 11 de Octubre s/n",
+                            "especialidades": [
+                                    "Psiquiatría",
+                                    "Obstetricia",
+                                    "Geriatria",
+                                    "Dermatología",
+                                    "Bioquímica"
+                            ]
+                        },
+                        {
+                            "nombre": "COLLPACIACO",
+                            "direccion": "CAMINO ARANI-COLLPACIACO KM 7",
+                            "especialidades": [
+                                    "Dermatología",
+                                    "Neurocirugía",
+                                    "Oftalmología",
+                                    "Hematología",
+                                    "Radiología",
+                                    "Geriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "POCOATA",
+                            "direccion": "CAMINO ARANI-POCOATA",
+                            "especialidades": [
+                                    "Dermatologia",
+                                    "Oftalmologia",
+                                    "Hematologia",
+                                    "Pedriatria",
+                                    "Cirugia General"
+                            ]
+                        },
+                        {
+                            "nombre": "SAGA-SAGA",
+                            "direccion": "CAMINO ARANI-SAGA-SAGA KM. 26",
+                            "especialidades": [
+                                    "Dermatologia",
+                                    "Psiquiatria",
+                                    "Cirugia General",
+                                    "Oftalmologia",
+                                    "Virologia",
+                                    "Radiologia",
+                                    "Geriatria"
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "municipio": "Arbieto",
+                    "hospitales": [
+                        {
+                            "nombre": "ARANJUEZ",
+                            "direccion": "plaza principal de aranjuez",
+                            "especialidades": [
+                                    "Neurocirugía",
+                                    "Geriatria",
+                                    "Radiología",
+                                    "Cirugía Plástica",
+                                    "Bioquímica",
+                                    "Optometría"
+                            ]
+                        },
+                        {
+                            "nombre": "COPAPUGIO",
+                            "direccion": "carretera Tarata Cochabamba",
+                            "especialidades": [
+                                    "Psiquiatría",
+                                    "Hematología",
+                                    "Cirugía Plástica",
+                                    "Radiología",
+                                    "Obstetricia",
+                                    "Dermatología"
+                            ]
+                        },
+                        {
+                            "nombre": "ARBIETO",
+                            "direccion": "Arbieto, calle Estaban Arze",
+                            "especialidades": [
+                                    "Neurocirugía",
+                                    "Virología",
+                                    "Dermatología",
+                                    "Cirugía Plástica"
+                            ]
+                        },
+                        {
+                            "nombre": "TIATACU",
+                            "direccion": "plaza 6 de agosto c/calle santa cruz",
+                            "especialidades": [
+                                    "Hematología",
+                                    "Dermatología",
+                                    "Cirugía Plástica",
+                                    "Virología",
+                                    "Pediatría",
+                                    "Neurocirugía",
+                                    "Obstetricia"
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "municipio": "Ayopaya(V. De Independencia)", 
+                    "hospitales": [
+                        {
+                            "nombre": "CALCHANI",
+                            "direccion": "lado de la iglesia de calchani",
+                            "especialidades": [
+                                    "Dermatologia",
+                                    "Neurocirugia",
+                                    "Medicina Alternativa",
+                                    "Hematologia",
+                                    "Cirugia Plastica",
+                                    "Pedriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "CANTUMARCA",
+                            "direccion": "CANTUMARCA-A LADO DE LA ESCULA",
+                            "especialidades": [
+                                    "Dermatologia",
+                                    "Psiquiatria",
+                                    "Oftalmologia",
+                                    "Hematologia",
+                                    "Bioquimica",
+                                    "Cirugia Plastica",
+                                    "Pedriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "CHARAPAYA",
+                            "direccion": "DETRAS DE LA UNIDAD EDUCATIVA DE CHARAPAYA",
+                            "especialidades": [
+                                    "Neurocirugía",
+                                    "Dermatología",
+                                    "Cirugía Plástica",
+                                    "Radiología",
+                                    "Geriatria",
+                                    "Pediatría"
+                            ]
+                        },
+                        {
+                            "nombre": "SANIPAYA",
+                            "direccion": "SANIPAYA AL FRENTE DE LA UNIDAD EDUCATIVA ELIZARDO PEREZ",
+                            "especialidades": [
+                                    "Virología",
+                                    "Geriatria",
+                                    "Psiquiatria",
+                                    "Ortopedia",
+                                    "Radiologia"
+                            ]
+                        },
+                        {
+                            "nombre": "SISIPALERMO",
+                            "direccion": "FRENTE A LA UNIDAD EDUCATIVA PALERMO",
+                            "especialidades": [
+                                    "Obstetricia",
+                                    "Neurocirugía",
+                                    "Radiología",
+                                    "Dermatología",
+                                    "Cirugía Plástica",
+                                    "Hematología"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Capinota",
+                    "hospitales": [
+                        {
+                            "nombre": "APILLAPAMPA",
+                            "direccion": "calle Santiago lado sub alcaldia",
+                            "especialidades": [
+                                    "Dermatologia",
+                                    "Neurocirugia",
+                                    "Cirugia General",
+                                    "Virologia",
+                                    "Radiologia",
+                                    "Geriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "CHARAMOCO",
+                            "direccion": "calle del Cementerio entre carretera central",
+                            "especialidades": [
+                                    "Neurocirugía",
+                                    "Cirugía Plástica",
+                                    "Geriatria",
+                                    "Hematología",
+                                    "Optometría"
+
+
+                            ]
+                        },
+                        {
+                            "nombre": "HORNOMA",
+                            "direccion": "Calle Arampampa frente unidad educativa Hornoma",
+                            "especialidades": [
+                                    "Dermatologia",
+                                    "Neurocirugia",
+                                    "Oftalmologia",
+                                    "Bioquimica",
+                                    "Cirugia Plastica",
+                                    "Pedriatria",
+                                    "Ortopedia"
+                            ]
+                        },
+                        {
+                            "nombre": "IRPA IRPA",
+                            "direccion": "CALLE CEMENTERIO - BARRIO YURUNI II",
+                            "especialidades": [
+                                    "Neurocirugía",
+                                    "Cirugía Plástica",
+                                    "Hematología",
+                                    "Obstetricia",
+                                    "Optometría"
+                            ]
+                        },
+                        {
+                            "nombre": "MOLLINI - ANZALDO COCHABAMBA",
+                            "direccion": "zona central Mollini",
+                            "especialidades": [
+                                    "Dermatologia",
+                                    "Psiquiatria",
+                                    "Cirugia General",
+                                    "Oftalmologia",
+                                    "Virologia",
+                                    "Hematologia",
+                                    "Ortopedia"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Chimore",
+                    "hospitales": [
+                        {
+                            "nombre": "ESTANO PALMITO",
+                            "direccion": "ESTAÑO PALMITO",
+                            "especialidades": [
+                                    "Dermatologia",
+                                    "Psiquiatria",
+                                    "Cirugia General",
+                                    "Oftalmologia",
+                                    "Virologia",
+                                    "Hematologia",
+                                    "Ortopedia"
+                            ]
+                        },
+                        {
+                            "nombre": "LA MISION",
+                            "direccion": "Frente a la iglesia evangelica Lado cancha de futbol, La mision",
+                            "especialidades": [
+                                    "Psiquiatría",
+                                    "Virología",
+                                    "Radiología",
+                                    "Dermatología",
+                                    "Cirugía Plástica",
+                                    "Hematología"
+                            ]
+                        },
+                        {
+                            "nombre": "NUEVA CANAAN",
+                            "direccion": "senda B Nueva Canaan- municipio chimore",
+                            "especialidades": [
+                                "Cirugia Plastica",
+                                "Dermatologia",
+                                "Geriatria",
+                                "Virologia",
+                                "Neurocirugia"                            
+                            ]
+                        },
+                        {
+                            "nombre": "PUERTO AURORA",
+                            "direccion": "calle innominada, lado del colegio puerto aurora",
+                            "especialidades": [
+                                "Neurocirugía",
+                                "Medicina Alternativa",
+                                "Radiología",
+                                "Dermatología"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Cliza",
+                    "hospitales": [
+                        {
+                            "nombre": "AYOMA",
+                            "direccion": "AYOMA",
+                            "especialidades": [
+                                "Cirugía General",
+                                "Hematología",
+                                "Optometría",
+                                "Psiquiatría",
+                                "Geriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "HUASA CALLE",
+                            "direccion": "HUASA CALLE",
+                            "especialidades": [
+                                "Dermatología",
+                                "Psiquiatría",
+                                "Oftalmología",
+                                "Bioquímica",
+                                "Geriatria",
+                                "Pediatría",
+                                "Ortopedia"
+                            ]
+                        },
+                        {
+                            "nombre": "UCURENA",
+                            "direccion": "Ucureña Central",
+                            "especialidades": [
+                                "Neurocirugía",
+                                "Cirugía General",
+                                "Virología",
+                                "Dermatología",
+                                "Hematología",
+                                "Pediatría"
+                            ]
+                        },
+                        {
+                            "nombre": "V. CONCEPCION",
+                            "direccion": "VILLA CONCEPCION",
+                            "especialidades": [
+                                "Dermatología",
+                                "Neurocirugía",
+                                "Psiquiatría",
+                                "Hematología",
+                                "Radiología",
+                                "Obstetricia",
+                                "Cirugía Plástica"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Cocapata",
+                    "hospitales": [
+                        {
+                            "nombre": "ALTAMACHI",
+                            "direccion": "Comunidad de Altamachi detras del tinglado del colegio",
+                            "especialidades": [
+                                "Hematología",
+                                "Dermatología",
+                                "Neurocirugía",
+                                "Cirugía Plástica",
+                                "Radiología",
+                                "Geriatria",
+                                "Optometría"
+                            ]
+                        },
+                        {
+                            "nombre": "COLORADO",
+                            "direccion": "Comunidad de colorado frente a la cancha de futbol",
+                            "especialidades": [
+                                "Optometría",
+                                "Neurocirugía",
+                                "Cirugía Plástica",
+                                "Geriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "FALSURI (CBB)",
+                            "direccion": "Comunidad de Falsuri frente a la Iglesia",
+                            "especialidades": [
+                                "Hematología",
+                                "Cirugía Plástica",
+                                "Optometría",
+                                "Obstetricia",
+                                "Dermatología",
+                                "Geriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "KUMARA",
+                            "direccion": "kumara frente al colegio juan jose torrez",
+                            "especialidades": [
+                                "Neurocirugía",
+                                "Hematología",
+                                "Psiquiatría",
+                                "Cirugía Plástica",
+                                "Radiología",
+                                "Obstetricia",
+                                "Oftalmología"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Cochabamba",
+                    "hospitales": [
+                        {
+                            "nombre": "ALALAY",
+                            "direccion": "AVENIDA SIGLO XX Nº 100",
+                            "especialidades": [
+                                "Dermatología",
+                                "Cirugía Plástica",
+                                "Virología",
+                                "Pediatría",
+                                "Bioquímica",
+                                "Neurocirugía"
+                            ]
+                        },
+                        {
+                            "nombre": "CERRO VERDE",
+                            "direccion": "los Andes y Llawar Mallcu",
+                            "especialidades": [
+                                "Dermatologia",
+                                "Psiquiatria",
+                                "Bioquimica",
+                                "Obstreticia",
+                                "Ortopedia",
+                                "Oftalmologia"
+                            ]
+                        },
+                        {
+                            "nombre": "POLITECNICO MILITAR",
+                            "direccion": "AV. PETROLERA KM. 4 1/2 ZONA SUD",
+                            "especialidades": [
+                                "Dermatologia",
+                                "Neurocirugia",
+                                "Oftalmologia",
+                                "Virologia",
+                                "Bioquimica",
+                                "Geriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "SARCOBAMBA",
+                            "direccion": "AV. VILLAVICENCIO Y AV. THUNUPA",
+                            "especialidades": [
+                                "Cirugía Plástica",
+                                "Obstetricia",
+                                "Hematología",
+                                "Dermatología",
+                                "Geriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "KARA KARA",
+                            "direccion": "Av. Ecologica S/n camino a Botadero de Basura.Frente al Colegio D. Morales.",
+                            "especialidades": [
+                                "Dermatologia",
+                                "Neurocirugia",
+                                "Cirugia Plastica",
+                                "Geriatria",
+                                "Hematologia",
+                                "Oftalmologia",
+                                "Radiologia"
+                            ]
+                        },
+                        {
+                            "nombre": "P.S. MUJERES SAN SEBASTIAN PENITENCIARIO",
+                            "direccion": "C. Ladizlao Cabrera esq. Hamiraya",
+                            "especialidades": [
+                                "Cirugía General",
+                                "Hematología",
+                                "Neurocirugía",
+                                "Dermatología",
+                                "Psiquiatría",
+                                "Obstetricia"
+                            ]
+                        },
+                        {
+                            "nombre": "P.S. SAN ANTONIO PENITENCIARIO",
+                            "direccion": "Avenida Ayacucho frente a la terminal de buses",
+                            "especialidades": [
+                                "Cirugía Plástica",
+                                "Bioquímica",
+                                "Optometría",
+                                "Neurocirugía",
+                                "Radiología"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Colcapirhua",
+                    "hospitales": [
+                        {
+                            "nombre": "CAPACACHI",
+                            "direccion": "C/ MANUEL ASCENCIO VILLARROEL Y JULIAN APAZA",
+                            "especialidades": [
+                                "Virología",
+                                "Cirugía Plástica",
+                                "Bioquímica",
+                                "Optometría",
+                                "Psiquiatría",
+                                "Radiología"
+                            ]
+                        },
+                        {
+                            "nombre": "COLCAPIRHUA",
+                            "direccion": "km 7,8 Avenida Blanco Galindo entrando dos cuadras al sud",
+                            "especialidades": [
+                                "Neurocirugía",
+                                "Hematología",
+                                "Oftalmología",
+                                "Cirugía Plástica",
+                                "Psiquiatría",
+                                "Obstetricia",
+                                "Geriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "KAMI",
+                            "direccion": "km 9 de la Av. Blanco galindo subiendo 3 kilometros al norte en el barrio san jose de kami colcapirhua",
+                            "especialidades": [
+                                "Dermatologia",
+                                "Neurocirugia",
+                                "Oftalmologia",
+                                "Bioquimica",
+                                "Pedriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "SIMON BOLIVAR",
+                            "direccion": "km 8 1/2 Av. Libertador Final capitan victor ustriz entrando dos kilometros al sud",
+                            "especialidades": [
+                                "Cirugía General",
+                                "Neurocirugía",
+                                "Virología",
+                                "Dermatología",
+                                "Radiología",
+                                "Obstetricia"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Mizque",
+                    "hospitales": [
+                        {
+                            "nombre": "MINA ASIENTOS",
+                            "direccion": "municipio mizque, canton san vicente",
+                            "especialidades": [
+                                "Cirugía Plástica",
+                                "Neurocirugía",
+                                "Dermatología",
+                                "Virología",
+                                "Geriatria",
+                                "Pediatría"
+                            ]
+                        },
+                        {
+                            "nombre": "KURI",
+                            "direccion": "kuri alto",
+                            "especialidades": [
+                                "Neurocirugía",
+                                "Virología",
+                                "Geriatria",
+                                "Cirugia Plastica",
+                                "Obstetricia"
+                            ]
+                        },
+                        {
+                            "nombre": "RAQAYPAMPA",
+                            "direccion": "Raqaypampa municipio Mizque cbba",
+                            "especialidades": [
+                                "Virología",
+                                "Cirugía Plástica",
+                                "Hematología",
+                                "Psiquiatría",
+                                "Neurocirugía",
+                                "Ortopedia",
+                                "Dermatología"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Omereque",
+                    "hospitales": [
+                        {
+                            "nombre": "ELE ELE",
+                            "direccion": "Comunidad de Ele Ele - lado Iglesia Central S/N",
+                            "especialidades": [
+                                "Neurocirugía",
+                                "Medicina Alternativa",
+                                "Dermatología",
+                                "Cirugía Plástica",
+                                "Obstetricia",
+                                "Geriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "ESMERALDA",
+                            "direccion": "Comunidad de Esmeralda - frente a la Cancha de Futbol",
+                            "especialidades": [
+                                "Neurocirugía",
+                                "Dermatología",
+                                "Cirugía Plástica",
+                                "Radiología",
+                                "Hematología"
+                            ]
+                        },
+                        {
+                            "nombre": "HUANACUNI CHICO",
+                            "direccion": "comunidad Huanacuni chico Carretera Omereque - cochabamba s/n",
+                            "especialidades": [
+                                "Neurocirugía",
+                                "Hematología",
+                                "Medicina Alternativa",
+                                "Cirugía Plástica",
+                                "Radiología",
+                                "Psiquiatría",
+                                "Optometría"
+                            ]
+                        },
+                        {
+                            "nombre": "PANTOJA",
+                            "direccion": "Comunidad de pantoja Sobre la Carretera Antigua A santa cruz",
+                            "especialidades": [
+                                "Cirugía Plástica",
+                                "Bioquímica",
+                                "Dermatología",
+                                "Neurocirugía",
+                                "Obstetricia",
+                                "Radiología"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Puerto Villarroel",
+                    "hospitales": [
+                        {
+                            "nombre": "2 DE MARZO",
+                            "direccion": "2 De Marzo, Frente a la sede Central Unificada de colonizadores",
+                            "especialidades": [
+                                "Optometria",
+                                "Cirugia Plastica",
+                                "Geriatria",
+                                "Ortopedia"
+                            ]
+                        },
+                        {
+                            "nombre": "ALTO CHIJINI",
+                            "direccion": "Alto Chijini, Lado del cementerio Alto Chijini, Cerca del Parque Nal. Carrasco",
+                            "especialidades": [
+                                "Dermatologia",
+                                "Neurocirugia",
+                                "Oftalmologia",
+                                "Bioquimica",
+                                "Radiologia",
+                                "Pedriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "AYOPAYA",
+                            "direccion": "Central Ayopaya",
+                            "especialidades": [
+                                "Dermatologia",
+                                "Psiquiatria",
+                                "Bioquimica",
+                                "Obstreticia",
+                                "Geriatria",
+                                "Neurocirugia"
+                            ]
+                        },
+                        {
+                            "nombre": "C.S. MARIPOSAS",
+                            "direccion": "C/ Nor chichas entre Suipacha y Tupiza Barrio Central",
+                            "especialidades": [
+                                "Dermatologia",
+                                "Optometria",
+                                "Neurocirugia",
+                                "Cirugia General",
+                                "Oftalmologia",
+                                "Medicina Alternativa",
+                                "Geriatria"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Quillacollo",
+                    "hospitales": [
+                        {
+                            "nombre": "APOTE",
+                            "direccion": "ZONA APOTE",
+                            "especialidades": [
+                                "Dermatología",
+                                "Neurocirugía",
+                                "Virología",
+                                "Cirugía Plástica",
+                                "Obstetricia",
+                                "Hematología"
+                            ]
+                        },
+                        {
+                            "nombre": "EL PASO",
+                            "direccion": "ZONA EL PASO",
+                            "especialidades": [
+                                "Dermatologia",
+                                "Psiquiatria",
+                                "Virologia",
+                                "Cirugia Plastica",
+                                "Hematologia",
+                                "Obstetricia"
+                            ]
+                        },
+                        {
+                            "nombre": "C.S. DISTRITO '3'",
+                            "direccion": "CALLE CALIXTO PEÑALOZA ZONA SUD VILLA ASUNCION",
+                            "especialidades": [
+                                "Neurocirugía",
+                                "Medicina Alternativa",
+                                "Radiología",
+                                "Dermatología",
+                                "Geriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "VILLA MARIA",
+                            "direccion": "Km 11 NORTE BARRIO COLQUIRI",
+                            "especialidades": [
+                                "Optometría",
+                                "Dermatología",
+                                "Neurocirugía",
+                                "Hematología",
+                                "Cirugía Plástica"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Sacaba",
+                    "hospitales": [
+                        {
+                            "nombre": "ALALAY",
+                            "direccion": "AVENIDA GUALBERTO VILLARROEL",
+                            "especialidades": [
+                                "Neurocirugia",
+                                "Medicina Alternativa",
+                                "Radiologia",
+                                "Cirugia Plastica",
+                                "Obstreticia",
+                                "Dermatologia"
+                            ]
+                        },
+                        {
+                            "nombre": "EL ABRA",
+                            "direccion": "Av. Bolivia-Distrito VI Zona El Abra",
+                            "especialidades": [
+                                "Virología",
+                                "Dermatología",
+                                "Cirugía Plástica",
+                                "Pediatría",
+                                "Neurocirugía",
+                                "Hematología",
+                                "Medicina Alternativa"
+                            ]
+                        },
+                        {
+                            "nombre": "HUAYLLANI",
+                            "direccion": "Km 9 1/2 Av. Villazon 3 cuadras al norte Av. Mons. Heredia",
+                            "especialidades": [
+                                "Dermatología",
+                                "Cirugía General",
+                                "Neurocirugía",
+                                "Radiología",
+                                "Pediatría",
+                                "Oftalmología"
+                            ]
+                        },
+                        {
+                            "nombre": "LARATI",
+                            "direccion": "Comunidad Larati, al lado de la unidad educativa Larati",
+                            "especialidades": [
+                                "Dermatología",
+                                "Neurocirugía",
+                                "Cirugía General",
+                                "Virología",
+                                "Radiología",
+                                "Geriatria"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Shinaota",
+                    "hospitales": [
+                        {
+                            "nombre": "IBIRIZU",
+                            "direccion": "ivirizu bajo -central ivirizu vandiola -shinahota",
+                            "especialidades": [
+                                "Cirugía Plástica",
+                                "Hematología",
+                                "Dermatología",
+                                "Neurocirugía",
+                                "Radiología"
+                            ]
+                        },
+                        {
+                            "nombre": "PUERTO AROMA",
+                            "direccion": "Puerto Aroma - shinahota- cbba",
+                            "especialidades": [
+                                "Geriatria",
+                                "Dermatologia",
+                                "Cirugia Plastica",
+                                "Hematologia",
+                                "Pedriatria",
+                                "Oftalmologia"
+                            ]
+                        },
+                        {
+                            "nombre": "SANTA ROSA (CBB)",
+                            "direccion": "Santa Rosa Ñ- Shinahota- Cochabamba",
+                            "especialidades": [
+                                "Geriatria",
+                                "Dermatologia",
+                                "Virologia",
+                                "Neurocirugia",
+                                "Pedriatria",
+                                "Cirugia Plastica"
+                            ]
+                        },
+                        {
+                            "nombre": "SHINAOTA",
+                            "direccion": "calle Progreso esq. San Martin de Porres",
+                            "especialidades": [
+                                "Cirugía Plástica",
+                                "Obstetricia",
+                                "Geriatria",
+                                "Radiología",
+                                "Dermatología",
+                                "Oftalmología"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Sipe Sipe",
+                    "hospitales": [
+                        {
+                            "nombre": "ITAPAYA",
+                            "direccion": "Carretera a Capinota Km 46",
+                            "especialidades": [
+                                "Dermatología",
+                                "Neurocirugía",
+                                "Psiquiatría",
+                                "Cirugía General",
+                                "Virología",
+                                "Hematología"
+                            ]
+                        },
+                        {
+                            "nombre": "MONTE NEGRO",
+                            "direccion": "avenida confital carretera a ORURO Km. 25",
+                            "especialidades": [
+                                "Cirugia General",
+                                "Dermatologia",
+                                "Neurocirugia",
+                                "Hematologia",
+                                "Radiologia",
+                                "Pedriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "PAROTANI",
+                            "direccion": "ZONA 2 LADO PLAZA PRINCIPAL",
+                            "especialidades": [
+                                "Dermatologia",
+                                "Neurocirugia",
+                                "Psiquiatria",
+                                "Cirugia General",
+                                "Oftalmologia",
+                                "Virologia"
+                            ]
+                        },
+                        {
+                            "nombre": "SENOR DE LOS MILAGROS",
+                            "direccion": "CALLE HEROES DEL CHACO e INICIO CALLE INCARAKAY S/N",
+                            "especialidades": [ 
+                                "Optometría",
+                                "Geriatria",
+                                "Cirugia Plastica",
+                                "Bioquimica",
+                                "Hematologia",
+                                "Oftalmologia",
+                                "Pedriatria"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Tiquipaya",
+                    "hospitales": [
+                        {
+                            "nombre": "4 ESQUINAS ( PUBLICO ALCALDIA)",
+                            "direccion": "avenida cuatro esquinas y reducto",
+                            "especialidades": [
+                                "Cirugía General",
+                                "Psiquiatría",
+                                "Radiología",
+                                "Dermatología",
+                                "Neurocirugía",
+                                "Oftalmología",
+                                "Hematología"
+                            ]
+                        },
+                        {
+                            "nombre": "CIUDAD DEL NIÑO",
+                            "direccion": "URBANIZACION PADRE BERTA",
+                            "especialidades": [
+                                "Neurocirugía",
+                                "Oftalmología",
+                                "Hematología",
+                                "Cirugía Plástica",
+                                "Geriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "MONTECILLO ALTO",
+                            "direccion": "COMUNIDAD DE MONTECILLO ALTO - TIQUIPAYA",
+                            "especialidades": [
+                                "Dermatologia",
+                                "Optometria",
+                                "Neurocirugia",
+                                "Psiquiatria",
+                                "Cirugia General",
+                                "Oftalmologia",
+                                "Medicina Alternativa"
+                            ]
+                        },
+                        {
+                            "nombre": "VILLA ORURO",
+                            "direccion": "Villa Oruro s/n",
+                            "especialidades": [
+                                "Cirugía Plástica",
+                                "Virología",
+                                "Optometría",
+                                "Psiquiatría",
+                                "Radiología",
+                                "Obstetricia"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Vacas",
+                    "hospitales": [
+                        {
+                            "nombre": "PAREDONES",
+                            "direccion": "PAREDONES",
+                            "especialidades": [
+                                "Dermatología",
+                                "Neurocirugía",
+                                "Cirugía General",
+                                "Oftalmología",
+                                "Medicina Alternativa",
+                                "Bioquímica"
+                            ]
+                        },
+                        {
+                            "nombre": "TOTORA PAMPA",
+                            "direccion": "TOTORA PAMPA",
+                            "especialidades": [
+                                "Virología",
+                                "Neurocirugía",
+                                "Cirugía Plástica",
+                                "Hematología",
+                                "Dermatología",
+                                "Pediatría",
+                                "Obstetricia"
+                            ]
+                        },
+                        {
+                            "nombre": "CAÑADA",
+                            "direccion": "CAÑADAS",
+                            "especialidades": [
+                                "Optometría",
+                                "Cirugía Plástica",
+                                "Geriatria",
+                                "Hematología",
+                                "Radiología",
+                                "Psiquiatría"
+                            ]
+                        },
+                        {
+                            "nombre": "VACAS",
+                            "direccion": "Calle Aroma (Final Aroma) S/N",
+                            "especialidades": [ 
+                                "Dermatologia",
+                                "Cirugia General",
+                                "Neurocirugia",
+                                "Obstreticia",
+                                "Virologia",
+                                "Pedriatria",
+                                "Radiologia"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Villa Tunari",
+                    "hospitales": [
+                        {
+                            "nombre": "1 DE MAYO",
+                            "direccion": "MUNICIPIO VILLA TUNARI CENTRAL INDEPENDIENTE PUEBLO 1RO DE MAYO",
+                            "especialidades": [
+                                "Virología",
+                                "Bioquímica",
+                                "Dermatología",
+                                "Geriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "BUEN PASTOR",
+                            "direccion": "BUEN PASTOR Tipnis",
+                            "especialidades": [
+                                "Bioquímica",
+                                "Geriatria",
+                                "Dermatología",
+                                "Cirugía Plástica",
+                                "Radiología",
+                                "Optometría"
+                            ]
+                        },
+                        {
+                            "nombre": "CINCO ESQUINAS",
+                            "direccion": "P.S. 5 ESQUINAS MUNICIPIO VILLA TUNARI",
+                            "especialidades": [
+                                "Optometría",
+                                "Psiquiatría",
+                                "Virología",
+                                "Cirugía Plástica",
+                                "Hematología",
+                                "Dermatología"
+                            ]
+                        },
+                        {
+                            "nombre": "LOCOTAL",
+                            "direccion": "Carretera a Cbba Santa Cruz punto de Control Aduanero",
+                            "especialidades": [
+                                "Cirugía General",
+                                "Radiología",
+                                "Psiquiatría",
+                                "Obstetricia",
+                                "Bioquímica",
+                                "Optometría"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "municipio": "Vinto",
+                    "hospitales": [
+                        {
+                            "nombre": "CHINCHILLA",
+                            "direccion": "CHINCHILLA",
+                            "especialidades": [
+                                "Cirugía Plástica",
+                                "Neurocirugía",
+                                "Radiología",
+                                "Hematología",
+                                "Obstetricia",
+                                "Optometría"
+                            ]
+                        },
+                        {
+                            "nombre": "COMBUYO",
+                            "direccion": "combuyo.calle innominada",
+                            "especialidades": [
+                                "Dermatologia",
+                                "Cirugia General",
+                                "Oftalmologia",
+                                "Geriatria",
+                                "Radiologia",
+                                "Pedriatria"
+                            ]
+                        },
+                        {
+                            "nombre": "ISCAIPATA",
+                            "direccion": "avenida pairumani",
+                            "especialidades": [
+                                "Neurocirugia",
+                                "Oftalmologia",
+                                "Virologia",
+                                "Radiologia",
+                                "Obstetricia",
+                                "Cirugia Plastica"
+                            ]
+                        },
+                        {
+                            "nombre": "KERAYA",
+                            "direccion": "VINTO - KERAYA",
+                            "especialidades": [
+                                "Neurocirugía",
+                                "Cirugía Plástica",
+                                "Radiología",
+                                "Hematología",
+                                "Obstetricia",
+                                "Psiquiatría"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -100,7 +100,106 @@
                 ]
               }
             }
+          },"enfermedades_infecciosas": {
+            "gripe": {
+              "consulta": {
+                "tag": "consulta_gripe",
+                "patterns": ["¿Qué es la gripe?", "Explícame sobre la influenza"],
+                "responses": [
+                  "La gripe, o influenza, es una enfermedad viral contagiosa que afecta principalmente las vías respiratorias. Es causada por diferentes cepas de virus de la influenza y puede provocar síntomas como fiebre, dolor de garganta, tos, congestión nasal y malestar general."
+                ]
+              },
+              "sintomas": {
+                "tag": "sintomas_gripe",
+                "patterns": ["¿Cuáles son los síntomas de la gripe?", "¿Qué síntomas produce la influenza?"],
+                "responses": [
+                  "Los síntomas comunes de la gripe incluyen fiebre alta, dolores musculares, dolor de cabeza, fatiga, tos seca y congestión nasal. Puede presentar complicaciones en ciertos grupos de riesgo, como niños pequeños, personas mayores y aquellos con condiciones médicas subyacentes."
+                ]
+              },
+              "efectos": {
+                "tag": "efectos_gripe",
+                "patterns": ["¿Cuáles son los efectos de la gripe en la calidad de vida?"],
+                "responses": [
+                  "La gripe puede tener efectos significativos en la calidad de vida, especialmente durante los períodos de síntomas agudos. Además de los malestares físicos, puede llevar a ausencias laborales y escolares, así como afectar las actividades diarias."
+                ]
+              },
+              "tratamiento": {
+                "general": {
+                  "tag": "tratamiento_general_gripe",
+                  "patterns": ["¿Cómo se trata la gripe?", "¿Cuál es el tratamiento para la influenza?"],
+                  "responses": [
+                    "El tratamiento de la gripe generalmente incluye reposo, hidratación adecuada y medicamentos para aliviar los síntomas, como analgésicos y antifebriles. En algunos casos, se pueden recetar antivirales, especialmente en situaciones de alto riesgo."
+                  ]
+                },
+                "adultos": {
+                  "tag": "tratamiento_adultos_gripe",
+                  "patterns": ["¿Cómo se trata la gripe en adultos?"],
+                  "responses": [
+                    "En adultos, el tratamiento se enfoca en aliviar los síntomas y prevenir complicaciones. Es importante descansar, mantenerse bien hidratado y seguir las indicaciones del médico, especialmente si se encuentran en grupos de riesgo."
+                  ]
+                },
+                "ninos": {
+                  "tag": "tratamiento_ninos_gripe",
+                  "patterns": ["¿Cómo se trata la gripe en niños?"],
+                  "responses": [
+                    "En niños, el tratamiento implica reposo, líquidos adecuados y, en algunos casos, medicamentos para reducir la fiebre y aliviar los síntomas. Los padres deben seguir las recomendaciones del pediatra para garantizar una recuperación segura."
+                  ]
+                }
+              },
+              "medicamentos": {
+                "general": {
+                  "tag": "medicamentos_general_gripe",
+                  "patterns": ["¿Cuáles son los medicamentos para tratar la gripe?"],
+                  "responses": [
+                    "Los medicamentos para tratar la gripe pueden incluir analgésicos como el paracetamol, medicamentos para reducir la fiebre y antivirales en ciertos casos. Es fundamental seguir las indicaciones del médico y evitar la automedicación."
+                  ]
+                },
+                "adultos": {
+                  "tag": "medicamentos_adultos_gripe",
+                  "patterns": ["¿Cuáles son los medicamentos para tratar la gripe en adultos?"],
+                  "responses": [
+                    "En adultos, se pueden utilizar analgésicos y antifebriles, así como antivirales en situaciones específicas. La elección de medicamentos dependerá de la gravedad de los síntomas y la salud general del paciente."
+                  ]
+                },
+                "ninos": {
+                  "tag": "medicamentos_ninos_gripe",
+                  "patterns": ["¿Cuáles son los medicamentos para tratar la gripe en niños?"],
+                  "responses": [
+                    "En niños, se prefieren medicamentos adaptados a su edad y peso. Los padres deben seguir las indicaciones del pediatra y evitar la automedicación para garantizar una recuperación segura y efectiva."
+                  ]
+                }
+              },
+              "complicaciones": {
+                "tag": "complicaciones_gripe",
+                "patterns": ["¿Cuáles son las complicaciones de la gripe?"],
+                "responses": [
+                  "Las complicaciones de la gripe pueden incluir neumonía, exacerbación de condiciones médicas crónicas y, en casos graves, pueden llevar a hospitalización. Es esencial buscar atención médica si los síntomas empeoran o persisten."
+                ]
+              },
+              "atencion_medica": {
+                "tag": "atencion_medica_gripe",
+                "patterns": ["¿Cuándo debo buscar atención médica si tengo gripe?", "¿Cuándo debo consultar al médico por influenza?"],
+                "responses": [
+                  "Debes buscar atención médica si experimentas síntomas graves, dificultad para respirar, dolor persistente en el pecho o si estás en grupos de riesgo. La atención médica adecuada puede ayudar a prevenir complicaciones."
+                ]
+              },
+              "prevencion": {
+                "tag": "prevencion_gripe",
+                "patterns": ["¿Cómo se puede prevenir la gripe?"],
+                "responses": [
+                  "La prevención de la gripe incluye la vacunación anual, el lavado frecuente de manos, evitar el contacto cercano con personas enfermas y mantener un estilo de vida saludable. La vacuna contra la gripe es especialmente recomendada para grupos de riesgo."
+                ]
+              },
+              "causas": {
+                "tag": "causas_gripe",
+                "patterns": ["¿Cuáles son las causas de la gripe?"],
+                "responses": [
+                  "La gripe es causada por virus de la influenza. Estos virus se propagan de persona a persona a través de gotas respiratorias cuando alguien enfermo tose, estornuda o habla. La variabilidad genética de los virus de la influenza contribuye a la necesidad de vacunación anual."
+                ]
+              }
+            }
           },
+          
           
           "neurocirugia": {
             "tumor_cerebral": {
@@ -202,7 +301,104 @@
                 ]
               }
             }
+          },"hidrocefalia": {
+            "consulta": {
+              "tag": "consulta_hidrocefalia",
+              "patterns": ["¿Qué es la hidrocefalia?", "Explícame sobre la hidrocefalia"],
+              "responses": [
+                "La hidrocefalia es una condición médica en la cual hay una acumulación anormal de líquido cefalorraquídeo en el cerebro. Esta acumulación puede provocar una ampliación de los ventrículos cerebrales y aumentar la presión dentro del cráneo."
+              ]
+            },
+            "sintomas": {
+              "tag": "sintomas_hidrocefalia",
+              "patterns": ["¿Cuáles son los síntomas de la hidrocefalia?", "¿Qué síntomas produce la hidrocefalia?"],
+              "responses": [
+                "Los síntomas comunes de la hidrocefalia incluyen dolores de cabeza, náuseas, vómitos, cambios en la visión, problemas de equilibrio y, en bebés, una cabeza con un tamaño inusualmente grande."
+              ]
+            },
+            "efectos": {
+              "tag": "efectos_hidrocefalia",
+              "patterns": ["¿Cuáles son los efectos de la hidrocefalia en la calidad de vida?"],
+              "responses": [
+                "La hidrocefalia puede tener efectos significativos en la calidad de vida, ya que afecta la función cerebral y puede llevar a problemas cognitivos y físicos. El tratamiento busca aliviar los síntomas y mejorar la calidad de vida del paciente."
+              ]
+            },
+            "tratamiento": {
+              "general": {
+                "tag": "tratamiento_general_hidrocefalia",
+                "patterns": ["¿Cómo se trata la hidrocefalia?", "¿Cuál es el tratamiento para la hidrocefalia?"],
+                "responses": [
+                  "El tratamiento de la hidrocefalia suele implicar la inserción de una derivación (tubo) para drenar el exceso de líquido cefalorraquídeo y aliviar la presión en el cerebro. En algunos casos, puede ser necesaria una cirugía."
+                ]
+              },
+              "adultos": {
+                "tag": "tratamiento_adultos_hidrocefalia",
+                "patterns": ["¿Cómo se trata la hidrocefalia en adultos?"],
+                "responses": [
+                  "En adultos, el tratamiento puede incluir la colocación de una derivación para drenar el líquido cefalorraquídeo y aliviar la presión. La intervención quirúrgica es comúnmente necesaria y se adapta al caso específico."
+                ]
+              },
+              "ninos": {
+                "tag": "tratamiento_ninos_hidrocefalia",
+                "patterns": ["¿Cómo se trata la hidrocefalia en niños?"],
+                "responses": [
+                  "El tratamiento en niños generalmente implica la colocación de una derivación y, en algunos casos, puede ser necesario ajustarla a medida que el niño crece. La atención cercana de un equipo médico es esencial."
+                ]
+              }
+            },
+            "medicamentos": {
+              "general": {
+                "tag": "medicamentos_general_hidrocefalia",
+                "patterns": ["¿Cuáles son los medicamentos para tratar la hidrocefalia?"],
+                "responses": [
+                  "El tratamiento principal de la hidrocefalia no suele involucrar medicamentos. La derivación para drenar el líquido cefalorraquídeo es la opción más común para aliviar la presión en el cerebro."
+                ]
+              },
+              "adultos": {
+                "tag": "medicamentos_adultos_hidrocefalia",
+                "patterns": ["¿Cuáles son los medicamentos para tratar la hidrocefalia en adultos?"],
+                "responses": [
+                  "En adultos, el enfoque principal es la derivación para drenar el líquido cefalorraquídeo. Los medicamentos pueden ser recetados según las necesidades individuales del paciente."
+                ]
+              },
+              "ninos": {
+                "tag": "medicamentos_ninos_hidrocefalia",
+                "patterns": ["¿Cuáles son los medicamentos para tratar la hidrocefalia en niños?"],
+                "responses": [
+                  "En niños, el tratamiento se centra en la colocación de una derivación para drenar el exceso de líquido cefalorraquídeo. Los medicamentos pueden ser utilizados según la situación y la respuesta individual del niño."
+                ]
+              }
+            },
+            "complicaciones": {
+              "tag": "complicaciones_hidrocefalia",
+              "patterns": ["¿Cuáles son las complicaciones de la hidrocefalia?"],
+              "responses": [
+                "Las complicaciones de la hidrocefalia pueden incluir problemas cognitivos, dificultades en el aprendizaje, problemas motores y, en casos graves, discapacidades significativas. El seguimiento médico continuo es crucial para abordar y prevenir posibles complicaciones."
+              ]
+            },
+            "atencion_medica": {
+              "tag": "atencion_medica_hidrocefalia",
+              "patterns": ["¿Cuándo debo buscar atención médica si tengo hidrocefalia?", "¿Cuándo debo consultar al médico por hidrocefalia?"],
+              "responses": [
+                "Es fundamental buscar atención médica si se experimentan síntomas de hidrocefalia, como dolores de cabeza persistentes, cambios en la visión, vómitos y problemas de equilibrio. El diagnóstico y tratamiento tempranos son clave para mejorar el pronóstico."
+              ]
+            },
+            "prevencion": {
+              "tag": "prevencion_hidrocefalia",
+              "patterns": ["¿Cómo se puede prevenir la hidrocefalia?"],
+              "responses": [
+                "En muchos casos, la hidrocefalia no se puede prevenir, ya que puede ser causada por diversas condiciones. La detección temprana y el tratamiento adecuado son esenciales para minimizar los efectos y mejorar la calidad de vida."
+              ]
+            },
+            "causas": {
+              "tag": "causas_hidrocefalia",
+              "patterns": ["¿Cuáles son las causas de la hidrocefalia?"],
+              "responses": [
+                "Las causas de la hidrocefalia pueden incluir malformaciones congénitas, hemorragias cerebrales, infecciones y tumores cerebrales. Identificar la causa es crucial para determinar el enfoque de tratamiento más efectivo."
+              ]
+            }
           },
+          
      
           "psiquiatria": {
             "enfermedades_mentales": {
@@ -278,7 +474,105 @@
                 }
               }
             }
-          },
+          } ,
+          "trastorno_obsesivo_compulsivo": {
+            "consulta": {
+              "tag": "consulta_toc",
+              "patterns": ["¿Qué es el trastorno obsesivo-compulsivo?", "Explícame sobre el TOC"],
+              "responses": [
+                "El trastorno obsesivo-compulsivo (TOC) es un trastorno de ansiedad caracterizado por pensamientos intrusivos no deseados, llamados obsesiones, y comportamientos repetitivos, llamados compulsiones. Las obsesiones y compulsiones pueden consumir tiempo y causar angustia significativa."
+              ]
+            },
+            "sintomas": {
+              "tag": "sintomas_toc",
+              "patterns": ["¿Cuáles son los síntomas del trastorno obsesivo-compulsivo?", "¿Qué síntomas produce el TOC?"],
+              "responses": [
+                "Los síntomas del TOC incluyen obsesiones, que son pensamientos persistentes no deseados, y compulsiones, que son comportamientos repetitivos realizados en respuesta a las obsesiones. Las personas con TOC a menudo intentan aliviar la ansiedad mediante la realización de compulsiones."
+              ]
+            },
+            "efectos": {
+              "tag": "efectos_toc",
+              "patterns": ["¿Cuáles son los efectos del trastorno obsesivo-compulsivo en la calidad de vida?"],
+              "responses": [
+                "El TOC puede tener efectos significativos en la calidad de vida, afectando las relaciones interpersonales, el rendimiento laboral y la salud mental. La interferencia de las obsesiones y compulsiones puede llevar a niveles elevados de estrés y ansiedad."
+              ]
+            },
+            "tratamiento": {
+              "general": {
+                "tag": "tratamiento_general_toc",
+                "patterns": ["¿Cómo se trata el trastorno obsesivo-compulsivo?", "Explícame el tratamiento para el TOC"],
+                "responses": [
+                  "El tratamiento del TOC puede incluir terapia cognitivo-conductual, especialmente la terapia de exposición y prevención de respuesta. En algunos casos, se pueden recetar medicamentos, como inhibidores selectivos de la recaptación de serotonina (ISRS), para ayudar a reducir los síntomas."
+                ]
+              },
+              "adultos": {
+                "tag": "tratamiento_adultos_toc",
+                "patterns": ["¿Cómo se trata el trastorno obsesivo-compulsivo en adultos?"],
+                "responses": [
+                  "El tratamiento en adultos se adapta a las necesidades individuales, y la terapia cognitivo-conductual es a menudo una parte integral. Los medicamentos pueden ser considerados según la gravedad de los síntomas y la respuesta al tratamiento."
+                ]
+              },
+              "ninos": {
+                "tag": "tratamiento_ninos_toc",
+                "patterns": ["¿Cómo se trata el trastorno obsesivo-compulsivo en niños?"],
+                "responses": [
+                  "En niños, el tratamiento del TOC puede incluir terapia cognitivo-conductual adaptada a su edad, con la participación activa de los padres. La colaboración con profesionales de la salud mental infantil es crucial."
+                ]
+              }
+            },
+            "medicamentos": {
+              "general": {
+                "tag": "medicamentos_general_toc",
+                "patterns": ["¿Cuáles son los medicamentos para tratar el trastorno obsesivo-compulsivo?"],
+                "responses": [
+                  "Los medicamentos, como los inhibidores selectivos de la recaptación de serotonina (ISRS), pueden ser recetados para ayudar a reducir los síntomas del TOC. La elección del medicamento dependerá de la evaluación clínica."
+                ]
+              },
+              "adultos": {
+                "tag": "medicamentos_adultos_toc",
+                "patterns": ["¿Cuáles son los medicamentos para tratar el trastorno obsesivo-compulsivo en adultos?"],
+                "responses": [
+                  "En adultos, se pueden prescribir medicamentos como parte del tratamiento del TOC. La dosis y el tipo de medicamento dependerán de la evaluación del profesional de la salud mental."
+                ]
+              },
+              "ninos": {
+                "tag": "medicamentos_ninos_toc",
+                "patterns": ["¿Cuáles son los medicamentos para tratar el trastorno obsesivo-compulsivo en niños?"],
+                "responses": [
+                  "En niños, se utilizan medicamentos adaptados a su edad y peso, y la prescripción se realiza con precaución y supervisión de profesionales especializados en salud mental infantil."
+                ]
+              }
+            },
+            "complicaciones": {
+              "tag": "complicaciones_toc",
+              "patterns": ["¿Cuáles son las complicaciones del trastorno obsesivo-compulsivo?"],
+              "responses": [
+                "Las complicaciones del TOC pueden incluir impactos en la vida diaria, relaciones interpersonales afectadas y, en casos graves, depresión u otros trastornos de salud mental. La intervención temprana y el tratamiento adecuado son cruciales para prevenir complicaciones a largo plazo."
+              ]
+            },
+            "atencion_medica": {
+              "tag": "atencion_medica_toc",
+              "patterns": ["¿Cuándo debo buscar atención médica si tengo trastorno obsesivo-compulsivo?", "¿Cuándo debo consultar al psiquiatra por TOC?"],
+              "responses": [
+                "Es fundamental buscar atención médica si los síntomas del TOC interfieren significativamente con la vida diaria. Un psiquiatra o profesional de la salud mental puede realizar una evaluación completa y recomendar el tratamiento apropiado."
+              ]
+            },
+            "prevencion": {
+              "tag": "prevencion_toc",
+              "patterns": ["¿Cómo se puede prevenir el trastorno obsesivo-compulsivo?"],
+              "responses": [
+                "No hay una forma específica de prevenir el TOC, pero la identificación temprana de los síntomas y la intervención adecuada pueden ayudar a reducir la gravedad de los síntomas y mejorar la calidad de vida. La terapia cognitivo-conductual puede ser beneficiosa en la prevención de recaídas."
+              ]
+            },
+            "causas": {
+              "tag": "causas_toc",
+              "patterns": ["¿Cuáles son las causas del trastorno obsesivo-compulsivo?"],
+              "responses": [
+                "Las causas exactas del TOC no se comprenden completamente, pero factores genéticos, neurobiológicos y ambientales pueden desempeñar un papel en su desarrollo. Un desequilibrio en los neurotransmisores, especialmente la serotonina, también se ha asociado con el TOC."
+              ]
+            }
+          }
+          ,
             "virologia": {
                 "enfermedades_virales": {
                   "influenza": {
@@ -378,7 +672,104 @@
                       ]
                     }
                   }
+                },"covid19": {
+                  "consulta": {
+                    "tag": "consulta_covid19",
+                    "patterns": ["¿Qué es el COVID-19?", "Explícame sobre el COVID-19"],
+                    "responses": [
+                      "El COVID-19 es una enfermedad causada por el virus SARS-CoV-2. Pertenece a la familia de los coronavirus y puede causar síntomas que varían desde leves hasta graves. Los síntomas comunes incluyen fiebre, tos, dificultad para respirar, fatiga y pérdida del gusto o del olfato."
+                    ]
+                  },
+                  "sintomas": {
+                    "tag": "sintomas_covid19",
+                    "patterns": ["¿Cuáles son los síntomas del COVID-19?", "¿Qué síntomas produce el COVID-19?"],
+                    "responses": [
+                      "Los síntomas del COVID-19 pueden incluir fiebre, tos seca, dificultad para respirar, fatiga, dolor corporal, pérdida del gusto o del olfato, dolor de garganta, congestión nasal, dolor de cabeza y, en casos graves, neumonía."
+                    ]
+                  },
+                  "efectos": {
+                    "tag": "efectos_covid19",
+                    "patterns": ["¿Cuáles son los efectos del COVID-19 en la salud?", "Explícame sobre los efectos a largo plazo del COVID-19"],
+                    "responses": [
+                      "El COVID-19 puede tener efectos a corto y largo plazo en la salud. En algunos casos, las personas pueden experimentar síntomas persistentes después de la recuperación aguda, conocidos como 'COVID persistente' o 'long COVID', que incluyen fatiga persistente, dificultad para respirar, dolor en el pecho y problemas cognitivos."
+                    ]
+                  },
+                  "tratamiento": {
+                    "general": {
+                      "tag": "tratamiento_general_covid19",
+                      "patterns": ["¿Cómo se trata el COVID-19?", "Explícame el tratamiento para el COVID-19"],
+                      "responses": [
+                        "El tratamiento del COVID-19 puede incluir el manejo de síntomas, descanso, hidratación y, en casos más graves, hospitalización. Algunos pacientes pueden requerir oxígeno suplementario o ventilación mecánica. Se están utilizando diferentes medicamentos y terapias, y la vacunación es una medida clave para prevenir la enfermedad."
+                      ]
+                    },
+                    "hospitalizacion": {
+                      "tag": "tratamiento_hospitalizacion_covid19",
+                      "patterns": ["¿Qué implica la hospitalización por COVID-19?"],
+                      "responses": [
+                        "La hospitalización por COVID-19 implica el monitoreo cercano de los síntomas, administración de oxígeno si es necesario, y en casos más graves, soporte ventilatorio. También se pueden utilizar medicamentos antivirales y antiinflamatorios para tratar la infección."
+                      ]
+                    },
+                    "vacunacion": {
+                      "tag": "tratamiento_vacunacion_covid19",
+                      "patterns": ["¿Cómo ayuda la vacunación en el tratamiento del COVID-19?"],
+                      "responses": [
+                        "La vacunación es una herramienta clave en la prevención y el tratamiento del COVID-19. Las vacunas han demostrado ser efectivas para prevenir la enfermedad grave, reducir la transmisión y disminuir la carga en los sistemas de salud."
+                      ]
+                    }
+                  },
+                  "medicamentos": {
+                    "general": {
+                      "tag": "medicamentos_general_covid19",
+                      "patterns": ["¿Cuáles son los medicamentos para tratar el COVID-19?"],
+                      "responses": [
+                        "El tratamiento del COVID-19 puede incluir medicamentos antivirales, antiinflamatorios y, en algunos casos, anticoagulantes para prevenir la formación de coágulos. La elección del medicamento dependerá de la gravedad de la enfermedad y la evaluación clínica."
+                      ]
+                    },
+                    "remdesivir": {
+                      "tag": "medicamentos_remdesivir_covid19",
+                      "patterns": ["Explícame sobre el medicamento remdesivir para el COVID-19"],
+                      "responses": [
+                        "El remdesivir es un antiviral que se ha utilizado en el tratamiento del COVID-19. Actúa interfiriendo con la replicación del virus. Su uso está sujeto a la evaluación clínica y aprobación por parte de los profesionales de la salud."
+                      ]
+                    },
+                    "corticoides": {
+                      "tag": "medicamentos_corticoides_covid19",
+                      "patterns": ["¿Cómo funcionan los corticoides en el tratamiento del COVID-19?"],
+                      "responses": [
+                        "Los corticoides, como la dexametasona, se utilizan en casos graves de COVID-19 para reducir la inflamación pulmonar. Ayudan a modular la respuesta inmunológica excesiva que puede ocurrir en algunas personas infectadas."
+                      ]
+                    }
+                  },
+                  "complicaciones": {
+                    "tag": "complicaciones_covid19",
+                    "patterns": ["¿Cuáles son las complicaciones del COVID-19?"],
+                    "responses": [
+                      "Las complicaciones del COVID-19 pueden incluir neumonía, síndrome de dificultad respiratoria aguda (SDRA), coágulos sanguíneos, daño a órganos como el corazón y los riñones, y en casos graves, la muerte. La prevención, incluida la vacunación, es clave para reducir el riesgo de complicaciones."
+                    ]
+                  },
+                  "atencion_medica": {
+                    "tag": "atencion_medica_covid19",
+                    "patterns": ["¿Cuándo debo buscar atención médica si tengo COVID-19?", "¿Cuándo debo ir al hospital por COVID-19?"],
+                    "responses": [
+                      "Es importante buscar atención médica si experimentas síntomas graves de COVID-19, como dificultad para respirar persistente, dolor o presión en el pecho, confusión persistente, incapacidad para permanecer despierto o cualquier otra emergencia médica. La atención temprana puede marcar la diferencia en el resultado del tratamiento."
+                    ]
+                  },
+                  "prevencion": {
+                    "tag": "prevencion_covid19",
+                    "patterns": ["¿Cómo se puede prevenir el COVID-19?"],
+                    "responses": [
+                      "La prevención del COVID-19 incluye medidas como la vacunación, el uso de mascarillas, el lavado frecuente de manos, el distanciamiento social y la ventilación adecuada. Estas medidas ayudan a reducir la propagación del virus y proteger a la comunidad."
+                    ]
+                  },
+                  "causas": {
+                    "tag": "causas_covid19",
+                    "patterns": ["¿Cuáles son las causas del COVID-19?"],
+                    "responses": [
+                      "El COVID-19 es causado por el virus SARS-CoV-2, que se propaga principalmente a través de gotas respiratorias cuando una persona infectada tose, estornuda o habla. También puede propagarse tocando superficies contaminadas y luego tocando la cara. La transmisión puede ocurrir incluso en personas asintomáticas."
+                    ]
+                  }
                 },
+                
                 "pediatria": {
                     "enfermedades_infantiles": {
                       "varicela": {
@@ -481,6 +872,67 @@
                     }
                     
                   },
+                    
+                      "asma": {
+                        "consulta": {
+                          "tag": "consulta_asma_pediatria",
+                          "patterns": ["Mi hijo tiene problemas para respirar, ¿podría ser asma?", "Explícame sobre el asma en niños"],
+                          "responses": [
+                            "El asma en niños es una afección respiratoria crónica que puede causar dificultad para respirar, sibilancias, tos y opresión en el pecho. Si sospechas que tu hijo tiene asma, es crucial buscar atención médica para un diagnóstico adecuado y un plan de tratamiento."
+                          ]
+                        },
+                        "sintomas": {
+                          "tag": "sintomas_asma_pediatria",
+                          "patterns": ["¿Cuáles son los síntomas del asma en niños?", "Explícame cómo se manifiesta el asma en niños"],
+                          "responses": [
+                            "Los síntomas del asma en niños pueden incluir dificultad para respirar, sibilancias (ruido agudo al respirar), tos, especialmente por la noche o temprano en la mañana, y opresión en el pecho. Estos síntomas pueden variar en gravedad, y es esencial buscar atención médica para evaluar y gestionar el asma de tu hijo."
+                          ]
+                        },
+                        "causas": {
+                          "tag": "causas_asma_pediatria",
+                          "patterns": ["¿Cuáles son las causas del asma en niños?"],
+                          "responses": [
+                            "Las causas del asma en niños pueden incluir predisposición genética, exposición a alérgenos como el polen, el polvo o los ácaros, infecciones respiratorias virales, exposición al humo del tabaco y factores ambientales. Identificar y evitar los desencadenantes es importante en el manejo del asma."
+                          ]
+                        },
+                        "diagnostico": {
+                          "tag": "diagnostico_asma_pediatria",
+                          "patterns": ["¿Cómo se diagnostica el asma en niños?", "Explícame sobre el diagnóstico del asma en niños"],
+                          "responses": [
+                            "El diagnóstico del asma en niños implica evaluar los síntomas, realizar pruebas de función pulmonar, como la espirometría, y posiblemente pruebas alérgicas. El pediatra determinará si se trata de asma y desarrollará un plan de tratamiento personalizado."
+                          ]
+                        },
+                        "tratamiento": {
+                          "tag": "tratamiento_asma_pediatria",
+                          "patterns": ["¿Cómo se trata el asma en niños?", "Explícame sobre el tratamiento del asma en niños"],
+                          "responses": [
+                            "El tratamiento del asma en niños puede incluir medicamentos inhaladores para aliviar los síntomas agudos y medicamentos de control para prevenir las exacerbaciones. Además, se pueden recomendar cambios en el estilo de vida y estrategias para evitar los desencadenantes. Es esencial seguir el plan de tratamiento del pediatra."
+                          ]
+                        },
+                        "gestion": {
+                          "tag": "gestion_asma_pediatria",
+                          "patterns": ["¿Cómo puedo gestionar el asma de mi hijo?", "Explícame sobre la gestión del asma en niños"],
+                          "responses": [
+                            "La gestión del asma en niños implica seguir el plan de tratamiento proporcionado por el pediatra, administrar los medicamentos según las indicaciones, monitorear los síntomas y evitar los desencadenantes conocidos. La educación sobre el asma y la comunicación regular con el pediatra son clave en el manejo exitoso."
+                          ]
+                        },
+                        "alerta_medica": {
+                          "tag": "alerta_medica_asma_pediatria",
+                          "patterns": ["¿Cuáles son las señales de alerta con el asma en niños?", "¿Cuándo debo buscar atención médica por el asma de mi hijo?"],
+                          "responses": [
+                            "Debes buscar atención médica si tu hijo tiene dificultad para respirar severa, sibilancias persistentes, tos continua, especialmente durante la noche, o si los medicamentos de rescate no proporcionan alivio suficiente. La atención temprana es crucial para controlar el asma."
+                          ]
+                        },
+                        "prevencion": {
+                          "tag": "prevencion_asma_pediatria",
+                          "patterns": ["¿Cómo puedo prevenir el asma en niños?", "Explícame sobre la prevención del asma en niños"],
+                          "responses": [
+                            "La prevención del asma en niños puede incluir identificar y evitar los desencadenantes conocidos, mantener un ambiente libre de humo, promover la lactancia materna, y asegurar un entorno limpio y saludable. Trabajar en estrecha colaboración con el pediatra ayudará a desarrollar estrategias específicas para la prevención del asma."
+                          ]
+                        }
+                      }
+                    ,
+                  
                   "geriatria": {
                     "enfermedades_geriatricas": {
                       "demencia": {
@@ -559,6 +1011,165 @@
                       }
                     }
                   },
+                    "psoriasis": {
+                      "consulta": {
+                        "tag": "consulta_psoriasis",
+                        "patterns": ["¿Qué es la psoriasis?", "Describe la psoriasis"],
+                        "responses": [
+                          "La psoriasis es una enfermedad crónica de la piel caracterizada por la rápida multiplicación de células cutáneas. Se manifiesta en forma de manchas rojas cubiertas con escamas plateadas y puede causar picazón y malestar.",
+                          "La psoriasis es un trastorno autoinmune que afecta la piel, causando inflamación y la formación de parches escamosos."
+                        ]
+                      },
+                      "sintomas": {
+                        "tag": "sintomas_psoriasis",
+                        "patterns": ["¿Cuáles son los síntomas de la psoriasis?", "¿Qué síntomas produce la psoriasis?"],
+                        "responses": [
+                          "Los síntomas comunes de la psoriasis incluyen manchas rojas en la piel, escamas plateadas, picazón intensa, piel seca y agrietada, y en casos más graves, dolor en las articulaciones.",
+                          "La psoriasis puede manifestarse con diferentes síntomas en cada persona, pero generalmente se caracteriza por lesiones rojas y descamativas en la piel."
+                        ]
+                      },
+                      "efectos": {
+                        "tag": "efectos_psoriasis",
+                        "patterns": ["¿Cuáles son los efectos de la psoriasis en la calidad de vida?"],
+                        "responses": [
+                          "La psoriasis puede tener efectos significativos en la calidad de vida, afectando la salud emocional y social de quienes la padecen. Además de los síntomas físicos, la psoriasis puede contribuir al estrés y la ansiedad."
+                        ]
+                      },
+                      "tratamiento": {
+                        "general": {
+                          "tag": "tratamiento_general_psoriasis",
+                          "patterns": ["¿Cómo se trata la psoriasis?", "¿Cuál es el tratamiento para la psoriasis?"],
+                          "responses": [
+                            "El tratamiento para la psoriasis puede incluir terapias tópicas, fototerapia, medicamentos sistémicos y cambios en el estilo de vida. Es importante consultar a un dermatólogo para determinar el enfoque adecuado para cada caso."
+                          ]
+                        },
+                        "adultos": {
+                          "tag": "tratamiento_adultos_psoriasis",
+                          "patterns": ["¿Cómo se trata la psoriasis en adultos?"],
+                          "responses": [
+                            "En adultos, el tratamiento puede incluir cremas y ungüentos tópicos, terapias con luz ultravioleta, medicamentos orales o inyectables, y en algunos casos, cambios en la dieta y el estilo de vida."
+                          ]
+                        },
+                        "ninos": {
+                          "tag": "tratamiento_ninos_psoriasis",
+                          "patterns": ["¿Cómo se trata la psoriasis en niños?"],
+                          "responses": [
+                            "El tratamiento de la psoriasis en niños generalmente se adapta a su edad y puede incluir terapias tópicas suaves, cambios en la dieta y la atención cuidadosa de un dermatólogo pediátrico."
+                          ]
+                        }
+                      },
+                      "medicamentos": {
+                        "general": {
+                          "tag": "medicamentos_general_psoriasis",
+                          "patterns": ["¿Cuáles son los medicamentos para tratar la psoriasis?"],
+                          "responses": [
+                            "Los medicamentos para tratar la psoriasis pueden incluir cremas con esteroides, retinoides tópicos, medicamentos inmunosupresores y, en casos más severos, biológicos que se administran por vía oral o inyectable."
+                          ]
+                        },
+                        "adultos": {
+                          "tag": "medicamentos_adultos_psoriasis",
+                          "patterns": ["¿Cuáles son los medicamentos para tratar la psoriasis en adultos?"],
+                          "responses": [
+                            "En adultos, los medicamentos pueden variar desde cremas y ungüentos hasta medicamentos sistémicos como metotrexato o ciclosporina, y biológicos como el adalimumab o el etanercept."
+                          ]
+                        },
+                        "ninos": {
+                          "tag": "medicamentos_ninos_psoriasis",
+                          "patterns": ["¿Cuáles son los medicamentos para tratar la psoriasis en niños?"],
+                          "responses": [
+                            "En niños, se prefieren tratamientos tópicos suaves, y se evitan en gran medida los medicamentos sistémicos, a menos que sea absolutamente necesario y bajo la supervisión de un pediatra."
+                          ]
+                        }
+                      },
+                      "complicaciones": {
+                        "tag": "complicaciones_psoriasis",
+                        "patterns": ["¿Cuáles son las complicaciones de la psoriasis?"],
+                        "responses": [
+                          "Las complicaciones de la psoriasis pueden incluir artritis psoriásica, problemas en las uñas, trastornos oculares y un mayor riesgo de enfermedades cardiovasculares. Es fundamental un monitoreo continuo con el dermatólogo para prevenir y tratar estas complicaciones."
+                        ]
+                      },
+                      "atencion_medica": {
+                        "tag": "atencion_medica_psoriasis",
+                        "patterns": ["¿Cuándo debo buscar atención médica si tengo psoriasis?", "¿Cuándo debo consultar al dermatólogo si tengo psoriasis?"],
+                        "responses": [
+                          "Es importante buscar atención médica si experimentas síntomas persistentes de psoriasis, como picazón intensa, enrojecimiento y descamación. Un dermatólogo puede proporcionar un diagnóstico preciso y un plan de tratamiento adecuado."
+                        ]
+                      },
+                      "prevencion": {
+                        "tag": "prevencion_psoriasis",
+                        "patterns": ["¿Cómo se puede prevenir la psoriasis?"],
+                        "responses": [
+                          "La psoriasis no se puede prevenir en su totalidad, pero se pueden tomar medidas para reducir los factores desencadenantes y mejorar la calidad de vida. Estos incluyen mantener una buena higiene de la piel, evitar el estrés excesivo y seguir el plan de tratamiento recomendado por el dermatólogo."
+                        ]
+                      },
+                      "causas": {
+                        "tag": "causas_psoriasis",
+                        "patterns": ["¿Cuáles son las causas para la aparición de la psoriasis?"],
+                        "responses": [
+                          "Las causas exactas de la psoriasis no se conocen completamente, pero se cree que involucran factores genéticos, inmunológicos y ambientales. La interacción de estos factores puede desencadenar el desarrollo de la enfermedad en individuos susceptibles."
+                        ]
+                      }
+                    },
+                    "trastorno_ansiedad": {
+                      "informacion_general": {
+                        "tag": "informacion_general_ansiedad",
+                        "patterns": ["¿Qué es el trastorno de ansiedad?", "Describe la ansiedad"],
+                        "responses": [
+                          "El trastorno de ansiedad es una afección mental que se caracteriza por sentimientos de preocupación, miedo o nerviosismo persistentes. Puede afectar la vida diaria y el bienestar general de una persona."
+                        ]
+                      },
+                      "sintomas": {
+                        "tag": "sintomas_ansiedad",
+                        "patterns": ["¿Cuáles son los síntomas del trastorno de ansiedad?", "¿Qué síntomas produce la ansiedad?"],
+                        "responses": [
+                          "Los síntomas del trastorno de ansiedad pueden incluir inquietud, fatiga, dificultad para concentrarse, irritabilidad, tensión muscular y problemas para conciliar el sueño. Es importante buscar ayuda profesional si estos síntomas son persistentes."
+                        ]
+                      },
+                      "causas": {
+                        "tag": "causas_ansiedad",
+                        "patterns": ["¿Cuáles son las causas del trastorno de ansiedad?"],
+                        "responses": [
+                          "Las causas del trastorno de ansiedad pueden incluir factores genéticos, desequilibrios químicos en el cerebro, experiencias traumáticas o situaciones estresantes. A menudo, es una combinación de varios factores."
+                        ]
+                      },
+                      "tipos": {
+                        "tag": "tipos_ansiedad",
+                        "patterns": ["¿Cuáles son los tipos de trastornos de ansiedad?"],
+                        "responses": [
+                          "Los trastornos de ansiedad incluyen el trastorno de ansiedad generalizada (TAG), el trastorno de pánico, el trastorno de ansiedad social y las fobias específicas. Cada tipo tiene sus propias características y síntomas distintivos."
+                        ]
+                      },
+                      "tratamiento": {
+                        "tag": "tratamiento_ansiedad",
+                        "patterns": ["¿Cómo se trata el trastorno de ansiedad?", "¿Cuál es el tratamiento para la ansiedad?"],
+                        "responses": [
+                          "El tratamiento para el trastorno de ansiedad puede incluir terapia cognitivo-conductual, medicamentos ansiolíticos, terapia de exposición y técnicas de manejo del estrés. Es importante consultar a un profesional de la salud mental para determinar el enfoque más adecuado."
+                        ]
+                      },
+                      "autoayuda": {
+                        "tag": "autoayuda_ansiedad",
+                        "patterns": ["¿Qué estrategias de autoayuda son efectivas para la ansiedad?"],
+                        "responses": [
+                          "La autoayuda para la ansiedad puede incluir la práctica regular de la relajación, el ejercicio físico, la atención plena (mindfulness) y la conexión social. Sin embargo, es crucial combinar estas estrategias con el apoyo profesional."
+                        ]
+                      },
+                      "complicaciones": {
+                        "tag": "complicaciones_ansiedad",
+                        "patterns": ["¿Cuáles son las complicaciones del trastorno de ansiedad?"],
+                        "responses": [
+                          "Las complicaciones del trastorno de ansiedad pueden incluir problemas de salud mental adicionales, dificultades en las relaciones interpersonales y un impacto negativo en la calidad de vida. Buscar ayuda temprana puede prevenir complicaciones a largo plazo."
+                        ]
+                      },
+                      "busqueda_ayuda": {
+                        "tag": "busqueda_ayuda_ansiedad",
+                        "patterns": ["¿Cuándo debo buscar ayuda para el trastorno de ansiedad?", "¿Cuándo es necesario el tratamiento para la ansiedad?"],
+                        "responses": [
+                          "Es crucial buscar ayuda si los síntomas de ansiedad son persistentes, causan un malestar significativo o afectan la calidad de vida. Los profesionales de la salud mental están capacitados para proporcionar el apoyo necesario."
+                        ]
+                      }
+                    }
+                  },
+                  
                   "bioquimica": {
                     "enfermedades_bioquimicas": {
                       "diabetes": {
@@ -683,11 +1294,89 @@
                           ]
                         }
                       }
+                    },   "blefaroplastia": {
+                      "consulta": {
+                        "tag": "consulta_blefaroplastia",
+                        "patterns": ["¿En qué consiste una consulta de blefaroplastia?", "Explícame el proceso de consulta para blefaroplastia"],
+                        "responses": [
+                          "La consulta de blefaroplastia es una reunión inicial con el cirujano plástico para discutir tus objetivos estéticos relacionados con los párpados. Durante esta consulta, se evaluará la piel de los párpados y se discutirán las opciones de tratamiento disponibles."
+                        ]
+                      },
+                      "sintomas": {
+                        "tag": "sintomas_blefaroplastia",
+                        "patterns": ["¿Cuáles son los síntomas después de una blefaroplastia?", "Explícame qué puedo esperar después de la cirugía de párpados"],
+                        "responses": [
+                          "Después de una blefaroplastia, es normal experimentar hinchazón y hematomas alrededor de los ojos. También puedes sentir cierta incomodidad y sequedad en los ojos. Estos síntomas son temporales y forman parte del proceso de recuperación."
+                        ]
+                      },
+                      "riesgos": {
+                        "tag": "riesgos_blefaroplastia",
+                        "patterns": ["¿Cuáles son los riesgos de la blefaroplastia?", "Explícame los posibles riesgos de la cirugía de párpados"],
+                        "responses": [
+                          "Los riesgos de la blefaroplastia incluyen infección, cicatrización anormal, asimetría, y en casos raros, cambios en la función visual. Es esencial discutir estos riesgos con tu cirujano antes de decidirte por la blefaroplastia."
+                        ]
+                      },
+                      "tratamiento": {
+                        "tag": "tratamiento_blefaroplastia",
+                        "patterns": ["¿Cómo se realiza la blefaroplastia?", "Explícame el proceso de tratamiento para la cirugía de párpados"],
+                        "responses": [
+                          "La blefaroplastia implica la eliminación del exceso de piel, grasa o músculo alrededor de los ojos para mejorar la apariencia. El procedimiento se realiza generalmente de forma ambulatoria y puede abordar bolsas debajo de los ojos, párpados caídos o arrugas alrededor de los ojos."
+                        ]
+                      },
+                      "resultados": {
+                        "tag": "resultados_blefaroplastia",
+                        "patterns": ["¿Cuándo veré los resultados de la blefaroplastia?", "Explícame el periodo de recuperación y resultados para la cirugía de párpados"],
+                        "responses": [
+                          "Los resultados de la blefaroplastia se apreciarán gradualmente a medida que disminuya la hinchazón y los hematomas. Puedes ver una mejora significativa en la apariencia de tus párpados en las semanas y meses posteriores al procedimiento."
+                        ]
+                      },
+                      "candidatos": {
+                        "tag": "candidatos_blefaroplastia",
+                        "patterns": ["¿Quiénes son candidatos para la blefaroplastia?", "Explícame quiénes pueden someterse a cirugía de párpados"],
+                        "responses": [
+                          "Los candidatos para la blefaroplastia son aquellos que tienen párpados caídos, bolsas debajo de los ojos o arrugas alrededor de los ojos que desean mejorar estéticamente. Una evaluación con un cirujano determinará si eres un buen candidato para este procedimiento."
+                        ]
+                      },
+                      "costos": {
+                        "tag": "costos_blefaroplastia",
+                        "patterns": ["¿Cuánto cuesta la blefaroplastia?", "Explícame sobre los costos de la cirugía de párpados"],
+                        "responses": [
+                          "Los costos de la blefaroplastia varían según la ubicación, la experiencia del cirujano y otros factores. Durante la consulta, se te proporcionará una estimación detallada de los costos, que pueden incluir honorarios del cirujano, instalaciones quirúrgicas y seguimiento postoperatorio."
+                        ]
+                      },
+                      "recuperacion": {
+                        "tag": "recuperacion_blefaroplastia",
+                        "patterns": ["¿Cómo es el proceso de recuperación después de la blefaroplastia?", "Explícame los cuidados postoperatorios para la cirugía de párpados"],
+                        "responses": [
+                          "La recuperación después de la blefaroplastia implica seguir las indicaciones postoperatorias, que pueden incluir descanso, aplicación de compresas frías, y evitar actividades extenuantes. Tu cirujano te proporcionará pautas específicas para garantizar una recuperación exitosa."
+                        ]
+                      },
+                      "efectos_secundarios": {
+                        "tag": "efectos_secundarios_blefaroplastia",
+                        "patterns": ["¿Cuáles son los posibles efectos secundarios de la blefaroplastia?", "Explícame sobre los efectos secundarios de la cirugía de párpados"],
+                        "responses": [
+                          "Los efectos secundarios de la blefaroplastia pueden incluir hinchazón, hematomas, sensibilidad a la luz, y visión borrosa temporal. Estos efectos son normales y generalmente disminuyen durante el proceso de recuperación."
+                        ]
+                      },
+                      "revision": {
+                        "tag": "revision_blefaroplastia",
+                        "patterns": ["¿Es posible realizar revisiones o correcciones después de la blefaroplastia?", "Explícame sobre revisiones postoperatorias para la cirugía de párpados"],
+                        "responses": [
+                          "En algunos casos, se pueden realizar revisiones o ajustes después de la blefaroplastia para abordar cualquier preocupación estética o mejorar los resultados. Es importante comunicarte con tu cirujano si tienes inquietudes sobre los resultados de la cirugía de párpados."
+                        ]
+                      },
+                      "cirujanos": {
+                        "tag": "cirujanos_blefaroplastia",
+                        "patterns": ["¿Cómo elegir a un cirujano para la blefaroplastia?", "Explícame qué considerar al seleccionar un cirujano de párpados"],
+                        "responses": [
+                          "Al elegir a un cirujano para la blefaroplastia, es esencial verificar su experiencia en cirugía de párpados, revisar casos anteriores, y tener una consulta detallada para discutir tus expectativas. La elección de un cirujano calificado es crucial para lograr resultados satisfactorios."
+                        ]
+                      }
                     }
                   }
           }
       }
       
-    }
+    
 
   

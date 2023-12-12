@@ -2,13 +2,13 @@ from dotenv import load_dotenv
 import os
 
 import telebot
-#import spacy
+import spacy
 
 load_dotenv()
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
 print(TELEGRAM_TOKEN)
 
-bot = telebot.TeleBot("")
+bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
 
 #PARA PROBAR SI HAY RESPUESTA

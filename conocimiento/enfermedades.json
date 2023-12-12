@@ -1608,9 +1608,185 @@
                 }
             }
         },
-
-        "pediatria": {},
-
-        "geriatria": {}
+        "pediatria": {
+            "enfermedades_infantiles": {
+                "varicela": {
+                    "consulta": {
+                        "tag": "consulta_varicela",
+                        "patterns": ["¿Qué es la varicela?", "Explícame sobre la varicela"],
+                        "responses": [
+                          "La varicela es una enfermedad altamente contagiosa causada por el virus varicela-zóster. Se caracteriza por la aparición de una erupción cutánea con picazón y síntomas como fiebre y malestar general."
+                        ]
+                    },
+                    "sintomas": {
+                        "tag": "sintomas_varicela",
+                        "patterns": ["¿Cuáles son los síntomas de la varicela?", "¿Qué síntomas produce la varicela?"],
+                        "responses": [
+                          "Los síntomas de la varicela incluyen picazón, fiebre, malestar, dolor de cabeza y la aparición de una erupción cutánea característica con ampollas que se convierten en costras. La mayoría de los casos son leves, pero pueden ocurrir complicaciones en ciertos grupos."
+                        ]
+                    },
+                    "efectos": {
+                        "tag": "efectos_varicela",
+                        "patterns": ["¿Cuáles son los efectos de la varicela?", "Explícame los efectos de la varicela"],
+                        "responses": [
+                          "La varicela generalmente es una enfermedad autolimitada, pero puede llevar a complicaciones en casos graves. Las complicaciones pueden incluir infecciones de la piel, neumonía, encefalitis y, en casos raros, problemas más serios. Es importante buscar atención médica si se presentan complicaciones."
+                        ]
+                    },
+                    "tratamiento": {
+                        "general": {
+                            "tag": "tratamiento_general_varicela",
+                            "patterns": ["¿Cómo se trata la varicela?", "¿Cuál es el tratamiento para la varicela?"],
+                            "responses": [
+                              "El tratamiento de la varicela generalmente se centra en aliviar los síntomas. Se pueden usar medicamentos para reducir la picazón, mantener una buena hidratación y descansar. En algunos casos, especialmente en adultos y personas de alto riesgo, se pueden recetar medicamentos antivirales."
+                            ]
+                        },
+                        "adultos": {
+                            "tag": "tratamiento_adultos_varicela",
+                            "patterns": ["¿Cómo se trata la varicela en adultos?"],
+                            "responses": [
+                              "En adultos, el tratamiento de la varicela puede requerir una atención más cuidadosa, y se pueden recetar antivirales para reducir la duración y gravedad de la enfermedad. Además, es importante controlar y tratar cualquier complicación que pueda surgir."
+                            ]
+                        },
+                        "ninos": {
+                            "tag": "tratamiento_ninos_varicela",
+                            "patterns": ["¿Cómo se trata la varicela en niños?"],
+                            "responses": [
+                              "En niños, el tratamiento se adapta a su edad y peso. Se enfoca en aliviar los síntomas, mantener la hidratación y prevenir infecciones secundarias. La mayoría de los niños se recuperan completamente con cuidados en el hogar."
+                            ]
+                        }
+                    },
+                    "medicamentos": {
+                        "general": {
+                            "tag": "medicamentos_general_varicela",
+                            "patterns": ["¿Qué medicamentos se usan para tratar la varicela?", "Explícame los medicamentos para la varicela"],
+                            "responses": [
+                              "Los medicamentos para la varicela pueden incluir antihistamínicos para reducir la picazón, acetaminofén o ibuprofeno para controlar la fiebre y el malestar. En casos específicos, especialmente en adultos, se pueden recetar antivirales."
+                            ]
+                        },
+                        "adultos": {
+                            "tag": "medicamentos_adultos_varicela",
+                            "patterns": ["¿Qué medicamentos toman los adultos para tratar la varicela?"],
+                            "responses": [
+                              "En adultos, se pueden recetar antivirales como aciclovir o valaciclovir para reducir la replicación del virus y acelerar la recuperación. Además, se pueden usar medicamentos sintomáticos para aliviar molestias."
+                            ]
+                        },
+                        "ninos": {
+                            "tag": "medicamentos_ninos_varicela",
+                            "patterns": ["¿Qué medicamentos toman los niños para tratar la varicela?"],
+                            "responses": [
+                              "En niños, se pueden utilizar formulaciones pediátricas de antihistamínicos y analgésicos para aliviar los síntomas. En casos graves o en personas de alto riesgo, se pueden considerar antivirales bajo supervisión médica."
+                            ]
+                        }
+                    },
+                    "complicaciones": {
+                        "tag": "complicaciones_varicela",
+                        "patterns": ["¿Cuáles son las complicaciones de la varicela?", "Explícame las complicaciones de la varicela"],
+                        "responses": [
+                          "Las complicaciones de la varicela pueden incluir infecciones bacterianas de la piel, neumonía, encefalitis y, en casos raros, síndrome de Reye. Las personas con sistemas inmunológicos comprometidos tienen un mayor riesgo de complicaciones graves."
+                        ]
+                    },
+                    "atencion_medica": {
+                        "tag": "atencion_medica_varicela",
+                        "patterns": ["¿Cuándo debo buscar atención médica si tengo varicela?", "¿Cuándo debo consultar al pediatra si mi hijo tiene varicela?"],
+                        "responses": [
+                          "Es importante buscar atención médica si se presentan complicaciones como fiebre alta persistente, dificultad para respirar, enrojecimiento o inflamación alrededor de las ampollas, o cualquier otro síntoma preocupante. En niños, se debe consultar al pediatra ante cualquier signo de complicación."
+                        ]
+                    },
+                    "prevencion": {
+                        "tag": "prevencion_varicela",
+                        "patterns": ["¿Cómo puedo prevenir la varicela?", "Explícame las medidas de prevención para la varicela"],
+                        "responses": [
+                          "La prevención de la varicela se logra mejor a través de la vacunación. La vacuna contra la varicela es segura y efectiva, proporcionando inmunidad a largo plazo. Además de la vacunación, se deben tomar medidas de higiene, como lavado de manos frecuente, para prevenir la propagación del virus."
+                         ]
+                    },
+                    "causas": {
+                        "tag": "causas_varicela",
+                        "patterns": ["¿Cuáles son las causas de la varicela?", "Explícame cómo se contagia la varicela"],
+                        "responses": [
+                          "La varicela es causada por el virus varicela-zóster. Se propaga principalmente de persona a persona a través del contacto directo con las ampollas de una persona infectada. También puede propagarse a través del contacto con el aire respirado o a través de pequeñas partículas líquidas expulsadas al toser o estornudar."
+                        ]
+                    }
+                }
+            }        
+        },
+        "geriatria": {
+          "enfermedades_geriatricas": {
+            "demencia": {
+              "consulta": {
+                "tag": "consulta_demencia",
+                "patterns": ["¿Qué es la demencia?", "Explícame sobre la demencia en personas mayores"],
+                "responses": [
+                  "La demencia es un síndrome que implica el deterioro de la función cognitiva más allá de lo que se considera parte del envejecimiento normal. Afecta la memoria, el pensamiento, la orientación, la comprensión, el cálculo, la capacidad de aprendizaje, el lenguaje y el juicio."
+                ]
+              },
+              "sintomas": {
+                "tag": "sintomas_demencia",
+                "patterns": ["¿Cuáles son los síntomas de la demencia?", "¿Qué síntomas presenta una persona con demencia?"],
+                "responses": [
+                  "Los síntomas de la demencia incluyen pérdida de memoria, dificultades en la realización de tareas cotidianas, confusión en tiempo y espacio, problemas de comunicación, cambios de personalidad y pérdida de habilidades motoras. Estos síntomas afectan la calidad de vida y la autonomía."
+                ]
+              },
+              "efectos": {
+                "tag": "efectos_demencia",
+                "patterns": ["¿Cuáles son los efectos de la demencia?", "Explícame cómo afecta la demencia a las personas mayores"],
+                "responses": [
+                  "La demencia tiene efectos profundos en la vida diaria de las personas mayores. Puede llevar a la dependencia, aumentar la vulnerabilidad a otras enfermedades, afectar la calidad del sueño y generar desafíos emocionales tanto para los pacientes como para sus familiares. La atención y el apoyo adecuados son esenciales."
+                ]
+              },
+              "tratamiento": {
+                "general": {
+                  "tag": "tratamiento_general_demencia",
+                  "patterns": ["¿Cómo se trata la demencia?", "¿Cuál es el tratamiento para la demencia?"],
+                  "responses": [
+                    "El tratamiento de la demencia implica enfoques multidisciplinarios. Puede incluir medicamentos para gestionar síntomas específicos, terapias cognitivas y ocupacionales, apoyo psicológico para pacientes y familiares, y medidas para mejorar la calidad de vida."
+                  ]
+                },
+                "farmacologico": {
+                  "tag": "tratamiento_farmacologico_demencia",
+                  "patterns": ["¿Hay medicamentos para la demencia?", "Explícame los medicamentos para tratar la demencia"],
+                  "responses": [
+                    "Existen medicamentos que pueden ayudar a gestionar algunos síntomas de la demencia, como los inhibidores de la colinesterasa para mejorar la función cognitiva. Sin embargo, el tratamiento farmacológico debe ser cuidadosamente evaluado y supervisado por profesionales de la salud."
+                  ]
+                },
+                "no_farmacologico": {
+                  "tag": "tratamiento_no_farmacologico_demencia",
+                  "patterns": ["¿Cuáles son los tratamientos no farmacológicos para la demencia?"],
+                  "responses": [
+                    "Los tratamientos no farmacológicos incluyen terapias ocupacionales, terapias de reminiscencia, estimulación cognitiva, ejercicio físico adaptado y programas de apoyo social. Estos enfoques buscan mejorar la calidad de vida y mantener la funcionalidad en la medida de lo posible."
+                  ]
+                }
+              },
+              "complicaciones": {
+                "tag": "complicaciones_demencia",
+                "patterns": ["¿Cuáles son las complicaciones de la demencia?", "Explícame las complicaciones de la demencia en personas mayores"],
+                "responses": [
+                  "Las complicaciones de la demencia incluyen la progresión de los síntomas, la pérdida de autonomía, el riesgo de caídas e infecciones, y desafíos emocionales tanto para los pacientes como para los cuidadores. La atención continua y el monitoreo son cruciales para abordar estas complicaciones."
+                ]
+              },
+              "atencion_medica": {
+                "tag": "atencion_medica_demencia",
+                "patterns": ["¿Cuándo debo buscar atención médica si hay sospecha de demencia?", "Explícame cuándo consultar al médico por demencia"],
+                "responses": [
+                  "Es importante buscar atención médica si se observan signos de demencia, como pérdida de memoria significativa o cambios en el comportamiento. Un diagnóstico temprano permite iniciar intervenciones que pueden ralentizar la progresión de la enfermedad y mejorar la calidad de vida."
+                ]
+              },
+              "prevencion": {
+                "tag": "prevencion_demencia",
+                "patterns": ["¿Cómo se puede prevenir la demencia en personas mayores?", "Explícame las medidas de prevención para la demencia"],
+                "responses": [
+                  "Si bien no existe una forma garantizada de prevenir la demencia, se cree que llevar un estilo de vida saludable, mantener la actividad mental y física, controlar factores de riesgo como la hipertensión y la diabetes, y participar en actividades sociales pueden contribuir a la salud cerebral a medida que envejecemos."
+                ]
+              },
+              "causas": {
+                "tag": "causas_demencia",
+                "patterns": ["¿Cuáles son las causas de la demencia en personas mayores?", "Explícame por qué se desarrolla la demencia"],
+                "responses": [
+                  "Las causas de la demencia pueden variar e incluir enfermedad de Alzheimer, demencia vascular, enfermedad de Parkinson y otras condiciones. Factores genéticos y ambientales también pueden desempeñar un papel. Un diagnóstico preciso es fundamental para determinar la causa subyacente y guiar el tratamiento."
+                ]
+              }
+            }
+          }
+        }
     }
-}
+}        
+  

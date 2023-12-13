@@ -5,31 +5,48 @@
         "patterns": [
           "Encuentra un hospital cercano",
           "Necesito ayuda médica",
-          "¿Dónde hay un hospital?"
+          "¿Dónde hay un hospital?",
+          "Estoy buscando un hospital"
         ],
-        "responses": ["Claro, ¿puedes proporcionarme tu ubicación actual?"]
+        "responses": [
+          "Claro, ¿puedes proporcionarme tu ubicación actual?",
+          "Seguro, necesito tu ubicacion",
+          "Seguro, necesito al menos una especialidad de tu preferencia"
+        ]
       },
       {
         "name": "ProporcionarUbicacion",
         "patterns": [
             "Mi ubicación es en {ubicacion}", 
-            "Vivo en {ubicacion}"
+            "Vivo en {ubicacion}",
+            "Me ubico en {ubicacion}",
+            "Me encuentro en {ubicacion}",
+            "Estoy en {ubicacion}"
         ],
-        "responses": ["Gracias por proporcionar tu ubicación en {ubicacion}. ¿Tienes alguna preferencia en cuanto al tipo de hospital?"]
+        "responses": [
+          "Gracias por proporcionar tu ubicación en {ubicacion}. ¿Tienes alguna preferencia en cuanto al tipo de especialidad que ofrezca el hospital?",
+          "Se registro tu ubicacion en {ubicacion}"
+        ]
       },
       {
         "name": "EspecialidadHospital",
         "patterns": [
             "Necesito un hospital especializado en {especialidad}", 
-            "Busco un hospital para {especialidad}"
+            "Busco un hospital para {especialidad}",
+            "Necesito encontrar la especialidad de {especialidad}",
+            "Quiero un hospital especializado en {especialidad}"
         ],
-        "responses": ["Entendido. Buscaré hospitales cercanos especializados en {especialidad} en tu área."]
+        "responses": [
+          "Entendido. Buscaré hospitales cercanos especializados en {especialidad} en tu área.",
+          "Se registro la(s) especialidad(es) siguientes: {especialidad}"
+        ]
       },
       {
         "name": "BuscarResultados",
         "patterns": [
             "Encuentra hospitales", 
-            "Busca hospitales cerca de mí"
+            "Busca hospitales cerca de mí",
+            "Dame nombres de hospitales en mi area"
         ],
         "responses": ["Estoy buscando hospitales cercanos. Por favor, espera un momento."]
       },
@@ -63,6 +80,77 @@
             "No puedo ayudarte con eso"
         ],
         "responses": ["Lo siento, no tengo información sobre eso en este momento."]
+      },
+      {
+        "name": "saludos",
+        "patterns":[
+          "hola",
+          "Hola",
+          "buenos dias", 
+          "buenas tardes",
+          "buenas noches",
+          "que tal?", 
+          "como estas",
+          "saludos"
+        ],
+        "responses":[
+          "hola!",
+          "Buenos dias!",
+          "Buenas tades!",
+          "Buenas noches!",
+          "¿como estas?",
+          "¿Que tal?",
+          "¡Hola! Todo bien, gracias.",
+          "Hola, ¿en qué puedo ayudarte hoy?"
+        ]
+      },
+      {
+         "name": "despedidas",
+         "patterns": [
+          "adiós", 
+          "hasta luego", 
+          "nos vemos", 
+          "chau", 
+          "hasta pronto", 
+          "hasta la próxima", 
+          "adiós y cuídate", 
+          "que tengas un buen día", 
+          "hasta luego, cuídate"
+        ],
+         "responses": [
+          "¡Adiós!", 
+          "Hasta luego", 
+          "Nos vemos", 
+          "¡Cuídate!", 
+          "Hasta la próxima", 
+          "¡Que tengas un buen día!", 
+          "Hasta luego, cuídate", 
+          "Hasta pronto, cuídate mucho", 
+          "¡Que te mejores!"
+        ]
+      },
+      {
+        "name": "agradecimientos",
+        "patterns": [
+          "gracias", 
+          "muchas gracias", 
+          "agradecido/a", 
+          "te agradezco", 
+          "agradecimiento", 
+          "mil gracias", 
+          "gracias por la ayuda", 
+          "gracias por todo", 
+          "te estoy agradecido/a"
+        ],
+        "responses": [
+          "De nada, es mi deber ayudarte", 
+          "¡No hay de qué!", 
+          "Estoy aquí para ayudarte", 
+          "¡Con gusto!", 
+          "Me alegra poder ayudarte", 
+          "No hay problema, ¿hay algo más en lo que pueda asistirte?", 
+          "Estamos para apoyarte en lo que necesites"
+        ]
       }
     ]
   }

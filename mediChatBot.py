@@ -76,6 +76,11 @@ def predict_class(sentence, model):
     return return_list
 
 def obtain_response(intent_predicted):
+    if intent_predicted=='BuscarHospital':
+        if recordar['ubicacion']:
+            intent_predicho = 'ProporcionarUbicacion'
+        elif recordar['especialidad']:
+            intent_predicho = 'EspecialidadHospital'
     intent_info = next((intent for intent in datos['intents'] if intent['name'] == intent_predicted), None)
     if intent_info:
         respuesta = intent_info.get('responses', ['No entiendo'])

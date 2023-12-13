@@ -55,17 +55,10 @@ class RobotLocalizacion(object):
                 if unidecode((especialidad.upper())) in especial: 
                     r+=1
             n = len(especial)
+            if n==0: n = r = 1
             MIN_PERCENT = 37.000001
             if MIN_PERCENT<(r/n*100):
                 res.append([100-r/n*100, str(hospital)])
         res = sorted(res)
         print(res)
         return [hospital for _, hospital in res]
-
-nuevo = RobotLocalizacion()
-
-aux = nuevo.obtainHospital('cliza', ['cirugia plastica', 'geriatria'])
-print(f'\n{aux}')
-
-print('\n')
-print(nuevo.isMunicipio('cliza'))

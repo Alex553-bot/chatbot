@@ -24,7 +24,7 @@ def build_model(input_dim, output_dim):
     model.compile(loss='categorical_crossentropy', optimizer=SGD(learning_rate=0.001, momentum=0.9, nesterov=True, clipnorm=1.), metrics=['accuracy'])
     return model
 
-def train_model(model, train_x, train_y, epochs=1000, batch_size=5):
+def train_model(model, train_x, train_y, epochs=500, batch_size=5):
     model.fit(train_x, train_y, epochs=epochs, batch_size=batch_size, verbose=1)
 
 lemmatizer = WordNetLemmatizer()

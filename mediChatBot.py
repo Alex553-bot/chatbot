@@ -1,12 +1,21 @@
 from dotenv import load_dotenv
 import os
 import telebot
+
 import spacy
 import nltk
+
 import pickle
 import json
+
 import numpy as np
+
 from keras.models import load_model
+
+#import sys
+#sys.path.insert(1,'modelo')
+
+from train_conocimiento_hospitales import RobotLocalizacion
 
 load_dotenv()
 
@@ -18,10 +27,29 @@ with open('./conocimiento/locaciones.json', 'r') as file:
     datos = json.load(file)
 
 lemmatizer = nltk.stem.WordNetLemmatizer()
+nlp=spacy.load('es_core_news_sm')
+
+recordar = {
+    'ubicacion': '',
+    'especialidad': [],
+    'enfermedad': []
+}
+
+robotLocalizacion = RobotLocalizacion()
 
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
     sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
+
+    doc = nlp(sentence)
+    for word in doc.ents: 
+        print(word.text,word.label_)
+        if word.label_ in ['LOC', 'ORG']:
+            if robotLocalizacion.isMunicipio(word.text)==1: 
+                recordar['ubicacion'] = word.text
+            elif robotLocalizacion.isEspecialidad(word.text)==1:
+                recordar['especialidad'].append(word.text)
+    print(recordar)
     return sentence_words
 
 def bow(sentence, words, show_details=True):
@@ -72,6 +100,13 @@ def mensaje(message):
     intent_predicho = predict_class(input_text, model)
     if intent_predicho:
         respuesta = obtain_response(intent_predicho[0]['intent'])
+        if intent_predicho[0]['intent']=='ProporcionarUbicacion':
+            respuesta = respuesta.format(ubicacion=recordar['ubicacion'])
+        elif intent_predicho[0]['intent']=='EspecialidadHospital':
+            respuesta = respuesta.format(especialidad=str(recordar['especialidad']))
+        elif intent_predicho[0]['intent']=='BuscarResultados':
+            respuesta += '\nAquí tienes algunos hospitales cercanos: {hospitales}'
+            respuesta = respuesta.format(hospitales=str(robotLocalizacion.obtainHospital(recordar['ubicacion'], recordar['especialidad'])))
         bot.reply_to(message, respuesta)
     else:
         bot.reply_to(message, 'no entiendo lo que me dijiste')

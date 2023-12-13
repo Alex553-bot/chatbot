@@ -36,7 +36,7 @@
       {
         "name": "MostrarResultados",
         "patterns": [],
-        "responses": ["Aquí tienes algunos hospitales cercanos: {lista_de_hospitales}"]
+        "responses": ["Aquí tienes algunos hospitales cercanos: {hospitales}"]
       },
       {
         "name": "NoEntendido",
